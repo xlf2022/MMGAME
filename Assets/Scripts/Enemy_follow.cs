@@ -25,4 +25,14 @@ public class Enemy_follow : MonoBehaviour
     {
         transform.position = Vector2.MoveTowards(transform.position, target.position, moveSpeed * Time.deltaTime);
     }
+    //上面是角色跟随和hp设置
+
+    //敌人受到伤害得设置
+    public void TakenDamage(float _amout)
+    {
+        hp -= _amout;
+        if (hp <= 0)
+            Destroy(gameObject);
+    }
+
 }
