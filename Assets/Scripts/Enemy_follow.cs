@@ -23,10 +23,12 @@ public class Enemy_follow : MonoBehaviour
 
     private void FollowPlayer()
     {
+        //翻转语句
         if(transform.position.x<target.position.x)
             { transform.eulerAngles = new Vector3(0, 180, 0); }
         if (transform.position.x > target.position.x)
         { transform.eulerAngles = new Vector3(0, 0, 0); }
+
         transform.position = Vector2.MoveTowards(transform.position, target.position, moveSpeed * Time.deltaTime);
         
     }
