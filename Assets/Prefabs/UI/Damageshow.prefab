@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 1653438522851164674}
   - component: {fileID: 1653438522851164675}
   - component: {fileID: 2077513293525889680}
+  - component: {fileID: 1106313329730232859}
   m_Layer: 5
   m_Name: Damageshow
   m_TagString: Untagged
@@ -116,6 +117,21 @@ MonoBehaviour:
   damageText: {fileID: 1653438523244527789}
   lifeTimer: 0.5
   UpSpeed: 1.5
+--- !u!114 &1106313329730232859
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1653438522851164676}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e19747de3f5aca642ab2be37e372fb86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_EffectColor: {r: 1, g: 1, b: 1, a: 0.5}
+  m_EffectDistance: {x: 1, y: -1}
+  m_UseGraphicAlpha: 1
 --- !u!1 &1653438523244527791
 GameObject:
   m_ObjectHideFlags: 0
@@ -127,6 +143,7 @@ GameObject:
   - component: {fileID: 1653438523244527790}
   - component: {fileID: 1653438523244527788}
   - component: {fileID: 1653438523244527789}
+  - component: {fileID: 2505084667696694133}
   m_Layer: 5
   m_Name: Text
   m_TagString: Untagged
@@ -174,7 +191,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_Color: {r: 0.14901961, g: 0.07058824, b: 0.07450981, a: 1}
   m_RaycastTarget: 0
   m_Maskable: 0
   m_OnCullStateChanged:
@@ -196,3 +213,18 @@ MonoBehaviour:
   m_Text: '70
 
 '
+--- !u!114 &2505084667696694133
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1653438523244527791}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e19747de3f5aca642ab2be37e372fb86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_EffectColor: {r: 1, g: 1, b: 1, a: 0.5}
+  m_EffectDistance: {x: 3, y: -3}
+  m_UseGraphicAlpha: 1
