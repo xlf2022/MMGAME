@@ -9,7 +9,10 @@ public class Enemy_follow : MonoBehaviour
     [SerializeField] private float maxHp;//最大血量
     public float hp;//当前hp
 
-    [Header("hurt")]
+    [HideInInspector]
+    public bool isattacked;//是否变量做受伤检测
+
+    [Header("hurt")]//用shader做受伤变化
     private SpriteRenderer sp;//获得hurt里的组件，shader
     public float hurtLength;//受伤持续时间
     private float hurtCounter;//受伤计数器
@@ -48,6 +51,8 @@ public class Enemy_follow : MonoBehaviour
     //敌人受到伤害得设置
     public void TakenDamage(float _amout)
     {
+        isattacked = true;
+        StartCoroutine(isAttackco());//调用下面的 isattackco函数
         hp -= _amout;
         HurtShader();
         if (hp <= 0)
@@ -58,6 +63,12 @@ public class Enemy_follow : MonoBehaviour
     {
         sp.material.SetFloat("_FlashAmount", 1);
         hurtCounter = hurtLength;//计数器等于持续时间
+    }
+
+    IEnumerator isAttackco()//每0.2秒后设定一次
+    {
+        yield return new WaitForSeconds(0.2f);
+        isattacked = false;
     }
 
 }
