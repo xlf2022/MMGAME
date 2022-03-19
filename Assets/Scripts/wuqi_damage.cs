@@ -31,17 +31,20 @@ public class wuqi_damage : MonoBehaviour
             if (other.gameObject.GetComponent<Enemy_follow>().isattacked == false)
             {
                 Debug.Log("We have Hitted");
-                //UI显示画布
-                UIdamageShow damageable = Instantiate(damageCanvas, other.transform.position, Quaternion.identity).GetComponent<UIdamageShow>();
-                damageable.showUIDamage(Mathf.RoundToInt(attackDamage));//整数类四舍五入
+              
                 //造成伤害的函数
                 attackDamage = Random.Range(minDamage, maxDamage);
                 other.gameObject.GetComponent<Enemy_follow>().TakenDamage(attackDamage);
 
+                //UI显示画布
+                UIdamageShow damageable = Instantiate(damageCanvas, other.transform.position, Quaternion.identity).GetComponent<UIdamageShow>();
+                damageable.showUIDamage(Mathf.RoundToInt(attackDamage));//整数类四舍五入
+
                 //武器击退效果=敌人反方向移动，获得角色到敌人的向量然后，让敌人加上那个向量达成击退效果
                 Vector2 difference = other.transform.position - player.position;
-                other.transform.position = new Vector2(other.transform.position.x + difference.x / 6,
-                                                       other.transform.position.y + difference.y / 6);
+                difference.Normalize();//单位向量化
+                other.transform.position = new Vector2(other.transform.position.x + difference.x ,
+                                                       other.transform.position.y + difference.y );
             }
 
         }
