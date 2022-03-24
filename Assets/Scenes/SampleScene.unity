@@ -41551,6 +41551,7 @@ GameObject:
   - component: {fileID: 880272842}
   - component: {fileID: 880272841}
   - component: {fileID: 880272843}
+  - component: {fileID: 880272844}
   m_Layer: 1
   m_Name: Player
   m_TagString: Player
@@ -41634,7 +41635,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 880272837}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -41702,6 +41703,21 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 10
+--- !u!114 &880272844
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 880272837}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 105b9d8618ebb444a8f651c079e7fe87, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PmaxHp: 500
+  Php: 0
+  isattacked: 0
 --- !u!1 &887994177
 GameObject:
   m_ObjectHideFlags: 0
@@ -41715,6 +41731,7 @@ GameObject:
   - component: {fileID: 887994178}
   - component: {fileID: 887994181}
   - component: {fileID: 887994182}
+  - component: {fileID: 887994183}
   m_Layer: 0
   m_Name: T1
   m_TagString: Enemy
@@ -41848,6 +41865,20 @@ MonoBehaviour:
   hp: 0
   isattacked: 0
   hurtLength: 0.3
+--- !u!114 &887994183
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 887994177}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 01def33df0f1d4544b12d1c0515f3d46, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  minDamage: 20
+  maxDamage: 30
 --- !u!1 &1041908564
 GameObject:
   m_ObjectHideFlags: 0
