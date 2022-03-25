@@ -41715,8 +41715,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 105b9d8618ebb444a8f651c079e7fe87, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  PmaxHp: 400
+  PmaxHp: 1600
   Php: 0
+  Brknumbers: 2
+  Btime: 0.1
   isattacked: 0
 --- !u!1 &887994177
 GameObject:
