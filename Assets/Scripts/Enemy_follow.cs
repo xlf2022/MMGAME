@@ -17,6 +17,8 @@ public class Enemy_follow : MonoBehaviour
     public float hurtLength;//受伤持续时间
     private float hurtCounter;//受伤计数器
 
+    public GameObject EXPmaker;//经验球生成
+
 
     void Start()
     {
@@ -56,7 +58,10 @@ public class Enemy_follow : MonoBehaviour
         hp -= _amout;
         HurtShader();
         if (hp <= 0)
-            Destroy(gameObject);
+        {
+            Instantiate(EXPmaker,transform.position,Quaternion.identity);
+            Destroy(gameObject); 
+        }
     }
 
     private void HurtShader()//控制受到伤害时，材质颜色调整

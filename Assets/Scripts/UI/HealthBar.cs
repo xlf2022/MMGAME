@@ -8,7 +8,7 @@ public class HealthBar : MonoBehaviour
     [SerializeField] public  float HmaxHp;//最大血量
     public  float Hhp;//当前hp
 
-    public PlayerHealth PH;
+    public PlayerHealth PH;//引用玩家血量参数
 
     private Image Hbar;//控制图片
 
