@@ -8,7 +8,9 @@ public class PlayerExp : MonoBehaviour
     public float Expmax;//升级最大经验值
     public float Expnow;//当前经验值
     public int LVnumber;//当前等级
-    public Text LvText;
+    public Text LvText;//升级的文字
+
+    public GameObject Bag;//bag是游戏选择道具界面
 
     private Image Expbar;
     // Start is called before the first frame update
@@ -36,6 +38,7 @@ public class PlayerExp : MonoBehaviour
             Expnow = Expnow- Expmax;
             LVnumber++;
             Expmax += 80;
+            Bag.SetActive(true);
         }
         LvText.text = LVnumber.ToString();
     }
