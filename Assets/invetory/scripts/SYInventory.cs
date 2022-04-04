@@ -9,13 +9,14 @@ public class SYInventory : MonoBehaviour
     public SlotDisplay Slotprefabs;//调用预制体格子里的Slotdisplay
     public int refresh = 3;//刷新次数
 
+    List<GameObject> itemss = new List<GameObject>();//新建一个临时链表
     void Start()
     {
 
-        for (int i = 0; i < refresh; i++)
-        {
-            CreatNewItem(randomitem());
-        }
+        // for (int i = 0; i < refresh; i++)
+        //{
+        //     CreatNewItem(randomitem());
+        //}
     }
 
     // Update is called once per frame
@@ -30,7 +31,7 @@ public class SYInventory : MonoBehaviour
         return Ritem;
     }
 
-    public  void CreatNewItem(item item)//创建一个新物体
+    public void CreatNewItem(item item)//创建一个新物体
     {
         SlotDisplay newitem = Instantiate(Slotprefabs, Slotprefabs.transform.position, Quaternion.identity);
         newitem.gameObject.transform.SetParent(transform);
@@ -38,6 +39,18 @@ public class SYInventory : MonoBehaviour
         newitem.slotimage.sprite = item.itemImage;
         newitem.slotstringname = item.itemName;
         newitem.slotsinfo = item.itemInfo;
+
+        itemss.Add(newitem.gameObject);//把新的物体搞入临时链表
+    }
+
+
+    public void clearPool()//临时清空牌库
+    {
+        foreach (var items in itemss)
+        {
+            Destroy(items);
+        }
+        itemss.Clear();
     }
 
 }

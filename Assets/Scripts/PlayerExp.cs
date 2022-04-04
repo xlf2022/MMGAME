@@ -12,6 +12,8 @@ public class PlayerExp : MonoBehaviour
 
     public GameObject Bag;//bag是游戏选择道具界面
 
+    public SYInventory SYinventory;
+
     private Image Expbar;
     // Start is called before the first frame update
     void Start()
@@ -30,7 +32,7 @@ public class PlayerExp : MonoBehaviour
 
     }
 
-    public void takenExp(float _amout)//获得经验值函数
+    public void takenExp(float _amout)//获得经验值函数，并检测升级
     {
         Expnow = Expnow +_amout;
         if (Expnow >= Expmax)
@@ -38,7 +40,13 @@ public class PlayerExp : MonoBehaviour
             Expnow = Expnow- Expmax;
             LVnumber++;
             Expmax += 80;
-            Bag.SetActive(true);
+            Bag.SetActive(true);//升级以后背包显示
+            SYinventory.refresh = 3;//重置刷新次数
+            SYinventory.clearPool();//清空原来的存储物品
+            for (int i = 0; i < SYinventory.refresh; i++)//随机出物品
+            {
+                SYinventory.CreatNewItem(SYinventory.randomitem());
+            }
         }
         LvText.text = LVnumber.ToString();
     }

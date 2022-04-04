@@ -42339,6 +42339,7 @@ GameObject:
   - component: {fileID: 1031187596}
   - component: {fileID: 1031187595}
   - component: {fileID: 1031187594}
+  - component: {fileID: 1031187597}
   m_Layer: 5
   m_Name: RefreshButton
   m_TagString: Untagged
@@ -42408,7 +42409,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1031187595}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1031187597}
+        m_MethodName: onclickrefresh
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1031187595
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -42446,6 +42458,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1031187592}
   m_CullTransparentMesh: 0
+--- !u!114 &1031187597
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1031187592}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed905632db8a0f5459a0165b827518b3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SYinventory: {fileID: 1459317401}
 --- !u!1 &1041908564
 GameObject:
   m_ObjectHideFlags: 0
@@ -43527,6 +43552,7 @@ MonoBehaviour:
   LVnumber: 0
   LvText: {fileID: 107201652}
   Bag: {fileID: 32138721}
+  SYinventory: {fileID: 1459317401}
 --- !u!114 &1557815092
 MonoBehaviour:
   m_ObjectHideFlags: 0
