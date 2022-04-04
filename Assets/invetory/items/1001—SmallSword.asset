@@ -17,7 +17,7 @@ MonoBehaviour:
   itemHeld: 1
   itemInfo: "\u5FEB\uFF0C\u51C6\uFF0C\u72E0"
   itemNomuber: 1001
-  itemObject: {fileID: 2966746342035864943, guid: c7f54d7979e28174f9264dda6878b600,
+  itemObject: {fileID: 6485354137272009337, guid: 08b52398935873c4295b2cf416f86b6a,
     type: 3}
   itemNextNomber: 2001
   itemkind: 1

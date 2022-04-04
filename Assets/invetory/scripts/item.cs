@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 [CreateAssetMenu(fileName ="New Item",menuName ="Inventory/New Item")]
 public class item : ScriptableObject//用于存储所有物体的信息

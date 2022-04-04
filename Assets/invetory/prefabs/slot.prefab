@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 2326817213645858162}
   - component: {fileID: 2326817213645858163}
   - component: {fileID: 6382796955176722463}
+  - component: {fileID: 7797184076381237706}
   m_Layer: 5
   m_Name: slot
   m_TagString: Untagged
@@ -28,7 +29,7 @@ RectTransform:
   m_GameObject: {fileID: 2326817213645858166}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1.2307692, y: 1.8571908, z: 1}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 3068363955869108631}
   - {fileID: 3692447885303059410}
@@ -121,6 +122,24 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &7797184076381237706
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2326817213645858166}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e5af384363c313f4a95072fbe86dc4ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  slotItem: {fileID: 0}
+  slotimage: {fileID: 7291221043893145515}
+  slotname: {fileID: 2928511117508247709}
+  slotinformation: {fileID: 5031138567931598042}
+  slotstringname: 
+  slotsinfo: 
 --- !u!1 &4384760747746342576
 GameObject:
   m_ObjectHideFlags: 0
@@ -324,8 +343,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -80.5, y: -28.7}
-  m_SizeDelta: {x: 160, y: 40}
+  m_AnchoredPosition: {x: 237, y: -28.7}
+  m_SizeDelta: {x: 800, y: 40}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &8618854754358135336
 CanvasRenderer:
