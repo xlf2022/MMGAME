@@ -11,9 +11,14 @@ public class wuqi_damage : MonoBehaviour
     public GameObject damageCanvas;//伤害画布
 
     private Transform player;//主角坐标
+    public float Jituinumber;//击退单位值
+    public float xiue;//吸血数值
+    private PlayerHealth playerHealth1;//调用hp函数,跟吸血相关
+    public float jianshu;//减速系数
     void Start()
     {
         player = GameObject.FindGameObjectWithTag("Player").GetComponent<Transform>();
+        playerHealth1 = GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerHealth>();
     }
 
 
@@ -43,8 +48,13 @@ public class wuqi_damage : MonoBehaviour
                 //武器击退效果=敌人反方向移动，获得角色到敌人的向量然后，让敌人加上那个向量达成击退效果
                 Vector2 difference = other.transform.position - player.position;
                 difference.Normalize();//单位向量化
-                other.transform.position = new Vector2(other.transform.position.x + difference.x ,
-                                                       other.transform.position.y + difference.y );
+                other.transform.position = new Vector2(other.transform.position.x + difference.x*Jituinumber,
+                                                       other.transform.position.y + difference.y* Jituinumber);
+
+                //吸血效果
+                playerHealth1.AddHP(xiue);
+
+                other.gameObject.GetComponent<Enemy_follow>().slowspeed(jianshu);
             }
 
         }

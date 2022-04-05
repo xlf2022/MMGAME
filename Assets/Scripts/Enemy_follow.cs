@@ -4,7 +4,8 @@ using UnityEngine;
 
 public class Enemy_follow : MonoBehaviour
 {
-    [SerializeField] private float moveSpeed;//移动速度
+    [SerializeField] private float moveSpeed;//初始设定移动速度
+    private float nowspeed;//当前移动速度
     private Transform target;//主角的坐标
     [SerializeField] private float maxHp;//最大血量
     public float hp;//当前hp
@@ -25,6 +26,7 @@ public class Enemy_follow : MonoBehaviour
         hp = maxHp;
         target = GameObject.FindGameObjectWithTag("Player").GetComponent<Transform>();
         sp = GetComponent<SpriteRenderer>();
+        nowspeed = moveSpeed;
     }
 
     // Update is called once per frame
@@ -45,7 +47,7 @@ public class Enemy_follow : MonoBehaviour
         if (transform.position.x > target.position.x)
         { transform.eulerAngles = new Vector3(0, 0, 0); }
 
-        transform.position = Vector2.MoveTowards(transform.position, target.position, moveSpeed * Time.deltaTime);
+        transform.position = Vector2.MoveTowards(transform.position, target.position, nowspeed * Time.deltaTime);
         
     }
     //上面是角色跟随和hp设置
@@ -74,6 +76,12 @@ public class Enemy_follow : MonoBehaviour
     {
         yield return new WaitForSeconds(0.2f);
         isattacked = false;
+        nowspeed = moveSpeed;//重新设定移动速度
+    }
+
+    public void slowspeed(float slow)
+    {
+        nowspeed = nowspeed * slow;
     }
 
 }

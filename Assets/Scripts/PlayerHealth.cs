@@ -6,8 +6,8 @@ using UnityEngine.UI;
 public class PlayerHealth : MonoBehaviour
 {
     // Start is called before the first frame update
-    [SerializeField] public  float PmaxHp;//最大血量
-    public  float Php;//当前hp
+    [SerializeField] public float PmaxHp;//最大血量
+    public float Php;//当前hp
     public int Brknumbers;//受伤闪烁的次数
     public float Btime;//闪烁的时间
     private Renderer myRender;
@@ -16,7 +16,7 @@ public class PlayerHealth : MonoBehaviour
     public bool isattacked;//是否变量做受伤检测
     void Start()
     {
-        
+
         Php = PmaxHp;
 
         myRender = GetComponent<Renderer>();
@@ -35,8 +35,10 @@ public class PlayerHealth : MonoBehaviour
         Php -= _amout;
         if (Php <= 0)
         { Destroy(gameObject); }
-        BlinkPlayer(Brknumbers,Btime);
+        BlinkPlayer(Brknumbers, Btime);
     }
+
+
 
     IEnumerator isAttackco()//每0.2秒后设定一次,无敌帧检测时间，这段时间收到伤害不会再受伤
     {
@@ -44,7 +46,7 @@ public class PlayerHealth : MonoBehaviour
         isattacked = false;
     }
 
-    void BlinkPlayer(int numblink,float seconds)
+    void BlinkPlayer(int numblink, float seconds)//受伤闪烁函数
     {
         StartCoroutine(DoBlink(numblink, seconds));
     }
@@ -59,4 +61,9 @@ public class PlayerHealth : MonoBehaviour
         myRender.enabled = true;
     }
 
+    public void AddHP(float _amout1)//加血函数
+        {
+        if (Php < PmaxHp)
+            Php = Php +_amout1;
+        }
 }
