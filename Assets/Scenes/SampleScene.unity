@@ -43706,6 +43706,9 @@ MonoBehaviour:
   maxDamage: 30
   damageCanvas: {fileID: 1653438522851164676, guid: c6aa2a77fb6975f47a90208e5b011eaf,
     type: 3}
+  Jituinumber: 0
+  xiue: 0
+  jianshu: 0
 --- !u!95 &1398333354
 Animator:
   serializedVersion: 3
@@ -45862,6 +45865,9 @@ MonoBehaviour:
   maxDamage: 30
   damageCanvas: {fileID: 1653438522851164676, guid: c6aa2a77fb6975f47a90208e5b011eaf,
     type: 3}
+  Jituinumber: 0
+  xiue: 0
+  jianshu: 0
 --- !u!95 &1965959963
 Animator:
   serializedVersion: 3
@@ -46249,6 +46255,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 880272840}
     m_Modifications:
+    - target: {fileID: 6485354137272009316, guid: 08b52398935873c4295b2cf416f86b6a,
+        type: 3}
+      propertyPath: jianshu
+      value: 0.5
+      objectReference: {fileID: 0}
     - target: {fileID: 6485354137272009337, guid: 08b52398935873c4295b2cf416f86b6a,
         type: 3}
       propertyPath: m_Name
