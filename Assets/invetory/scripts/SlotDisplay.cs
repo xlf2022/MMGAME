@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class SlotDisplay : MonoBehaviour
 {
-    public item slotItem;//数据库
+    public item slotItem;//道具数据信息
     public Image slotimage;//图片
     public Text slotname;//道具名字
     public Text slotinformation;//道具介绍
@@ -15,7 +15,7 @@ public class SlotDisplay : MonoBehaviour
 
     //下面是选择按钮，选择以后关闭菜单，和把道具加入到玩家背包数据库
     public GameObject Sybag;//选择道具菜单
-    public Inventory MyLV1bag;//导入玩家的1级背包库
+    public Inventory MyLV1bag;//导入玩家的1级背包库数据库
 
     public void Start()
     {

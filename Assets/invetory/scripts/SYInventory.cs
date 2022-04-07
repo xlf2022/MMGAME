@@ -44,7 +44,7 @@ public class SYInventory : MonoBehaviour
     }
 
 
-    public void clearPool()//临时清空牌库
+    public void clearPool()//临时清空牌库，用于清空背包选择
     {
         foreach (var items in itemss)
         {
