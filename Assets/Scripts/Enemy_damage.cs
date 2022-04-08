@@ -38,7 +38,7 @@ public class Enemy_damage : MonoBehaviour
     {
         if (other.gameObject.tag == "Player")//通过标签触碰检测
         {
-            Debug.Log("We have pengzhuang");
+            //Debug.Log("We have pengzhuang");
             if (other.gameObject.GetComponent<PlayerHealth>().isattacked == false)
             {
 

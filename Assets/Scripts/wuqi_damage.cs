@@ -35,7 +35,7 @@ public class wuqi_damage : MonoBehaviour
         {
             if (other.gameObject.GetComponent<Enemy_follow>().isattacked == false)
             {
-                Debug.Log("We have Hitted");
+                //Debug.Log("We have Hitted");
               
                 //造成伤害的函数
                 attackDamage = Random.Range(minDamage, maxDamage);
