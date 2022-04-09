@@ -16,11 +16,15 @@ public class SlotDisplay : MonoBehaviour
     //下面是选择按钮，选择以后关闭菜单，和把道具加入到玩家背包数据库
     public GameObject Sybag;//选择道具菜单，商店数据库
     public Inventory MyLV1bag;//导入玩家的1级背包库数据库
+
+
     public GameObject fullshow1;//道具满了提示
+    private GameObject setposition;//道具满了出现位置，以开始设定为主
 
     public void Start()
     {
         Sybag = GameObject.Find("Bag");
+        setposition = GameObject.Find("Canvas");
     }
     public void Update()
     {
@@ -35,6 +39,8 @@ public class SlotDisplay : MonoBehaviour
         { MyLV1bag.itemList.Add(slotItem); }
         else
         {
+            fullshow fullshow22 = Instantiate(fullshow1, setposition.transform.position, Quaternion.identity).GetComponent<fullshow>();
+            fullshow22.gameObject.transform.SetParent(setposition.transform);
         }
 
     }

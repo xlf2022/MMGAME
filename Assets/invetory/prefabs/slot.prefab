@@ -153,7 +153,8 @@ MonoBehaviour:
   slotsinfo: 
   Sybag: {fileID: 0}
   MyLV1bag: {fileID: 11400000, guid: 01b57f8e464fb714c838f6cffe713863, type: 2}
-  fullshow1: {fileID: 0}
+  fullshow1: {fileID: 785832536577438087, guid: 95fa6ce6ca2ce444c937d425233deeef,
+    type: 3}
 --- !u!1 &4384760747746342576
 GameObject:
   m_ObjectHideFlags: 0
