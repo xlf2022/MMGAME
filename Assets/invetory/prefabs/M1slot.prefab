@@ -146,6 +146,7 @@ GameObject:
   - component: {fileID: 8611987577700860071}
   - component: {fileID: 6620997859048231168}
   - component: {fileID: 6220181811612702265}
+  - component: {fileID: 7100029476604880867}
   m_Layer: 5
   m_Name: M1slot
   m_TagString: Untagged
@@ -228,3 +229,16 @@ MonoBehaviour:
   M1slotNomber: 0
   M1kind: 0
   M1slotsinfo: 
+--- !u!114 &7100029476604880867
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9180632278996404791}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5ae639a9aaefcbe4b990c7f97534fa2d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemNomber: 0

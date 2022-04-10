@@ -46,11 +46,12 @@ public class PlayerExp : MonoBehaviour
             //以下是升级选择的部分
             Bag.SetActive(true);//升级以后背包显示
             SYinventory.refresh = 3;//重置刷新次数
-            SYinventory.clearPool();//清空原来的存储物品
-            for (int i = 0; i < SYinventory.refresh; i++)//随机出物品
+            SYinventory.clearPool();//清空原来的存储物品,不然刷新就不会删除选择选项
+            for (int i = 0; i < SYinventory.refresh; i++)//随机出选项
             {
                 SYinventory.CreatNewItem(SYinventory.randomitem());
             }
+           
 
         }
         LvText.text = LVnumber.ToString();

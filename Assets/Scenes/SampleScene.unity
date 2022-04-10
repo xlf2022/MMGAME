@@ -44769,6 +44769,7 @@ MonoBehaviour:
   M1bag: {fileID: 11400000, guid: 01b57f8e464fb714c838f6cffe713863, type: 2}
   M1Slotprefabs: {fileID: 6220181811612702265, guid: 11590e5b23326114386a573ad0ff66c4,
     type: 3}
+  itemNO: {fileID: 7100029476604880867, guid: 11590e5b23326114386a573ad0ff66c4, type: 3}
 --- !u!1 &1516981782
 GameObject:
   m_ObjectHideFlags: 0

@@ -17,5 +17,6 @@ public class item : ScriptableObject//用于存储所有物体的信息
     public int itemNextNomber;//下一级的物品编号
     public int itemkind;//物品对应的种类
     public int itemMax;//系统里最大数
+    public int itemInNO;//物品在背包里的系数
 
 }

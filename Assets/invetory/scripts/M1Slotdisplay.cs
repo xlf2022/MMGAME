@@ -21,6 +21,6 @@ public class M1Slotdisplay : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        M1slotinformation.text = M1slotsinfo;//强转介绍
+       // M1slotinformation.text = M1slotsinfo;//强转介绍
     }
 }
