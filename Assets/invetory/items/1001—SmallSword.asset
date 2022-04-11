@@ -22,3 +22,5 @@ MonoBehaviour:
   itemNextNomber: 2001
   itemkind: 1
   itemMax: 9
+  itemInNO: 0
+  itemobjectname: 1001sword

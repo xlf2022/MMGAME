@@ -12,6 +12,8 @@ public class M1Slotdisplay : MonoBehaviour
     public int M1kind;//种类
 
     public string M1slotsinfo;//强转介绍信息
+
+
     // Start is called before the first frame update
     void Start()
     {
@@ -23,4 +25,5 @@ public class M1Slotdisplay : MonoBehaviour
     {
        // M1slotinformation.text = M1slotsinfo;//强转介绍
     }
+    
 }

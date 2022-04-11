@@ -19,4 +19,6 @@ public class item : ScriptableObject//用于存储所有物体的信息
     public int itemMax;//系统里最大数
     public int itemInNO;//物品在背包里的系数
 
+    public string itemobjectname;
+
 }

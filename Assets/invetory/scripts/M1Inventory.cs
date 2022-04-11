@@ -51,8 +51,31 @@ public class M1Inventory : MonoBehaviour
         for (int i = 0; i < M1bag.itemList.Count; i++)
         {
             CreatNewItem(M1bag.itemList[i],i);
+
+            //if (M1bag.itemList[i].itemobjectname != null )//&& M1bag.itemList.Contains(M1bag.itemList[i]) == false
+            //{
+            //    Debug.Log("运行了，添加游戏物体");
+             //   GameObject newobject = GameObject.Find(M1bag.itemList[i].itemobjectname);
+             //   newobject.SetActive(true);
+            // }
+            // if(M1bag.itemList[i].itemObject==true&& M1bag.itemList.Contains(M1bag.itemList[i]) == false)
+
+
+            //M1bag.itemList[i].itemObject.SetActive(true);
         }
 
+    }
+
+    public void delectitem(int NO)//删除背包1级里 对应编号的物件
+    {
+        for (int i = 0; i < M1bag.itemList.Count; i++)
+        {
+            if (i == NO)
+                M1bag.itemList.Remove(M1bag.itemList[i]);
+           
+            // M1bag.itemList[i].itemObject.SetActive(true);
+        }
+        freshM1bag();
     }
 
     //public void clearPool()//临时清空牌库，用于清空背包
