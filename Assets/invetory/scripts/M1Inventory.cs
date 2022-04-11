@@ -52,10 +52,11 @@ public class M1Inventory : MonoBehaviour
         {
             CreatNewItem(M1bag.itemList[i],i);
 
-            //if (M1bag.itemList[i].itemobjectname != null )//&& M1bag.itemList.Contains(M1bag.itemList[i]) == false
-            //{
+           // if (M1bag.itemList[i].itemobjectname != null )//&& M1bag.itemList.Contains(M1bag.itemList[i]) == false)
+          //  {
             //    Debug.Log("运行了，添加游戏物体");
-             //   GameObject newobject = GameObject.Find(M1bag.itemList[i].itemobjectname);
+            //    GameObject newobject = GameObject.Find(M1bag.itemList[i].itemobjectname);
+            //    Debug.Log("找到游戏物体");
              //   newobject.SetActive(true);
             // }
             // if(M1bag.itemList[i].itemObject==true&& M1bag.itemList.Contains(M1bag.itemList[i]) == false)

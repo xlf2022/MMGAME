@@ -43338,6 +43338,12 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &1158987641 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6485354137272009337, guid: 08b52398935873c4295b2cf416f86b6a,
+    type: 3}
+  m_PrefabInstance: {fileID: 6485354138589825493}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1241950918
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -44943,6 +44949,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1552638614}
   - component: {fileID: 1552638613}
+  - component: {fileID: 1552638615}
   m_Layer: 0
   m_Name: StartSett
   m_TagString: Untagged
@@ -44957,12 +44964,13 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1552638612}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f2fbcf682485f4240a32f00ec9ce5f19, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   MyLV1bag: {fileID: 11400000, guid: 01b57f8e464fb714c838f6cffe713863, type: 2}
+  M1Inventory: {fileID: 1510373543}
 --- !u!4 &1552638614
 Transform:
   m_ObjectHideFlags: 0
@@ -44977,6 +44985,21 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1552638615
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1552638612}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9d008e416aee7a14abd6216f1097096b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  thisitem: {fileID: 11400000, guid: 954f621e65f7b7d47b25bcdf72889fdc, type: 2}
+  M1bag: {fileID: 11400000, guid: 01b57f8e464fb714c838f6cffe713863, type: 2}
+  myobject: {fileID: 1158987641}
 --- !u!1 &1557815089
 GameObject:
   m_ObjectHideFlags: 0
