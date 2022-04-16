@@ -7,7 +7,7 @@ public class check : MonoBehaviour
     // Start is called before the first frame update
     public Inventory M1bag;
     public item thisitem1;
-    public GameObject myobject1;
+    public GameObject myobject1;//小剑1
     void Start()
     {
         myobject1.SetActive(false);
