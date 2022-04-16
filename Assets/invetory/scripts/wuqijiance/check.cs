@@ -16,7 +16,7 @@ public class check : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-       
+        checkinbag();
     }
     public void checkinbag()
     {

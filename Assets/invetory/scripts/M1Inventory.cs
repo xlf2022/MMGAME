@@ -8,18 +8,18 @@ public class M1Inventory : MonoBehaviour
     public Inventory M1bag;//调用1级背包数据库，当前背包数据库
     public M1Slotdisplay M1Slotprefabs;//调用预制体格子里的Slotdisplay
     public itemNO itemNO;//物品编号
-    public check chekinbag;
     public Inventory SY2bag;//调用2级背包数据库
     public Inventory M2bag;//下一级的背包数据库
     // private item newitem;//临时存放升级物体
     private int itemnomber;//临时存放的升级物体编号，作为一个开关，一般情况下为0
+
+    public M1Inventory M2inventory;//下一级的背包管理器
 
     // List<GameObject> itemss = new List<GameObject>();//新建一个itemss临时链表放，放itemss数据
     
     void Start()
     {
         freshM1bag();
-        chekinbag.checkinbag();
         itemnomber = 0;
     }
 
@@ -92,6 +92,7 @@ public class M1Inventory : MonoBehaviour
                 if (SY2bag.itemList[i].itemNomuber == itemnomber)
                 {
                     M2bag.itemList.Add(SY2bag.itemList[i]);
+                    M2inventory.freshM1bag();
                 }
             }
 
@@ -104,7 +105,6 @@ public class M1Inventory : MonoBehaviour
         {
             CreatNewItem(M1bag.itemList[i],i);
         }
-        chekinbag.checkinbag();
 
     }
 
