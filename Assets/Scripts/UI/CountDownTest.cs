@@ -6,7 +6,7 @@ using UnityEngine.UI;
 public class CountDownTest : MonoBehaviour
 {
     private float totalTime1 = 300;
-    private float totalTime2 = 300;
+    public float totalTime2 ;
     private float intervalTime = 1;
 
     public Text CountDown1Text;
