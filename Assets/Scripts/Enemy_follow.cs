@@ -43,9 +43,9 @@ public class Enemy_follow : MonoBehaviour
     {
         //翻转语句
         if(transform.position.x<target.position.x)
-            { transform.eulerAngles = new Vector3(0, 180, 0); }
+            { transform.eulerAngles = new Vector3(0, 0, 0); }
         if (transform.position.x > target.position.x)
-        { transform.eulerAngles = new Vector3(0, 0, 0); }
+        { transform.eulerAngles = new Vector3(0, 180, 0); }
 
         transform.position = Vector2.MoveTowards(transform.position, target.position, nowspeed * Time.deltaTime);
         

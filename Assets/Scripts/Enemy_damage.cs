@@ -5,7 +5,7 @@ using UnityEngine;
 public class Enemy_damage : MonoBehaviour
 {
     [SerializeField] private float minDamage, maxDamage;
-    private float attackDamage;
+    public float attackDamage;
     // Start is called before the first frame update
     void Start()
     {
