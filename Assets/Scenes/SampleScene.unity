@@ -41727,7 +41727,7 @@ Transform:
   m_GameObject: {fileID: 723481624}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 2.11, y: 0.62, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.8, y: 0.8, z: 1}
   m_Children: []
   m_Father: {fileID: 2003269812}
   m_RootOrder: 0
@@ -41761,8 +41761,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerP: {fileID: 880272840}
-  fanwei: 5
-  fufanwei: -5
+  X: 3
+  fuX: -3
+  Y: 3
+  fuY: 0
 --- !u!114 &723481630
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -43847,7 +43849,7 @@ Transform:
   m_GameObject: {fileID: 1780063412}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 2.11, y: 0.62, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.8, y: 0.8, z: 1}
   m_Children: []
   m_Father: {fileID: 2003269812}
   m_RootOrder: 1
@@ -43921,8 +43923,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerP: {fileID: 880272840}
-  fanwei: 5
-  fufanwei: -5
+  X: 3
+  fuX: -3
+  Y: 0
+  fuY: -3
 --- !u!95 &1780063418
 Animator:
   serializedVersion: 3
