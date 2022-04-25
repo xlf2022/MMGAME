@@ -11,7 +11,7 @@ public class ClearInventory : MonoBehaviour
     void Start()
     {
         MyLV1bag.itemList.Clear();//游戏开始清空1级背包
-        MyLV1bag.itemList.Add(sword1);
+        //MyLV1bag.itemList.Add(sword1);
         
         M1Inventory.freshM1bag();
 

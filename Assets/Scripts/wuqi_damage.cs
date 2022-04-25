@@ -31,6 +31,7 @@ public class wuqi_damage : MonoBehaviour
     //武器检测碰撞,并造成伤害
     private void OnTriggerEnter2D(Collider2D other)
     {
+        Debug.Log("发生了触发器");
         if (other.gameObject.tag == "Enemy")//通过标签触碰检测
         {
             Debug.Log("发生了碰撞");
