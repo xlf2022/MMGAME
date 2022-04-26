@@ -14,13 +14,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemName: "\u5927\u5251"
   itemImage: {fileID: 21300000, guid: 6b7340e856a1af9408c6af8cc43d01f6, type: 3}
-  itemHeld: 2
+  itemHeld: 1
   itemInfo: "\u597D\u5FEB\uFF0C\u597D\u51C6\uFF0C\u597D\u72E0"
   itemNomuber: 2001
   itemObject: {fileID: 6619089804611509282, guid: 7d63e4b81dd695449af27bdf5f5a8019,
     type: 3}
   itemNextNomber: 3001
-  itemkind: 0
+  itemkind: 1
   itemMax: 0
   itemInNO: 0
   itemobjectname: 2001sword

@@ -10,17 +10,16 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 15b58c992d1fd244f861dc351c2a690a, type: 3}
-  m_Name: "3001\u2014SwordinSword"
+  m_Name: "3002\u2014tenman"
   m_EditorClassIdentifier: 
-  itemName: "\u5DE8\u5251"
-  itemImage: {fileID: 21300000, guid: ddd7ed2761c4351448fd90e72025a335, type: 3}
-  itemHeld: 0
-  itemInfo: "\u5DE8\u5FEB\uFF0C\u5DE8\u5927\uFF0C\u5DE8\u72E0"
-  itemNomuber: 3001
-  itemObject: {fileID: 5745592446806962995, guid: 65260811006b1ad4da1821f97491fb0f,
-    type: 3}
+  itemName: "\u85E4\u6761"
+  itemImage: {fileID: 21300000, guid: a104ee3e981af9541be12070ce1b0cdc, type: 3}
+  itemHeld: 1
+  itemInfo: "\u7A81\uFF0C\u7A81\uFF0C\u53EF\u4EE5\u9020\u6210\u5927\u8303\u56F4\u51FB\u9000"
+  itemNomuber: 3002
+  itemObject: {fileID: 0}
   itemNextNomber: 0
-  itemkind: 1
-  itemMax: 0
+  itemkind: 2
+  itemMax: 9
   itemInNO: 0
-  itemobjectname: 3001sword
+  itemobjectname: 
