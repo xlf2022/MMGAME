@@ -47,7 +47,7 @@ public class Enemy_Creat : MonoBehaviour
     IEnumerator iscreate()//每1秒后设定一次
     {
         //Debug.Log("设定了");
-        yield return new WaitForSeconds(1f);
+        yield return new WaitForSeconds(1.5f);
         iscreate1=false;
     }
 }

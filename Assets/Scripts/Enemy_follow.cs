@@ -6,6 +6,9 @@ public class Enemy_follow : MonoBehaviour
 {
     [SerializeField] private float moveSpeed;//初始设定移动速度
     private float nowspeed;//当前移动速度
+    private float Rmixspeed;//随机最小速度
+    private float Rmaxspeed;//随机最大速度
+
     private Transform target;//主角的坐标
     [SerializeField] private float maxHp;//最大血量
     public float hp;//当前hp
@@ -26,6 +29,11 @@ public class Enemy_follow : MonoBehaviour
         hp = maxHp;
         target = GameObject.FindGameObjectWithTag("Player").GetComponent<Transform>();
         sp = GetComponent<SpriteRenderer>();
+
+        Rmixspeed = moveSpeed - 0.3f;//随机移动最小速度
+        Rmaxspeed = moveSpeed + 0.3f;//随机最大移动速度
+        moveSpeed= Random.Range(Rmixspeed, Rmaxspeed);//随机在内移动速度
+
         nowspeed = moveSpeed;
     }
 
