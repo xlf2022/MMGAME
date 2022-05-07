@@ -16,6 +16,8 @@ public class PlayerExp : MonoBehaviour
 
     public M1Inventory M1Inventory;//1级背包，内含：添加，刷新函数
 
+    public PauseGame Pgame;//暂停游戏功能
+
     private Image Expbar;
     // Start is called before the first frame update
     void Start()
@@ -44,6 +46,7 @@ public class PlayerExp : MonoBehaviour
             Expmax += 80;
 
             //以下是升级选择的部分
+            Pgame.Pausegame();//暂停游戏
             Bag.SetActive(true);//升级以后背包显示
             SYinventory.refresh = 3;//重置刷新次数
             SYinventory.clearPool();//清空原来的存储物品,不然刷新就不会删除选择选项
@@ -51,9 +54,16 @@ public class PlayerExp : MonoBehaviour
             {
                 SYinventory.CreatNewItem(SYinventory.randomitem());
             }
-           
+            
+
 
         }
         LvText.text = LVnumber.ToString();
+    }
+
+    public void resuemgame()//恢复游戏,关闭背包
+    {
+        Bag.SetActive(false);
+        Pgame.Resumegame();//暂停菜单里的恢复游戏功能
     }
 }
