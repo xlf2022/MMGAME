@@ -12,6 +12,8 @@ public class M2Inventory : MonoBehaviour
     // private item newitem;//临时存放升级物体
     private int itemnomber;//临时存放的升级物体编号，作为一个开关，一般情况下为0
 
+    public LvUPslot LVUPitem;//升级以后获得升级的信息
+
     public M3Inventory M2inventory;//下一级的背包管理器
 
     // List<GameObject> itemss = new List<GameObject>();//新建一个itemss临时链表放，放itemss数据
@@ -91,6 +93,7 @@ public class M2Inventory : MonoBehaviour
                 if (SY2bag.itemList[i].itemNomuber == itemnomber)
                 {
                     M2bag.itemList.Add(SY2bag.itemList[i]);
+                    LVUPitem.getitem(SY2bag.itemList[i]);//显示升级物品
                     M2inventory.freshM1bag();
                 }
             }
