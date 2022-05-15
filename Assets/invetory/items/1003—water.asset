@@ -12,12 +12,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 15b58c992d1fd244f861dc351c2a690a, type: 3}
   m_Name: "1003\u2014water"
   m_EditorClassIdentifier: 
-  itemName: "\u6DB2\u4F53"
+  itemName: "\u795E\u79D8\u6C34\u6EF4"
   itemImage: {fileID: 21300000, guid: 832ceeee6a2f5104c83404efb2a3e581, type: 3}
-  itemHeld: 1
+  itemHeld: 3
   itemInfo: "\u4E00\u56E2\u6DB2\u4F53\uFF0C\u4F3C\u4E4E\u662F\u4E0D\u9519\u7684\u9009\u62E9"
   itemNomuber: 1003
   itemObject: {fileID: 0}
   itemNextNomber: 2003
   itemkind: 3
   itemMax: 9
+  itemInNO: 0
+  itemobjectname: 

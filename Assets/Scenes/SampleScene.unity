@@ -939,7 +939,7 @@ Animator:
   m_GameObject: {fileID: 375709469}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: f6fe796cd33ce514c9be05427fb5c59e, type: 2}
+  m_Controller: {fileID: 9100000, guid: 85b2bedd3f3cf2d48bd64c1139cb7b8a, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -51065,7 +51065,7 @@ Animator:
   m_GameObject: {fileID: 684710397}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: f6fe796cd33ce514c9be05427fb5c59e, type: 2}
+  m_Controller: {fileID: 9100000, guid: 85b2bedd3f3cf2d48bd64c1139cb7b8a, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -51827,7 +51827,7 @@ Animator:
   m_GameObject: {fileID: 823517922}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: f6fe796cd33ce514c9be05427fb5c59e, type: 2}
+  m_Controller: {fileID: 9100000, guid: 85b2bedd3f3cf2d48bd64c1139cb7b8a, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -51916,7 +51916,7 @@ Transform:
   - {fileID: 1232858815}
   - {fileID: 2142737299}
   m_Father: {fileID: 880272840}
-  m_RootOrder: 4
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &868668480
 GameObject:
@@ -52202,9 +52202,9 @@ Transform:
   - {fileID: 1945422767}
   - {fileID: 962937355455694160}
   - {fileID: 1856496903}
-  - {fileID: 835163906}
-  - {fileID: 1147404711}
   - {fileID: 1229803030}
+  - {fileID: 1147404711}
+  - {fileID: 835163906}
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -61023,7 +61023,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1229803030
 Transform:
   m_ObjectHideFlags: 0
@@ -61044,7 +61044,7 @@ Transform:
   - {fileID: 1471676488}
   - {fileID: 823517923}
   m_Father: {fileID: 880272840}
-  m_RootOrder: 6
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1232858814
 GameObject:
@@ -61300,8 +61300,10 @@ MonoBehaviour:
   M1bag: {fileID: 11400000, guid: 8b17e07d8a7bd79459805623235b6a5a, type: 2}
   thisitem1: {fileID: 11400000, guid: 976b298308b837841ae911041ef0e5df, type: 2}
   thisitem2: {fileID: 11400000, guid: eab4513a0c0c2924885767fb1896ae27, type: 2}
+  thisitem3: {fileID: 11400000, guid: 0fc403c3277a851469221ffbf355be6a, type: 2}
   myobject1: {fileID: 634845028}
   myobject2: {fileID: 1706852190}
+  myobject3: {fileID: 1229803029}
 --- !u!4 &1297198739
 Transform:
   m_ObjectHideFlags: 0
@@ -61963,7 +61965,7 @@ Animator:
   m_GameObject: {fileID: 1471676487}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: f6fe796cd33ce514c9be05427fb5c59e, type: 2}
+  m_Controller: {fileID: 9100000, guid: 85b2bedd3f3cf2d48bd64c1139cb7b8a, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -65751,8 +65753,10 @@ MonoBehaviour:
   M1bag: {fileID: 11400000, guid: 18b09588022ec59438b70b6793032a7e, type: 2}
   thisitem1: {fileID: 11400000, guid: e288bae8e3ae6c14f9642d321bb86392, type: 2}
   thisitem2: {fileID: 11400000, guid: a271a279e5dc7134da1e1896a0de53ef, type: 2}
+  thisitem3: {fileID: 11400000, guid: 93a00ca03f4484d498310603be9389aa, type: 2}
   myobject1: {fileID: 956987297}
   myobject2: {fileID: 2130837354}
+  myobject3: {fileID: 1147404710}
 --- !u!4 &1677499280
 Transform:
   m_ObjectHideFlags: 0
@@ -66399,8 +66403,10 @@ MonoBehaviour:
   M1bag: {fileID: 11400000, guid: 01b57f8e464fb714c838f6cffe713863, type: 2}
   thisitem1: {fileID: 11400000, guid: 954f621e65f7b7d47b25bcdf72889fdc, type: 2}
   thisitem2: {fileID: 11400000, guid: 159619c3176ef8142a8a0463b45f0617, type: 2}
+  thisitem3: {fileID: 11400000, guid: aaaa08a1a9b570e4ab008b7db52e3c95, type: 2}
   myobject1: {fileID: 1158987641}
   myobject2: {fileID: 2003269811}
+  myobject3: {fileID: 835163905}
 --- !u!4 &1827152524
 Transform:
   m_ObjectHideFlags: 0

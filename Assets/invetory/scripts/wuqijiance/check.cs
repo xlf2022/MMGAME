@@ -8,42 +8,48 @@ public class check : MonoBehaviour
     public Inventory M1bag;
     public item thisitem1;//小剑数据
     public item thisitem2;//藤蔓
+    public item thisitem3;//水滴武器
     public GameObject myobject1;//小剑1
     public GameObject myobject2;//藤蔓
+    public GameObject myobject3;//水滴武器
+
     void Start()
     {
         myobject1.SetActive(false);
         myobject2.SetActive(false);
+        myobject3.SetActive(false);
     }
 
     // Update is called once per frame
     void Update()
     {
-        checkinbag();
+        checkinbag(thisitem1,myobject1);
+        checkinbag(thisitem2, myobject2);
+        checkinbag(thisitem3, myobject3);
     }
-    public void checkinbag()
+    public void checkinbag(item newitem,GameObject newgameobject)
     {
-        if (M1bag.itemList.Contains(thisitem1) == true)
+        if (M1bag.itemList.Contains(newitem) == true)
         {
             //Debug.Log("运行了包含");
-            myobject1.SetActive(true);
+            newgameobject.SetActive(true);
         }
-        if (M1bag.itemList.Contains(thisitem1) == false)
+        if (M1bag.itemList.Contains(newitem) == false)
         {
             //Debug.Log("运行了不包含");
-            myobject1.SetActive(false);
+            newgameobject.SetActive(false);
         }
 
 
-        if (M1bag.itemList.Contains(thisitem2) == true)
-        {
-            //Debug.Log("运行了包含");
-            myobject2.SetActive(true);
-        }
-        if (M1bag.itemList.Contains(thisitem2) == false)
-        {
-            //Debug.Log("运行了不包含");
-            myobject2.SetActive(false);
-        }
+       // if (M1bag.itemList.Contains(thisitem2) == true)
+       // {
+       //     //Debug.Log("运行了包含");
+      //      myobject2.SetActive(true);
+     //   }
+      //  if (M1bag.itemList.Contains(thisitem2) == false)
+      //  {
+      //      //Debug.Log("运行了不包含");
+      //      myobject2.SetActive(false);
+      //  }
     }
 }
