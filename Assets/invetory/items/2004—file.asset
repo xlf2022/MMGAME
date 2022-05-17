@@ -10,15 +10,15 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 15b58c992d1fd244f861dc351c2a690a, type: 3}
-  m_Name: "1004\u2014file"
+  m_Name: "2004\u2014file"
   m_EditorClassIdentifier: 
-  itemName: "\u706B\u7403"
-  itemImage: {fileID: 21300000, guid: a8200de5f52e6fa49adadfe5a2ffe094, type: 3}
+  itemName: "\u5927\u706B\u7403"
+  itemImage: {fileID: 21300000, guid: 05641927be1ea1b4c927f2de9abbdc62, type: 3}
   itemHeld: 1
-  itemInfo: "\u5E38\u6709\u7684rpg\u5143\u7D20\u561B\uFF0C\u9009\u5C31\u5B8C\u4E8B\u4E86"
-  itemNomuber: 1004
+  itemInfo: 
+  itemNomuber: 2004
   itemObject: {fileID: 0}
-  itemNextNomber: 2004
+  itemNextNomber: 3004
   itemkind: 4
   itemMax: 9
   itemInNO: 0
