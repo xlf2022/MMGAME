@@ -9,6 +9,7 @@ public class wuqi_yuanzhou : MonoBehaviour
     public Transform player;//玩家位置,圆心位置
     public int banjing;//半径
     public Transform my;//自己的位置
+    public float sudu;//转动速度
 
     public float qishi;
     private float TotalTime;
@@ -23,8 +24,8 @@ public class wuqi_yuanzhou : MonoBehaviour
     void Update()
     {
         TotalTime += Time.deltaTime;
-        var x = banjing * Mathf.Cos(TotalTime);
-        var y= banjing * Mathf.Sin(TotalTime);
+        var x = banjing * Mathf.Cos(TotalTime*sudu);
+        var y= banjing * Mathf.Sin(TotalTime*sudu);
         my.position = player.position + new Vector3(x,y,0);
     }
 }
