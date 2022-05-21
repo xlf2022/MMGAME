@@ -835,7 +835,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   countdown: {fileID: 726428373}
   enemy1: {fileID: 4934336387650484628, guid: 879c56d9c23061649b943dc94298b965, type: 3}
+  createtime1: 1200
+  freshtime1: 1
   enemy2: {fileID: 3983867153591410317, guid: fda37311de0806243ab3f872f9789eb7, type: 3}
+  createtime2: 1170
+  freshtime2: 1
 --- !u!4 &147483093
 Transform:
   m_ObjectHideFlags: 0
@@ -48668,7 +48672,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   countdown: {fileID: 726428373}
   enemy1: {fileID: 4934336387650484628, guid: 879c56d9c23061649b943dc94298b965, type: 3}
+  createtime1: 1200
+  freshtime1: 1
   enemy2: {fileID: 3983867153591410317, guid: fda37311de0806243ab3f872f9789eb7, type: 3}
+  createtime2: 1170
+  freshtime2: 1
 --- !u!4 &543498230
 Transform:
   m_ObjectHideFlags: 0
@@ -67342,7 +67350,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   countdown: {fileID: 726428373}
   enemy1: {fileID: 4934336387650484628, guid: 879c56d9c23061649b943dc94298b965, type: 3}
+  createtime1: 1200
+  freshtime1: 1
   enemy2: {fileID: 3983867153591410317, guid: fda37311de0806243ab3f872f9789eb7, type: 3}
+  createtime2: 1170
+  freshtime2: 1
 --- !u!114 &1614444648
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -75334,7 +75346,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   countdown: {fileID: 726428373}
   enemy1: {fileID: 4934336387650484628, guid: 879c56d9c23061649b943dc94298b965, type: 3}
+  createtime1: 1200
+  freshtime1: 1
   enemy2: {fileID: 3983867153591410317, guid: fda37311de0806243ab3f872f9789eb7, type: 3}
+  createtime2: 1170
+  freshtime2: 1
 --- !u!4 &2136307813
 Transform:
   m_ObjectHideFlags: 0
