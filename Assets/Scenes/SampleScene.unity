@@ -174,7 +174,7 @@ MonoBehaviour:
   damageCanvas: {fileID: 1653438522851164676, guid: c6aa2a77fb6975f47a90208e5b011eaf,
     type: 3}
   Jituinumber: 0
-  xiue: 0.5
+  xiue: 3
   jianshu: 1
 --- !u!70 &4237660
 CapsuleCollider2D:
@@ -287,7 +287,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 4
   m_Sprite: {fileID: 21300000, guid: 45fbeec34f691ab458df58711fae6eb9, type: 3}
   m_Color: {r: 0.83265495, g: 0.5707547, b: 1, a: 1}
   m_FlipX: 0
@@ -634,8 +634,8 @@ MonoBehaviour:
   maxDamage: 180
   damageCanvas: {fileID: 1653438522851164676, guid: c6aa2a77fb6975f47a90208e5b011eaf,
     type: 3}
-  Jituinumber: 2
-  xiue: 3
+  Jituinumber: 3
+  xiue: 6
   jianshu: 0.2
 --- !u!114 &107483215
 MonoBehaviour:
@@ -1100,7 +1100,7 @@ MonoBehaviour:
   damageCanvas: {fileID: 1653438522851164676, guid: c6aa2a77fb6975f47a90208e5b011eaf,
     type: 3}
   Jituinumber: 0
-  xiue: 0.1
+  xiue: 0.5
   jianshu: 1
 --- !u!70 &298265622
 CapsuleCollider2D:
@@ -1213,7 +1213,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 4
   m_Sprite: {fileID: 21300000, guid: 45fbeec34f691ab458df58711fae6eb9, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -1278,7 +1278,7 @@ MonoBehaviour:
   damageCanvas: {fileID: 1653438522851164676, guid: c6aa2a77fb6975f47a90208e5b011eaf,
     type: 3}
   Jituinumber: 0
-  xiue: 0.5
+  xiue: 3
   jianshu: 1
 --- !u!70 &324610452
 CapsuleCollider2D:
@@ -1391,7 +1391,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 4
   m_Sprite: {fileID: 21300000, guid: 45fbeec34f691ab458df58711fae6eb9, type: 3}
   m_Color: {r: 0.83265495, g: 0.5707547, b: 1, a: 1}
   m_FlipX: 0
@@ -1456,7 +1456,7 @@ MonoBehaviour:
   damageCanvas: {fileID: 1653438522851164676, guid: c6aa2a77fb6975f47a90208e5b011eaf,
     type: 3}
   Jituinumber: 0
-  xiue: 0.5
+  xiue: 3
   jianshu: 1
 --- !u!70 &335110969
 CapsuleCollider2D:
@@ -1569,7 +1569,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 4
   m_Sprite: {fileID: 21300000, guid: 45fbeec34f691ab458df58711fae6eb9, type: 3}
   m_Color: {r: 0.83265495, g: 0.5707547, b: 1, a: 1}
   m_FlipX: 0
@@ -1631,8 +1631,8 @@ MonoBehaviour:
   maxDamage: 200
   damageCanvas: {fileID: 1653438522851164676, guid: c6aa2a77fb6975f47a90208e5b011eaf,
     type: 3}
-  Jituinumber: 0
-  xiue: 1
+  Jituinumber: 0.5
+  xiue: 6
   jianshu: 0
 --- !u!61 &375709472
 BoxCollider2D:
@@ -1717,7 +1717,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 4
   m_Sprite: {fileID: 21300000, guid: c6562784484499c4297f63f47c6847ec, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -4556,7 +4556,7 @@ MonoBehaviour:
   damageCanvas: {fileID: 1653438522851164676, guid: c6aa2a77fb6975f47a90208e5b011eaf,
     type: 3}
   Jituinumber: 0
-  xiue: 0.5
+  xiue: 3
   jianshu: 1
 --- !u!70 &454612884
 CapsuleCollider2D:
@@ -4669,7 +4669,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 4
   m_Sprite: {fileID: 21300000, guid: 45fbeec34f691ab458df58711fae6eb9, type: 3}
   m_Color: {r: 0.83265495, g: 0.5707547, b: 1, a: 1}
   m_FlipX: 0
@@ -48541,8 +48541,8 @@ MonoBehaviour:
   maxDamage: 200
   damageCanvas: {fileID: 1653438522851164676, guid: c6aa2a77fb6975f47a90208e5b011eaf,
     type: 3}
-  Jituinumber: 0
-  xiue: 1
+  Jituinumber: 0.5
+  xiue: 6
   jianshu: 0
 --- !u!61 &533430437
 BoxCollider2D:
@@ -51634,8 +51634,8 @@ MonoBehaviour:
   maxDamage: 180
   damageCanvas: {fileID: 1653438522851164676, guid: c6aa2a77fb6975f47a90208e5b011eaf,
     type: 3}
-  Jituinumber: 2
-  xiue: 3
+  Jituinumber: 3
+  xiue: 6
   jianshu: 0.2
 --- !u!114 &636916641
 MonoBehaviour:
@@ -51812,8 +51812,8 @@ MonoBehaviour:
   maxDamage: 60
   damageCanvas: {fileID: 1653438522851164676, guid: c6aa2a77fb6975f47a90208e5b011eaf,
     type: 3}
-  Jituinumber: 1.5
-  xiue: 2
+  Jituinumber: 2.5
+  xiue: 4
   jianshu: 0.2
 --- !u!114 &651998871
 MonoBehaviour:
@@ -51951,8 +51951,8 @@ MonoBehaviour:
   maxDamage: 200
   damageCanvas: {fileID: 1653438522851164676, guid: c6aa2a77fb6975f47a90208e5b011eaf,
     type: 3}
-  Jituinumber: 0
-  xiue: 1
+  Jituinumber: 0.5
+  xiue: 6
   jianshu: 0
 --- !u!61 &684710400
 BoxCollider2D:
@@ -52037,7 +52037,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 4
   m_Sprite: {fileID: 21300000, guid: c6562784484499c4297f63f47c6847ec, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -52077,7 +52077,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 688768916}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1.6, y: 0.25, z: 0}
+  m_LocalPosition: {x: 2, y: 0.25, z: 0}
   m_LocalScale: {x: 0.85, y: 0.85, z: 1}
   m_Children: []
   m_Father: {fileID: 1147404711}
@@ -52099,8 +52099,8 @@ MonoBehaviour:
   maxDamage: 100
   damageCanvas: {fileID: 1653438522851164676, guid: c6aa2a77fb6975f47a90208e5b011eaf,
     type: 3}
-  Jituinumber: 0
-  xiue: 0.6
+  Jituinumber: 0.5
+  xiue: 6
   jianshu: 0
 --- !u!61 &688768919
 BoxCollider2D:
@@ -52185,7 +52185,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 4
   m_Sprite: {fileID: 21300000, guid: c6562784484499c4297f63f47c6847ec, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -52386,8 +52386,8 @@ MonoBehaviour:
   maxDamage: 20
   damageCanvas: {fileID: 1653438522851164676, guid: c6aa2a77fb6975f47a90208e5b011eaf,
     type: 3}
-  Jituinumber: 1
-  xiue: 1
+  Jituinumber: 2
+  xiue: 3
   jianshu: 0.2
 --- !u!50 &723481631
 Rigidbody2D:
@@ -52643,8 +52643,8 @@ MonoBehaviour:
   maxDamage: 180
   damageCanvas: {fileID: 1653438522851164676, guid: c6aa2a77fb6975f47a90208e5b011eaf,
     type: 3}
-  Jituinumber: 2
-  xiue: 3
+  Jituinumber: 3
+  xiue: 6
   jianshu: 0.2
 --- !u!114 &741529934
 MonoBehaviour:
@@ -52785,7 +52785,7 @@ MonoBehaviour:
   damageCanvas: {fileID: 1653438522851164676, guid: c6aa2a77fb6975f47a90208e5b011eaf,
     type: 3}
   Jituinumber: 0
-  xiue: 0.3
+  xiue: 2
   jianshu: 1
 --- !u!70 &747629027
 CapsuleCollider2D:
@@ -52898,7 +52898,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 4
   m_Sprite: {fileID: 21300000, guid: 45fbeec34f691ab458df58711fae6eb9, type: 3}
   m_Color: {r: 1, g: 0.4009434, b: 0.9042693, a: 1}
   m_FlipX: 0
@@ -52963,7 +52963,7 @@ MonoBehaviour:
   damageCanvas: {fileID: 1653438522851164676, guid: c6aa2a77fb6975f47a90208e5b011eaf,
     type: 3}
   Jituinumber: 0
-  xiue: 0.3
+  xiue: 2
   jianshu: 1
 --- !u!70 &760096946
 CapsuleCollider2D:
@@ -53076,7 +53076,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 4
   m_Sprite: {fileID: 21300000, guid: 45fbeec34f691ab458df58711fae6eb9, type: 3}
   m_Color: {r: 1, g: 0.4009434, b: 0.9042693, a: 1}
   m_FlipX: 0
@@ -53138,8 +53138,8 @@ MonoBehaviour:
   maxDamage: 200
   damageCanvas: {fileID: 1653438522851164676, guid: c6aa2a77fb6975f47a90208e5b011eaf,
     type: 3}
-  Jituinumber: 0
-  xiue: 1
+  Jituinumber: 0.5
+  xiue: 6
   jianshu: 0
 --- !u!61 &823517925
 BoxCollider2D:
@@ -53224,7 +53224,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 4
   m_Sprite: {fileID: 21300000, guid: c6562784484499c4297f63f47c6847ec, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -53266,7 +53266,7 @@ Transform:
   - {fileID: 1232858815}
   - {fileID: 2142737299}
   m_Father: {fileID: 880272840}
-  m_RootOrder: 6
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &868668480
 GameObject:
@@ -53357,8 +53357,8 @@ MonoBehaviour:
   maxDamage: 60
   damageCanvas: {fileID: 1653438522851164676, guid: c6aa2a77fb6975f47a90208e5b011eaf,
     type: 3}
-  Jituinumber: 1.5
-  xiue: 2
+  Jituinumber: 2.5
+  xiue: 4
   jianshu: 0.2
 --- !u!114 &868668485
 MonoBehaviour:
@@ -53552,9 +53552,9 @@ Transform:
   - {fileID: 1945422767}
   - {fileID: 962937355455694160}
   - {fileID: 1856496903}
-  - {fileID: 1229803030}
-  - {fileID: 1147404711}
   - {fileID: 835163906}
+  - {fileID: 1147404711}
+  - {fileID: 1229803030}
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -56510,8 +56510,8 @@ MonoBehaviour:
   maxDamage: 180
   damageCanvas: {fileID: 1653438522851164676, guid: c6aa2a77fb6975f47a90208e5b011eaf,
     type: 3}
-  Jituinumber: 2
-  xiue: 3
+  Jituinumber: 3
+  xiue: 6
   jianshu: 0.2
 --- !u!114 &984510715
 MonoBehaviour:
@@ -59597,7 +59597,7 @@ MonoBehaviour:
   damageCanvas: {fileID: 1653438522851164676, guid: c6aa2a77fb6975f47a90208e5b011eaf,
     type: 3}
   Jituinumber: 0
-  xiue: 0.1
+  xiue: 0.5
   jianshu: 1
 --- !u!70 &1118130202
 CapsuleCollider2D:
@@ -59710,7 +59710,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 4
   m_Sprite: {fileID: 21300000, guid: 45fbeec34f691ab458df58711fae6eb9, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -62606,7 +62606,7 @@ Transform:
   - {fileID: 1471676488}
   - {fileID: 823517923}
   m_Father: {fileID: 880272840}
-  m_RootOrder: 4
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1232858814
 GameObject:
@@ -62636,7 +62636,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1232858814}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1.5, y: 0, z: 0}
+  m_LocalPosition: {x: 2, y: 0, z: 0}
   m_LocalScale: {x: 0.7, y: 0.7, z: 1}
   m_Children: []
   m_Father: {fileID: 835163906}
@@ -62699,7 +62699,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 4
   m_Sprite: {fileID: 21300000, guid: c6562784484499c4297f63f47c6847ec, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -62753,8 +62753,8 @@ MonoBehaviour:
   maxDamage: 50
   damageCanvas: {fileID: 1653438522851164676, guid: c6aa2a77fb6975f47a90208e5b011eaf,
     type: 3}
-  Jituinumber: 0
-  xiue: 0.3
+  Jituinumber: 0.5
+  xiue: 3
   jianshu: 0
 --- !u!1 &1286968062
 GameObject:
@@ -62932,8 +62932,8 @@ MonoBehaviour:
   maxDamage: 200
   damageCanvas: {fileID: 1653438522851164676, guid: c6aa2a77fb6975f47a90208e5b011eaf,
     type: 3}
-  Jituinumber: 0
-  xiue: 1
+  Jituinumber: 0.5
+  xiue: 6
   jianshu: 0
 --- !u!61 &1339618741
 BoxCollider2D:
@@ -63018,7 +63018,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 4
   m_Sprite: {fileID: 21300000, guid: c6562784484499c4297f63f47c6847ec, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -63109,7 +63109,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 4
   m_Sprite: {fileID: 21300000, guid: 45fbeec34f691ab458df58711fae6eb9, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -63206,7 +63206,7 @@ MonoBehaviour:
   damageCanvas: {fileID: 1653438522851164676, guid: c6aa2a77fb6975f47a90208e5b011eaf,
     type: 3}
   Jituinumber: 0
-  xiue: 0.1
+  xiue: 0.5
   jianshu: 1
 --- !u!1 &1347610070
 GameObject:
@@ -63391,7 +63391,7 @@ MonoBehaviour:
   damageCanvas: {fileID: 1653438522851164676, guid: c6aa2a77fb6975f47a90208e5b011eaf,
     type: 3}
   Jituinumber: 0
-  xiue: 0.3
+  xiue: 2
   jianshu: 1
 --- !u!70 &1365875137
 CapsuleCollider2D:
@@ -63504,7 +63504,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 4
   m_Sprite: {fileID: 21300000, guid: 45fbeec34f691ab458df58711fae6eb9, type: 3}
   m_Color: {r: 1, g: 0.4009434, b: 0.9042693, a: 1}
   m_FlipX: 0
@@ -63846,8 +63846,8 @@ MonoBehaviour:
   maxDamage: 200
   damageCanvas: {fileID: 1653438522851164676, guid: c6aa2a77fb6975f47a90208e5b011eaf,
     type: 3}
-  Jituinumber: 0
-  xiue: 1
+  Jituinumber: 0.5
+  xiue: 6
   jianshu: 0
 --- !u!61 &1471676490
 BoxCollider2D:
@@ -63932,7 +63932,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 4
   m_Sprite: {fileID: 21300000, guid: c6562784484499c4297f63f47c6847ec, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -63994,8 +63994,8 @@ MonoBehaviour:
   maxDamage: 200
   damageCanvas: {fileID: 1653438522851164676, guid: c6aa2a77fb6975f47a90208e5b011eaf,
     type: 3}
-  Jituinumber: 0
-  xiue: 1
+  Jituinumber: 0.5
+  xiue: 6
   jianshu: 0
 --- !u!61 &1481284381
 BoxCollider2D:
@@ -64080,7 +64080,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 4
   m_Sprite: {fileID: 21300000, guid: c6562784484499c4297f63f47c6847ec, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -67264,8 +67264,8 @@ MonoBehaviour:
   maxDamage: 200
   damageCanvas: {fileID: 1653438522851164676, guid: c6aa2a77fb6975f47a90208e5b011eaf,
     type: 3}
-  Jituinumber: 0
-  xiue: 1
+  Jituinumber: 0.5
+  xiue: 6
   jianshu: 0
 --- !u!61 &1611969929
 BoxCollider2D:
@@ -67350,7 +67350,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 4
   m_Sprite: {fileID: 21300000, guid: c6562784484499c4297f63f47c6847ec, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -67601,8 +67601,8 @@ MonoBehaviour:
   maxDamage: 180
   damageCanvas: {fileID: 1653438522851164676, guid: c6aa2a77fb6975f47a90208e5b011eaf,
     type: 3}
-  Jituinumber: 2
-  xiue: 3
+  Jituinumber: 3
+  xiue: 6
   jianshu: 0.2
 --- !u!114 &1659608750
 MonoBehaviour:
@@ -68253,8 +68253,8 @@ MonoBehaviour:
   maxDamage: 20
   damageCanvas: {fileID: 1653438522851164676, guid: c6aa2a77fb6975f47a90208e5b011eaf,
     type: 3}
-  Jituinumber: 1
-  xiue: 1
+  Jituinumber: 2
+  xiue: 3
   jianshu: 0.2
 --- !u!114 &1780063417
 MonoBehaviour:
@@ -68818,8 +68818,8 @@ MonoBehaviour:
   maxDamage: 100
   damageCanvas: {fileID: 1653438522851164676, guid: c6aa2a77fb6975f47a90208e5b011eaf,
     type: 3}
-  Jituinumber: 0
-  xiue: 0.6
+  Jituinumber: 0.5
+  xiue: 6
   jianshu: 0
 --- !u!61 &1974038601
 BoxCollider2D:
@@ -69075,7 +69075,7 @@ MonoBehaviour:
   damageCanvas: {fileID: 1653438522851164676, guid: c6aa2a77fb6975f47a90208e5b011eaf,
     type: 3}
   Jituinumber: 0
-  xiue: 0.3
+  xiue: 2
   jianshu: 1
 --- !u!70 &2013195465
 CapsuleCollider2D:
@@ -69188,7 +69188,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 4
   m_Sprite: {fileID: 21300000, guid: 45fbeec34f691ab458df58711fae6eb9, type: 3}
   m_Color: {r: 1, g: 0.4009434, b: 0.9042693, a: 1}
   m_FlipX: 0
@@ -69228,7 +69228,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2076436173}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -1.6, y: 0.25, z: 0}
+  m_LocalPosition: {x: -2, y: 0.25, z: 0}
   m_LocalScale: {x: 0.85, y: 0.85, z: 1}
   m_Children: []
   m_Father: {fileID: 1147404711}
@@ -69250,8 +69250,8 @@ MonoBehaviour:
   maxDamage: 100
   damageCanvas: {fileID: 1653438522851164676, guid: c6aa2a77fb6975f47a90208e5b011eaf,
     type: 3}
-  Jituinumber: 0
-  xiue: 0.6
+  Jituinumber: 0.5
+  xiue: 6
   jianshu: 0
 --- !u!61 &2076436176
 BoxCollider2D:
@@ -69336,7 +69336,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 4
   m_Sprite: {fileID: 21300000, guid: c6562784484499c4297f63f47c6847ec, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -69398,8 +69398,8 @@ MonoBehaviour:
   maxDamage: 100
   damageCanvas: {fileID: 1653438522851164676, guid: c6aa2a77fb6975f47a90208e5b011eaf,
     type: 3}
-  Jituinumber: 0
-  xiue: 0.6
+  Jituinumber: 0.5
+  xiue: 6
   jianshu: 0
 --- !u!61 &2103069184
 BoxCollider2D:
@@ -69484,7 +69484,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 4
   m_Sprite: {fileID: 21300000, guid: c6562784484499c4297f63f47c6847ec, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -69549,7 +69549,7 @@ MonoBehaviour:
   damageCanvas: {fileID: 1653438522851164676, guid: c6aa2a77fb6975f47a90208e5b011eaf,
     type: 3}
   Jituinumber: 0
-  xiue: 0.5
+  xiue: 3
   jianshu: 1
 --- !u!70 &2111655127
 CapsuleCollider2D:
@@ -69662,7 +69662,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 4
   m_Sprite: {fileID: 21300000, guid: 45fbeec34f691ab458df58711fae6eb9, type: 3}
   m_Color: {r: 0.83265495, g: 0.5707547, b: 1, a: 1}
   m_FlipX: 0
@@ -75536,8 +75536,8 @@ MonoBehaviour:
   maxDamage: 60
   damageCanvas: {fileID: 1653438522851164676, guid: c6aa2a77fb6975f47a90208e5b011eaf,
     type: 3}
-  Jituinumber: 1.5
-  xiue: 2
+  Jituinumber: 2.5
+  xiue: 4
   jianshu: 0.2
 --- !u!114 &2136463236
 MonoBehaviour:
@@ -75653,7 +75653,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2142737298}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -1.5, y: 0, z: 0}
+  m_LocalPosition: {x: -2, y: 0, z: 0}
   m_LocalScale: {x: 0.7, y: 0.7, z: 1}
   m_Children: []
   m_Father: {fileID: 835163906}
@@ -75675,8 +75675,8 @@ MonoBehaviour:
   maxDamage: 50
   damageCanvas: {fileID: 1653438522851164676, guid: c6aa2a77fb6975f47a90208e5b011eaf,
     type: 3}
-  Jituinumber: 0
-  xiue: 0.3
+  Jituinumber: 0.5
+  xiue: 3
   jianshu: 0
 --- !u!61 &2142737301
 BoxCollider2D:
@@ -75761,7 +75761,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 4
   m_Sprite: {fileID: 21300000, guid: c6562784484499c4297f63f47c6847ec, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -76212,6 +76212,11 @@ PrefabInstance:
       propertyPath: m_IsTrigger
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 8998020705128571153, guid: 65260811006b1ad4da1821f97491fb0f,
+        type: 3}
+      propertyPath: m_SortingOrder
+      value: 4
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 65260811006b1ad4da1821f97491fb0f, type: 3}
 --- !u!1001 &6234865862434838897
@@ -76221,6 +76226,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 880272840}
     m_Modifications:
+    - target: {fileID: 6619089804611509280, guid: 7d63e4b81dd695449af27bdf5f5a8019,
+        type: 3}
+      propertyPath: m_SortingOrder
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 6619089804611509280, guid: 7d63e4b81dd695449af27bdf5f5a8019,
         type: 3}
       propertyPath: m_WasSpriteAssigned
@@ -76347,6 +76357,16 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6485354137272009338, guid: 08b52398935873c4295b2cf416f86b6a,
         type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.62
+      objectReference: {fileID: 0}
+    - target: {fileID: 6485354137272009338, guid: 08b52398935873c4295b2cf416f86b6a,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.62
+      objectReference: {fileID: 0}
+    - target: {fileID: 6485354137272009338, guid: 08b52398935873c4295b2cf416f86b6a,
+        type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
       objectReference: {fileID: 0}
@@ -76394,6 +76414,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6485354137272009339, guid: 08b52398935873c4295b2cf416f86b6a,
+        type: 3}
+      propertyPath: m_SortingOrder
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 6485354137272009339, guid: 08b52398935873c4295b2cf416f86b6a,
         type: 3}

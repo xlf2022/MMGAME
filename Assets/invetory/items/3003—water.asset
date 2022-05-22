@@ -15,7 +15,7 @@ MonoBehaviour:
   itemName: '  Angel tears '
   itemImage: {fileID: 21300000, guid: f5f8393e6f045664abd40796a8c50a13, type: 3}
   itemHeld: 1
-  itemInfo: You will be blessed by the God of water
+  itemInfo: Eight water column diffusion.Damage 200-160
   itemNomuber: 3003
   itemObject: {fileID: 0}
   itemNextNomber: 0

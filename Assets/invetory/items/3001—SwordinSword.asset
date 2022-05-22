@@ -15,7 +15,7 @@ MonoBehaviour:
   itemName: Blue Lightsaber
   itemImage: {fileID: 21300000, guid: ddd7ed2761c4351448fd90e72025a335, type: 3}
   itemHeld: 0
-  itemInfo: This lightsaber will give you a hand!!
+  itemInfo: "The best sword\r.Damage 270-250"
   itemNomuber: 3001
   itemObject: {fileID: 5745592446806962995, guid: 65260811006b1ad4da1821f97491fb0f,
     type: 3}

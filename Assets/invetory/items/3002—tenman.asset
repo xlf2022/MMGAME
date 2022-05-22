@@ -15,7 +15,7 @@ MonoBehaviour:
   itemName: Giant tree vine
   itemImage: {fileID: 21300000, guid: 138faa95bbd88f34884a00ccee3d1671, type: 3}
   itemHeld: 1
-  itemInfo: It will repel all your enemies
+  itemInfo: Increase to five.Damage 180-160
   itemNomuber: 3002
   itemObject: {fileID: 0}
   itemNextNomber: 0

@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemName: Small Rattan
   itemImage: {fileID: 21300000, guid: a104ee3e981af9541be12070ce1b0cdc, type: 3}
-  itemHeld: 1
-  itemInfo: Two Vines will help you retreat
+  itemHeld: 3
+  itemInfo: Repel the enemy.Damage 20-10
   itemNomuber: 1002
   itemObject: {fileID: 0}
   itemNextNomber: 2002

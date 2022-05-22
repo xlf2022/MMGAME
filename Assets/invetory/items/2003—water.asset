@@ -15,7 +15,7 @@ MonoBehaviour:
   itemName: 'Essence of water '
   itemImage: {fileID: 21300000, guid: cc91fa512deae1d4ebfdf60bbd998570, type: 3}
   itemHeld: 1
-  itemInfo: Release a column of water around you
+  itemInfo: Water columns around you.Damage 100-80
   itemNomuber: 2003
   itemObject: {fileID: 0}
   itemNextNomber: 3003

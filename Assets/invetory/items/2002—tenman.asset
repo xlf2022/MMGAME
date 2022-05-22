@@ -15,7 +15,7 @@ MonoBehaviour:
   itemName: ' Rattan'
   itemImage: {fileID: 21300000, guid: 75014bb9e28dba04da7a4767d9d9489b, type: 3}
   itemHeld: 3
-  itemInfo: More quantity and wider range
+  itemInfo: Increase to three.Damage 60-50
   itemNomuber: 2002
   itemObject: {fileID: 0}
   itemNextNomber: 3002
