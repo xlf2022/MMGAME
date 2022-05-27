@@ -63321,11 +63321,13 @@ MonoBehaviour:
   thisitem3: {fileID: 11400000, guid: 0fc403c3277a851469221ffbf355be6a, type: 2}
   thisitem4: {fileID: 11400000, guid: 87e4cf099b048c6469de7c2a9cb53ec3, type: 2}
   thisitem5: {fileID: 11400000, guid: 038eeb468f8a7d1439865e943c5321e1, type: 2}
+  thisitem6: {fileID: 11400000, guid: 0166fccdb68e88246be2f48bda38d7e6, type: 2}
   myobject1: {fileID: 634845028}
   myobject2: {fileID: 1706852190}
   myobject3: {fileID: 1229803029}
   myobject4: {fileID: 692846463}
   myobject5: {fileID: 1928638097}
+  myobject6: {fileID: 1670255269}
 --- !u!4 &1297198739
 Transform:
   m_ObjectHideFlags: 0
@@ -68577,7 +68579,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1670255270
 Transform:
   m_ObjectHideFlags: 0
@@ -68775,11 +68777,13 @@ MonoBehaviour:
   thisitem3: {fileID: 11400000, guid: 93a00ca03f4484d498310603be9389aa, type: 2}
   thisitem4: {fileID: 11400000, guid: bcc800f5959578c46b9ef6928dfa6f9c, type: 2}
   thisitem5: {fileID: 11400000, guid: b7dfdae068975f9428155b63277f96a0, type: 2}
+  thisitem6: {fileID: 11400000, guid: b2b5df0a54641fc4f98d496ecc6f4647, type: 2}
   myobject1: {fileID: 956987297}
   myobject2: {fileID: 2130837354}
   myobject3: {fileID: 1147404710}
   myobject4: {fileID: 1118948019}
   myobject5: {fileID: 796775847}
+  myobject6: {fileID: 674266241}
 --- !u!4 &1677499280
 Transform:
   m_ObjectHideFlags: 0
@@ -69429,11 +69433,13 @@ MonoBehaviour:
   thisitem3: {fileID: 11400000, guid: aaaa08a1a9b570e4ab008b7db52e3c95, type: 2}
   thisitem4: {fileID: 11400000, guid: 64e24e3d31347c74291e050c88085f83, type: 2}
   thisitem5: {fileID: 11400000, guid: 8460d8b460dd710408372a363f6f3d7b, type: 2}
+  thisitem6: {fileID: 11400000, guid: 12514693e21e28545930e458b5dbf9a5, type: 2}
   myobject1: {fileID: 1158987641}
   myobject2: {fileID: 2003269811}
   myobject3: {fileID: 835163905}
   myobject4: {fileID: 1573381341}
   myobject5: {fileID: 814473537}
+  myobject6: {fileID: 2023556790}
 --- !u!4 &1827152524
 Transform:
   m_ObjectHideFlags: 0

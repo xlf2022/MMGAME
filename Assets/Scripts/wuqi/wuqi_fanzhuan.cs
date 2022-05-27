@@ -11,6 +11,7 @@ public class wuqi_fanzhuan : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        transform.position = playerFollow.position;
         offset = transform.position - playerFollow.position;
     }
 
