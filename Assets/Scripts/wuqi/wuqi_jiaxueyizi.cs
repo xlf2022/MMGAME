@@ -8,12 +8,14 @@ public class wuqi_jiaxueyizi : MonoBehaviour
     public float shijian;//静止多少秒开始加血
     private int kaiguan;//加血开关
     private float moveH, moveV;//移动参数
+    public GameObject texiao;//椅子特效
 
     public PlayerHealth PlayerHealth;//调用加血函数
     // Start is called before the first frame update
     void Start()
     {
         kaiguan = 0;
+        texiao.SetActive(false);
     }
 
     // Update is called once per frame
@@ -24,13 +26,15 @@ public class wuqi_jiaxueyizi : MonoBehaviour
         if (moveV != 0 || moveH != 0)//或语句
         {
                kaiguan = 1;
-                StartCoroutine(isAttackco());
+            texiao.SetActive(false);
+            StartCoroutine(isAttackco());
         }
         else
         {
             if (kaiguan == 0)
             { PlayerHealth.AddHP(addxue);
                 Debug.Log("正在加血");
+                texiao.SetActive(true);
             }
         }
 

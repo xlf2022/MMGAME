@@ -12,6 +12,7 @@ public class check : MonoBehaviour
     public item thisitem4;//火球武器
     public item thisitem5;//触手武器
     public item thisitem6;//弓箭武器
+    public item thisitem7;//椅子武器
 
     public GameObject myobject1;//小剑1
     public GameObject myobject2;//藤蔓
@@ -19,6 +20,7 @@ public class check : MonoBehaviour
     public GameObject myobject4;//火球武器
     public GameObject myobject5;//触手武器
     public GameObject myobject6;//弓箭武器
+    public GameObject myobject7;//椅子武器
 
     void Start()
     {
@@ -28,6 +30,7 @@ public class check : MonoBehaviour
         myobject4.SetActive(false);
         myobject5.SetActive(false);
         myobject6.SetActive(false);
+        myobject7.SetActive(false);
     }
 
     // Update is called once per frame
@@ -39,6 +42,7 @@ public class check : MonoBehaviour
         checkinbag(thisitem4, myobject4);
         checkinbag(thisitem5, myobject5);
         checkinbag(thisitem6, myobject6);
+        checkinbag(thisitem7, myobject7);
     }
     public void checkinbag(item newitem,GameObject newgameobject)
     {
