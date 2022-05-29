@@ -24,6 +24,7 @@ public class check : MonoBehaviour
 
     void Start()
     {
+       
         myobject1.SetActive(false);
         myobject2.SetActive(false);
         myobject3.SetActive(false);
@@ -31,7 +32,9 @@ public class check : MonoBehaviour
         myobject5.SetActive(false);
         myobject6.SetActive(false);
         myobject7.SetActive(false);
+
     }
+
 
     // Update is called once per frame
     void Update()
