@@ -18,6 +18,7 @@ public class ClearInventory : MonoBehaviour
     public item thisitem6;//弓箭武器
     public item thisitem7;//椅子武器
     public item thisitem8;//鲜花武器
+    public item thisitem9;//地狱火武器
 
     public item sword1;
 
@@ -35,6 +36,7 @@ public class ClearInventory : MonoBehaviour
             SY1bag.itemList.Add(thisitem6);
             SY1bag.itemList.Add(thisitem7);
             SY1bag.itemList.Add(thisitem8);
+            SY1bag.itemList.Add(thisitem9);
         }
 
 
