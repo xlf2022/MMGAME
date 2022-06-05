@@ -78,8 +78,8 @@ public class Enemy_Creat : MonoBehaviour
         { if (countdown.totalTime2 <= Createtime)
             if (!iscreate1)
                 {
-                    pos.x = transform.position.x + Random.Range(-10, 10);
-                    pos.y = transform.position.y + Random.Range(-10, 10);
+                    pos.x = transform.position.x + Random.Range(-5, 5);
+                    pos.y = transform.position.y + Random.Range(-5, 5);
                     GameObject.Instantiate(Enemy, pos, Quaternion.identity);
                     iscreate1 = true;
                     StartCoroutine(iscreate(Freshtime));

@@ -24,7 +24,7 @@ public class PlayerExp : MonoBehaviour
     {
         Expbar = GetComponent<Image>();
         Expnow = 0;
-        Expmax = 150;
+        Expmax = 200;
         LVnumber = 1;
     }
 

@@ -1,0 +1,78 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &499999194772052581
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 499999194772052582}
+  - component: {fileID: 499999194772052583}
+  - component: {fileID: 499999194772052584}
+  m_Layer: 0
+  m_Name: EnemyCreatPoint
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &499999194772052582
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 499999194772052581}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 16.508047, y: -6.7746077, z: 57.284378}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &499999194772052583
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 499999194772052581}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9e6587e680265df409d59b636ce3a593, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  countdown: {fileID: 0}
+  enemy1: {fileID: 4934336387650484628, guid: 879c56d9c23061649b943dc94298b965, type: 3}
+  createtime1: 1200
+  freshtime1: 2
+  enemy2: {fileID: 3983867153591410317, guid: fda37311de0806243ab3f872f9789eb7, type: 3}
+  createtime2: 1150
+  freshtime2: 1.96
+  enemy3: {fileID: 9082534340638103992, guid: dda7c6ae59673494ca2fccbbb8cb65af, type: 3}
+  createtime3: 1100
+  freshtime3: 1.92
+  enemy4: {fileID: 8391111952717122953, guid: d62f4951b755977469602c196369d614, type: 3}
+  createtime4: 1050
+  freshtime4: 1.88
+  enemy5: {fileID: 4858541825733110603, guid: 670a26495c9ca9f418145ceffee219e5, type: 3}
+  createtime5: 1000
+  freshtime5: 1.84
+  enemy6: {fileID: 6867196236210245707, guid: 93588978ecf43f6488a5fdbbab7fc2f5, type: 3}
+  createtime6: 950
+  freshtime6: 1.8
+--- !u!114 &499999194772052584
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 499999194772052581}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 14029641b31cbbf4caec96beedfbbad5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerFollow: {fileID: 0}
