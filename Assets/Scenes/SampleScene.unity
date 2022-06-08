@@ -64042,6 +64042,7 @@ MonoBehaviour:
   thisitem6: {fileID: 11400000, guid: 0166fccdb68e88246be2f48bda38d7e6, type: 2}
   thisitem7: {fileID: 11400000, guid: 336be17495316c845a38a7ade0277b11, type: 2}
   thisitem8: {fileID: 11400000, guid: e7a46ee750cedac41bed671bf8ddd5d3, type: 2}
+  thisitem9: {fileID: 11400000, guid: b29f4274395914d4588358766701656b, type: 2}
   myobject1: {fileID: 634845028}
   myobject2: {fileID: 1706852190}
   myobject3: {fileID: 1229803029}
@@ -64050,6 +64051,7 @@ MonoBehaviour:
   myobject6: {fileID: 1670255269}
   myobject7: {fileID: 872837763}
   myobject8: {fileID: 150419829}
+  myobject9: {fileID: 1884093898}
 --- !u!4 &1297198739
 Transform:
   m_ObjectHideFlags: 0
@@ -66165,6 +66167,7 @@ MonoBehaviour:
   thisitem7: {fileID: 11400000, guid: 12514693e21e28545930e458b5dbf9a5, type: 2}
   thisitem8: {fileID: 11400000, guid: faef23906bcdf8e42965953edd63f25e, type: 2}
   thisitem9: {fileID: 11400000, guid: 92da72ea3f253c944975eae6f9f7ef01, type: 2}
+  thisitem10: {fileID: 11400000, guid: dcf515e8722994b409d966d0a1815369, type: 2}
   sword1: {fileID: 11400000, guid: 954f621e65f7b7d47b25bcdf72889fdc, type: 2}
 --- !u!4 &1552638614
 Transform:
@@ -70071,6 +70074,7 @@ MonoBehaviour:
   thisitem6: {fileID: 11400000, guid: b2b5df0a54641fc4f98d496ecc6f4647, type: 2}
   thisitem7: {fileID: 11400000, guid: 70546dc9d62af2e4696218c1a1060e4d, type: 2}
   thisitem8: {fileID: 11400000, guid: 18d27bda8e4928846943c2ff5da56d3e, type: 2}
+  thisitem9: {fileID: 11400000, guid: 837f37f11e069c847a2fce6c3d59c0d4, type: 2}
   myobject1: {fileID: 956987297}
   myobject2: {fileID: 2130837354}
   myobject3: {fileID: 1147404710}
@@ -70079,6 +70083,7 @@ MonoBehaviour:
   myobject6: {fileID: 674266241}
   myobject7: {fileID: 1150301584}
   myobject8: {fileID: 2060459083}
+  myobject9: {fileID: 31721151}
 --- !u!4 &1677499280
 Transform:
   m_ObjectHideFlags: 0
@@ -70777,6 +70782,7 @@ MonoBehaviour:
   thisitem6: {fileID: 11400000, guid: 12514693e21e28545930e458b5dbf9a5, type: 2}
   thisitem7: {fileID: 11400000, guid: faef23906bcdf8e42965953edd63f25e, type: 2}
   thisitem8: {fileID: 11400000, guid: 92da72ea3f253c944975eae6f9f7ef01, type: 2}
+  thisitem9: {fileID: 11400000, guid: dcf515e8722994b409d966d0a1815369, type: 2}
   myobject1: {fileID: 1158987641}
   myobject2: {fileID: 2003269811}
   myobject3: {fileID: 835163905}
@@ -70785,6 +70791,7 @@ MonoBehaviour:
   myobject6: {fileID: 2023556790}
   myobject7: {fileID: 1203306003}
   myobject8: {fileID: 1754217066}
+  myobject9: {fileID: 1106432927}
 --- !u!4 &1827152524
 Transform:
   m_ObjectHideFlags: 0
