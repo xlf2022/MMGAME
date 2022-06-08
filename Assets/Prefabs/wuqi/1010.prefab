@@ -147,7 +147,7 @@ MonoBehaviour:
   speed: 14
   zizhuanS: 8
   x: 1
-  y: 0
+  y: 1
   huisu: 12
   Flytime: 0.5
   Ptime: 2

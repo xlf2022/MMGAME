@@ -400,6 +400,84 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &31721151
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 31721152}
+  - component: {fileID: 31721153}
+  - component: {fileID: 31721155}
+  - component: {fileID: 31721154}
+  m_Layer: 0
+  m_Name: 2010feibiao
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &31721152
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 31721151}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -8.707222, y: 3.01087, z: -1.0176294}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 14
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &31721153
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 31721151}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b2c65b91b24ac3c4d846661f69a8da39, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  diyuhuo: {fileID: 3274154407483453822, guid: 37c19cc6eb590294b9720be81ce6358c, type: 3}
+  playerP: {fileID: 880272840}
+  time: 4
+--- !u!114 &31721154
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 31721151}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b2c65b91b24ac3c4d846661f69a8da39, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  diyuhuo: {fileID: 3274154407483453822, guid: 5486e2f13594dbb46a3eaa32bfd92979, type: 3}
+  playerP: {fileID: 880272840}
+  time: 4
+--- !u!114 &31721155
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 31721151}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b2c65b91b24ac3c4d846661f69a8da39, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  diyuhuo: {fileID: 3274154407483453822, guid: 97b446ad6b463164ab76b6f39301ee02, type: 3}
+  playerP: {fileID: 880272840}
+  time: 4
 --- !u!1 &32138721
 GameObject:
   m_ObjectHideFlags: 0
@@ -46234,7 +46312,7 @@ TilemapRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 7f16a0e7fce50b545bfec4321f0086ac, type: 2}
+  - {fileID: 2100000, guid: 70b896a3953d23c4195fe6188ac9f45b, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -54423,7 +54501,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 670af4bd868dfba4da9e6c4c4a6e4ce2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 10
+  moveSpeed: 7.5
 --- !u!114 &880272844
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -72557,7 +72635,7 @@ TilemapRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 70b896a3953d23c4195fe6188ac9f45b, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
