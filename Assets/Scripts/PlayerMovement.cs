@@ -7,18 +7,22 @@ public class PlayerMovement : MonoBehaviour
     private Rigidbody2D rb;
     private float moveH, moveV;
 
-    [SerializeField] private float moveSpeed;
+    [SerializeField] public float moveSpeed;
+    private float nowSpeed;
     private void Start()
     {
         rb = GetComponent<Rigidbody2D>();
+        nowSpeed = moveSpeed;
     }
 
 
     private void Update()
     {
-        moveH = Input.GetAxis("Horizontal") * moveSpeed;
-        moveV = Input.GetAxis("Vertical") * moveSpeed;
+        StartCoroutine(isAttackco());
+        moveH = Input.GetAxis("Horizontal") * nowSpeed;
+        moveV = Input.GetAxis("Vertical") * nowSpeed;
         Flip();
+       
     }
 
     private void FixedUpdate()
@@ -30,6 +34,12 @@ public class PlayerMovement : MonoBehaviour
     {
         if (moveH > 0) transform.eulerAngles = new Vector3(0, 0, 0);
         if (moveH < 0) transform.eulerAngles = new Vector3(0, 180, 0);
+    }
+
+    IEnumerator isAttackco()//每1秒后设定一次
+    {
+        yield return new WaitForSeconds(1f);
+        nowSpeed = moveSpeed;//重新设定移动速度
     }
 }
 

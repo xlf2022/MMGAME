@@ -81,7 +81,7 @@ public class Enemy_follow : MonoBehaviour
 
     IEnumerator isAttackco()//每0.2秒后设定一次
     {
-        yield return new WaitForSeconds(0.2f);
+        yield return new WaitForSeconds(1f);
         nowspeed = moveSpeed;//重新设定移动速度
     }
 
