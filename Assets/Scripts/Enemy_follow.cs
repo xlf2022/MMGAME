@@ -80,9 +80,9 @@ public class Enemy_follow : MonoBehaviour
         hurtCounter = hurtLength;//计数器等于持续时间
     }
 
-    IEnumerator isAttackco()//每0.2秒后设定一次
+    IEnumerator isAttackco()//每0.1秒后设定一次
     {
-        yield return new WaitForSeconds(0.2f);
+        yield return new WaitForSeconds(0.1f);
         isattacked = false;
         nowspeed = moveSpeed;//重新设定移动速度
     }

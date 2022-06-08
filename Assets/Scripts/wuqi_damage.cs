@@ -35,8 +35,8 @@ public class wuqi_damage : MonoBehaviour
         if (other.gameObject.tag == "Enemy")//通过标签触碰检测
         {
             Debug.Log("发生了碰撞");
-            if (other.gameObject.GetComponent<Enemy_follow>().isattacked == false)
-            {
+      
+          
                 //Debug.Log("We have Hitted");
               
                 //造成伤害的函数
@@ -57,7 +57,7 @@ public class wuqi_damage : MonoBehaviour
                 playerHealth1.AddHP(xiue);
 
                 other.gameObject.GetComponent<Enemy_follow>().slowspeed(jianshu);
-            }
+       
 
         }
     }

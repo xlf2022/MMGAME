@@ -418,7 +418,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &31721152
 Transform:
   m_ObjectHideFlags: 0
@@ -426,12 +426,12 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 31721151}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -8.707222, y: 3.01087, z: -1.0176294}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 14
+  m_Father: {fileID: 253228823}
+  m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &31721153
 MonoBehaviour:
@@ -447,7 +447,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   diyuhuo: {fileID: 3274154407483453822, guid: 37c19cc6eb590294b9720be81ce6358c, type: 3}
   playerP: {fileID: 880272840}
-  time: 4
+  time: 7
 --- !u!114 &31721154
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -462,7 +462,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   diyuhuo: {fileID: 3274154407483453822, guid: 5486e2f13594dbb46a3eaa32bfd92979, type: 3}
   playerP: {fileID: 880272840}
-  time: 4
+  time: 7
 --- !u!114 &31721155
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -477,7 +477,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   diyuhuo: {fileID: 3274154407483453822, guid: 97b446ad6b463164ab76b6f39301ee02, type: 3}
   playerP: {fileID: 880272840}
-  time: 4
+  time: 7
 --- !u!1 &32138721
 GameObject:
   m_ObjectHideFlags: 0
@@ -1438,6 +1438,9 @@ Transform:
   - {fileID: 150419831}
   - {fileID: 2060459085}
   - {fileID: 1754217067}
+  - {fileID: 1106432928}
+  - {fileID: 31721152}
+  - {fileID: 1884093900}
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -60445,7 +60448,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1106432928
 Transform:
   m_ObjectHideFlags: 0
@@ -60453,12 +60456,12 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1106432927}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 13
+  m_Father: {fileID: 253228823}
+  m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1106432929
 MonoBehaviour:
@@ -60474,7 +60477,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   diyuhuo: {fileID: 6164343757088829001, guid: 7c5f6d184f7faeb429d9b5a68370d31f, type: 3}
   playerP: {fileID: 880272840}
-  time: 4
+  time: 8
 --- !u!114 &1106432930
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -60489,7 +60492,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   diyuhuo: {fileID: 6164343757088829001, guid: 1428ad2531241bc4395f13e6adee4467, type: 3}
   playerP: {fileID: 880272840}
-  time: 4
+  time: 8
 --- !u!1 &1118130199
 GameObject:
   m_ObjectHideFlags: 0
@@ -70802,6 +70805,100 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 5745592448663377461}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1884093898
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1884093900}
+  - component: {fileID: 1884093899}
+  - component: {fileID: 1884093903}
+  - component: {fileID: 1884093902}
+  - component: {fileID: 1884093901}
+  m_Layer: 0
+  m_Name: 3010feibiao
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!114 &1884093899
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1884093898}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b2c65b91b24ac3c4d846661f69a8da39, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  diyuhuo: {fileID: 3603679086523272620, guid: cf0b874b9bd428a4e9a60def48bdde5f, type: 3}
+  playerP: {fileID: 880272840}
+  time: 6
+--- !u!4 &1884093900
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1884093898}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 253228823}
+  m_RootOrder: 17
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1884093901
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1884093898}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b2c65b91b24ac3c4d846661f69a8da39, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  diyuhuo: {fileID: 3603679086523272620, guid: 6278618b0d2f83441871db5b1dc40e41, type: 3}
+  playerP: {fileID: 880272840}
+  time: 6
+--- !u!114 &1884093902
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1884093898}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b2c65b91b24ac3c4d846661f69a8da39, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  diyuhuo: {fileID: 3603679086523272620, guid: 514f9c6cfe4b1af40aa22897b6b556f9, type: 3}
+  playerP: {fileID: 880272840}
+  time: 6
+--- !u!114 &1884093903
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1884093898}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b2c65b91b24ac3c4d846661f69a8da39, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  diyuhuo: {fileID: 3603679086523272620, guid: ae89ed58f95e12e41a14e574587e744f, type: 3}
+  playerP: {fileID: 880272840}
+  time: 6
 --- !u!1 &1915312208
 GameObject:
   m_ObjectHideFlags: 0
