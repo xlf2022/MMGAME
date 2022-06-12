@@ -79,7 +79,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u80CC\u5305\u6EE1\u4E86!\u65E0\u6CD5\u6DFB\u52A0!!\nyou can not add goods\n"
+  m_Text: 'you can not add goods!
+
+'
 --- !u!114 &280471958844820378
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -107,5 +109,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b83bf0f1a66cd2e44a26271dc1172ad2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  lifeTimer: 0.3
+  lifeTimer: 2
   UpSpeed: 1.5

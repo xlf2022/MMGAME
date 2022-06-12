@@ -27,7 +27,7 @@ public class SlotDisplay : MonoBehaviour
     public void Start()
     {
         Sybag = GameObject.Find("Bag");
-        setposition = GameObject.Find("Canvas");
+        setposition = GameObject.Find("fullshowweizhi");
         mylv1ga= GameObject.Find("Mybag").GetComponent<M1Inventory>();
         Pgame = GameObject.Find("PasueMenu").GetComponent<PauseGame>();
     }
