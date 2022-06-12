@@ -64546,6 +64546,7 @@ MonoBehaviour:
   thisitem9: {fileID: 11400000, guid: b29f4274395914d4588358766701656b, type: 2}
   thisitem10: {fileID: 11400000, guid: 7d1a8ce1936c4224ab360ff3f3179203, type: 2}
   thisitem11: {fileID: 11400000, guid: 71ed96cdc3bb9274b931136f824e1e84, type: 2}
+  thisitem15: {fileID: 11400000, guid: b8f00c7ff9ff3104b99da0d271e0c6c2, type: 2}
   myobject1: {fileID: 634845028}
   myobject2: {fileID: 1706852190}
   myobject3: {fileID: 1229803029}
@@ -64557,6 +64558,7 @@ MonoBehaviour:
   myobject9: {fileID: 1884093898}
   myobject10: {fileID: 570931146}
   myobject11: {fileID: 1360436805}
+  myobject15: {fileID: 1815402309}
 --- !u!4 &1297198739
 Transform:
   m_ObjectHideFlags: 0
@@ -66737,6 +66739,7 @@ MonoBehaviour:
   thisitem10: {fileID: 11400000, guid: dcf515e8722994b409d966d0a1815369, type: 2}
   thisitem11: {fileID: 11400000, guid: cdd2a89f2b552b247a20bfc990635426, type: 2}
   thisitem12: {fileID: 11400000, guid: 2058805ac1f3e75488fb582ff942fb1b, type: 2}
+  thisitem16: {fileID: 11400000, guid: e8482939089e9bf45b8230d33635eda2, type: 2}
   sword1: {fileID: 11400000, guid: 954f621e65f7b7d47b25bcdf72889fdc, type: 2}
 --- !u!4 &1552638614
 Transform:
@@ -70692,6 +70695,7 @@ MonoBehaviour:
   thisitem9: {fileID: 11400000, guid: 837f37f11e069c847a2fce6c3d59c0d4, type: 2}
   thisitem10: {fileID: 11400000, guid: ddfd9447e62b84b488da6a096d6f046d, type: 2}
   thisitem11: {fileID: 11400000, guid: f0ad17ba0f9ef8e4eb82d669a0190212, type: 2}
+  thisitem15: {fileID: 11400000, guid: 5694afca39e572741b697f30bfd68a72, type: 2}
   myobject1: {fileID: 956987297}
   myobject2: {fileID: 2130837354}
   myobject3: {fileID: 1147404710}
@@ -70703,6 +70707,7 @@ MonoBehaviour:
   myobject9: {fileID: 31721151}
   myobject10: {fileID: 1749392537}
   myobject11: {fileID: 1325048817}
+  myobject15: {fileID: 1594676028}
 --- !u!4 &1677499280
 Transform:
   m_ObjectHideFlags: 0
@@ -71499,6 +71504,7 @@ MonoBehaviour:
   thisitem9: {fileID: 11400000, guid: dcf515e8722994b409d966d0a1815369, type: 2}
   thisitem10: {fileID: 11400000, guid: cdd2a89f2b552b247a20bfc990635426, type: 2}
   thisitem11: {fileID: 11400000, guid: 2058805ac1f3e75488fb582ff942fb1b, type: 2}
+  thisitem15: {fileID: 11400000, guid: e8482939089e9bf45b8230d33635eda2, type: 2}
   myobject1: {fileID: 1158987641}
   myobject2: {fileID: 2003269811}
   myobject3: {fileID: 835163905}
@@ -71510,6 +71516,7 @@ MonoBehaviour:
   myobject9: {fileID: 1106432927}
   myobject10: {fileID: 116051698}
   myobject11: {fileID: 1890179911}
+  myobject15: {fileID: 677664914}
 --- !u!4 &1827152524
 Transform:
   m_ObjectHideFlags: 0
