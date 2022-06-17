@@ -61,7 +61,7 @@ MonoBehaviour:
   createtime5: 250
   freshtime5: 3.68
   enemy6: {fileID: 6867196236210245707, guid: 93588978ecf43f6488a5fdbbab7fc2f5, type: 3}
-  createtime6: 300
+  createtime6: 600
   freshtime6: 3.6
 --- !u!114 &499999194772052584
 MonoBehaviour:
