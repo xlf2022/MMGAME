@@ -11,6 +11,11 @@ public class wuqi_randomP : MonoBehaviour
     public float fuX;
     public float Y;//正y
     public float fuY;
+
+    void Start()
+    {
+        playerP = GameObject.FindGameObjectWithTag("Player").GetComponent<Transform>();
+    }
     public void getposition()
     {
         pos.x = playerP.position.x+ Random.Range(X, fuX);
