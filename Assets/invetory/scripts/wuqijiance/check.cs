@@ -21,6 +21,7 @@ public class check : MonoBehaviour
     public item thisitem13;//鲨鱼武器
     public item thisitem14;//泡泡武器
     public item thisitem15;//冲击火球武器
+    public item thisitem16;//眼球武器
 
     public GameObject myobject1;//小剑1
     public GameObject myobject2;//藤蔓
@@ -37,6 +38,7 @@ public class check : MonoBehaviour
     public GameObject myobject13;//鲨鱼武器
     public GameObject myobject14;//泡泡武器
     public GameObject myobject15;//冲击火球武器
+    public GameObject myobject16;//眼球武器
 
     void Start()
     {
@@ -56,6 +58,7 @@ public class check : MonoBehaviour
         myobject13.SetActive(false);
         myobject14.SetActive(false);
         myobject15.SetActive(false);
+        myobject16.SetActive(false);
     }
 
 
@@ -77,6 +80,7 @@ public class check : MonoBehaviour
         checkinbag(thisitem13, myobject13);
         checkinbag(thisitem14, myobject14);
         checkinbag(thisitem15, myobject15);
+        checkinbag(thisitem16, myobject16);
     }
     public void checkinbag(item newitem,GameObject newgameobject)
     {

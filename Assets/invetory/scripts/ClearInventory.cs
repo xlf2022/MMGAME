@@ -25,6 +25,7 @@ public class ClearInventory : MonoBehaviour
     public item thisitem13;//竹子武器
     public item thisitem14;//鱼群武器
     public item thisitem15;//泡泡武器
+    public item thisitem17;//眼球武器
 
     public item thisitem16;//冲击火球武器
 
@@ -52,6 +53,7 @@ public class ClearInventory : MonoBehaviour
             SY1bag.itemList.Add(thisitem14);
             SY1bag.itemList.Add(thisitem15);
             SY1bag.itemList.Add(thisitem16);
+            SY1bag.itemList.Add(thisitem17);
         }
 
 
