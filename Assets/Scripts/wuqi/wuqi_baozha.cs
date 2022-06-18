@@ -23,4 +23,9 @@ public class wuqi_baozha : MonoBehaviour
             anim.SetFloat("baozha",2);
         }
     }
+
+    public void huifu()
+    {
+        anim.SetFloat("baozha", 0);
+    }
 }
