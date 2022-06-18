@@ -11,7 +11,6 @@ public class wuqi_diyuhuo : MonoBehaviour
     private float nowtime;//当前的时间
     void Start()
     {
-        // InvokeRepeating("Create", 0, time);
         nowtime = time;
     }
 
@@ -24,16 +23,6 @@ public class wuqi_diyuhuo : MonoBehaviour
             nowtime = time;
         }
     }
-
-    // public void Create()
-    //{
-    //   Instantiate(diyuhuo, playerP.position, Quaternion.identity);
-    //  }
-    // public void Stopped()
-    // {
-    //     CancelInvoke();
-    // }
-    // Instantiate(diyuhuo, playerP.position, Quaternion.identity);
 
 
 
