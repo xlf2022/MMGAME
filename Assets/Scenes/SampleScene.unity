@@ -228,8 +228,8 @@ MonoBehaviour:
   player: {fileID: 880272840}
   banjing: 5
   my: {fileID: 4237658}
-  sudu: 2
-  qishi: 1.2
+  sudu: 6
+  qishi: 0.4
 --- !u!95 &4237663
 Animator:
   serializedVersion: 3
@@ -1061,8 +1061,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0a0c041932cd31342ac6f80ed122fc30, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  minDamage: 160
-  maxDamage: 180
+  minDamage: 440
+  maxDamage: 480
   damageCanvas: {fileID: 1653438522851164676, guid: c6aa2a77fb6975f47a90208e5b011eaf,
     type: 3}
   Jituinumber: 3
@@ -1613,8 +1613,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0a0c041932cd31342ac6f80ed122fc30, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  minDamage: 200
-  maxDamage: 300
+  minDamage: 360
+  maxDamage: 400
   damageCanvas: {fileID: 1653438522851164676, guid: c6aa2a77fb6975f47a90208e5b011eaf,
     type: 3}
   Jituinumber: 3
@@ -2203,8 +2203,8 @@ MonoBehaviour:
   player: {fileID: 880272840}
   banjing: 5
   my: {fileID: 324610450}
-  sudu: 2
-  qishi: 1.8
+  sudu: 6
+  qishi: 0.6
 --- !u!95 &324610455
 Animator:
   serializedVersion: 3
@@ -2381,7 +2381,7 @@ MonoBehaviour:
   player: {fileID: 880272840}
   banjing: 5
   my: {fileID: 335110967}
-  sudu: 2
+  sudu: 6
   qishi: 0
 --- !u!95 &335110972
 Animator:
@@ -2498,8 +2498,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0a0c041932cd31342ac6f80ed122fc30, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  minDamage: 160
-  maxDamage: 200
+  minDamage: 1000
+  maxDamage: 1200
   damageCanvas: {fileID: 1653438522851164676, guid: c6aa2a77fb6975f47a90208e5b011eaf,
     type: 3}
   Jituinumber: 0.5
@@ -5427,8 +5427,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0a0c041932cd31342ac6f80ed122fc30, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  minDamage: 25
-  maxDamage: 30
+  minDamage: 16
+  maxDamage: 20
   damageCanvas: {fileID: 1653438522851164676, guid: c6aa2a77fb6975f47a90208e5b011eaf,
     type: 3}
   Jituinumber: 0
@@ -5750,8 +5750,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0a0c041932cd31342ac6f80ed122fc30, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  minDamage: 550
-  maxDamage: 600
+  minDamage: 920
+  maxDamage: 960
   damageCanvas: {fileID: 1653438522851164676, guid: c6aa2a77fb6975f47a90208e5b011eaf,
     type: 3}
   Jituinumber: 0.7
@@ -5998,8 +5998,8 @@ MonoBehaviour:
   player: {fileID: 880272840}
   banjing: 5
   my: {fileID: 454612882}
-  sudu: 2
-  qishi: 2.4
+  sudu: 6
+  qishi: 0.8
 --- !u!95 &454612887
 Animator:
   serializedVersion: 3
@@ -6114,7 +6114,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4d2bbcb23b987664592995f419e82f10, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  EXP: 1000
+  EXP: 2500
   PEXP: {fileID: 1557815091}
 --- !u!95 &457785676
 Animator:
@@ -47266,7 +47266,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   minDamage: 40
-  maxDamage: 45
+  maxDamage: 60
   damageCanvas: {fileID: 1653438522851164676, guid: c6aa2a77fb6975f47a90208e5b011eaf,
     type: 3}
   Jituinumber: 4.5
@@ -50306,8 +50306,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0a0c041932cd31342ac6f80ed122fc30, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  minDamage: 160
-  maxDamage: 200
+  minDamage: 1000
+  maxDamage: 1200
   damageCanvas: {fileID: 1653438522851164676, guid: c6aa2a77fb6975f47a90208e5b011eaf,
     type: 3}
   Jituinumber: 0.5
@@ -53522,8 +53522,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0a0c041932cd31342ac6f80ed122fc30, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  minDamage: 40
-  maxDamage: 60
+  minDamage: 30
+  maxDamage: 40
   damageCanvas: {fileID: 1653438522851164676, guid: c6aa2a77fb6975f47a90208e5b011eaf,
     type: 3}
   Jituinumber: 0.5
@@ -53844,8 +53844,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0a0c041932cd31342ac6f80ed122fc30, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  minDamage: 160
-  maxDamage: 180
+  minDamage: 440
+  maxDamage: 480
   damageCanvas: {fileID: 1653438522851164676, guid: c6aa2a77fb6975f47a90208e5b011eaf,
     type: 3}
   Jituinumber: 3
@@ -54022,8 +54022,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0a0c041932cd31342ac6f80ed122fc30, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  minDamage: 50
-  maxDamage: 60
+  minDamage: 60
+  maxDamage: 80
   damageCanvas: {fileID: 1653438522851164676, guid: c6aa2a77fb6975f47a90208e5b011eaf,
     type: 3}
   Jituinumber: 2.5
@@ -54163,8 +54163,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0a0c041932cd31342ac6f80ed122fc30, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  minDamage: 120
-  maxDamage: 150
+  minDamage: 160
+  maxDamage: 200
   damageCanvas: {fileID: 1653438522851164676, guid: c6aa2a77fb6975f47a90208e5b011eaf,
     type: 3}
   Jituinumber: 1
@@ -54391,8 +54391,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0a0c041932cd31342ac6f80ed122fc30, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  minDamage: 160
-  maxDamage: 200
+  minDamage: 1000
+  maxDamage: 1200
   damageCanvas: {fileID: 1653438522851164676, guid: c6aa2a77fb6975f47a90208e5b011eaf,
     type: 3}
   Jituinumber: 0.5
@@ -54539,8 +54539,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0a0c041932cd31342ac6f80ed122fc30, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  minDamage: 80
-  maxDamage: 100
+  minDamage: 160
+  maxDamage: 200
   damageCanvas: {fileID: 1653438522851164676, guid: c6aa2a77fb6975f47a90208e5b011eaf,
     type: 3}
   Jituinumber: 0.5
@@ -55089,8 +55089,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0a0c041932cd31342ac6f80ed122fc30, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  minDamage: 160
-  maxDamage: 180
+  minDamage: 440
+  maxDamage: 480
   damageCanvas: {fileID: 1653438522851164676, guid: c6aa2a77fb6975f47a90208e5b011eaf,
     type: 3}
   Jituinumber: 3
@@ -55390,8 +55390,8 @@ MonoBehaviour:
   player: {fileID: 880272840}
   banjing: 4
   my: {fileID: 747629025}
-  sudu: 1.5
-  qishi: 3
+  sudu: 3
+  qishi: 1.5
 --- !u!95 &747629030
 Animator:
   serializedVersion: 3
@@ -55677,8 +55677,8 @@ MonoBehaviour:
   player: {fileID: 880272840}
   banjing: 4
   my: {fileID: 760096944}
-  sudu: 1.5
-  qishi: 1
+  sudu: 3
+  qishi: 0.5
 --- !u!95 &760096949
 Animator:
   serializedVersion: 3
@@ -55971,8 +55971,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0a0c041932cd31342ac6f80ed122fc30, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  minDamage: 160
-  maxDamage: 200
+  minDamage: 1000
+  maxDamage: 1200
   damageCanvas: {fileID: 1653438522851164676, guid: c6aa2a77fb6975f47a90208e5b011eaf,
     type: 3}
   Jituinumber: 0.5
@@ -56190,8 +56190,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0a0c041932cd31342ac6f80ed122fc30, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  minDamage: 50
-  maxDamage: 60
+  minDamage: 60
+  maxDamage: 80
   damageCanvas: {fileID: 1653438522851164676, guid: c6aa2a77fb6975f47a90208e5b011eaf,
     type: 3}
   Jituinumber: 2.5
@@ -56597,8 +56597,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0a0c041932cd31342ac6f80ed122fc30, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  minDamage: 180
-  maxDamage: 200
+  minDamage: 120
+  maxDamage: 160
   damageCanvas: {fileID: 1653438522851164676, guid: c6aa2a77fb6975f47a90208e5b011eaf,
     type: 3}
   Jituinumber: 0.6
@@ -59603,8 +59603,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0a0c041932cd31342ac6f80ed122fc30, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  minDamage: 160
-  maxDamage: 180
+  minDamage: 440
+  maxDamage: 480
   damageCanvas: {fileID: 1653438522851164676, guid: c6aa2a77fb6975f47a90208e5b011eaf,
     type: 3}
   Jituinumber: 3
@@ -66028,8 +66028,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0a0c041932cd31342ac6f80ed122fc30, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  minDamage: 80
-  maxDamage: 100
+  minDamage: 100
+  maxDamage: 120
   damageCanvas: {fileID: 1653438522851164676, guid: c6aa2a77fb6975f47a90208e5b011eaf,
     type: 3}
   Jituinumber: 0
@@ -66555,8 +66555,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0a0c041932cd31342ac6f80ed122fc30, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  minDamage: 130
-  maxDamage: 150
+  minDamage: 320
+  maxDamage: 360
   damageCanvas: {fileID: 1653438522851164676, guid: c6aa2a77fb6975f47a90208e5b011eaf,
     type: 3}
   Jituinumber: 5
@@ -66845,7 +66845,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4d2bbcb23b987664592995f419e82f10, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  EXP: 300
+  EXP: 400
   PEXP: {fileID: 1557815091}
 --- !u!95 &1291535936
 Animator:
@@ -67178,8 +67178,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0a0c041932cd31342ac6f80ed122fc30, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  minDamage: 50
-  maxDamage: 80
+  minDamage: 80
+  maxDamage: 100
   damageCanvas: {fileID: 1653438522851164676, guid: c6aa2a77fb6975f47a90208e5b011eaf,
     type: 3}
   Jituinumber: 3
@@ -67311,8 +67311,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0a0c041932cd31342ac6f80ed122fc30, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  minDamage: 550
-  maxDamage: 600
+  minDamage: 2300
+  maxDamage: 2400
   damageCanvas: {fileID: 1653438522851164676, guid: c6aa2a77fb6975f47a90208e5b011eaf,
     type: 3}
   Jituinumber: 3
@@ -67528,8 +67528,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0a0c041932cd31342ac6f80ed122fc30, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  minDamage: 160
-  maxDamage: 200
+  minDamage: 1000
+  maxDamage: 1200
   damageCanvas: {fileID: 1653438522851164676, guid: c6aa2a77fb6975f47a90208e5b011eaf,
     type: 3}
   Jituinumber: 0.5
@@ -68076,7 +68076,7 @@ MonoBehaviour:
   player: {fileID: 880272840}
   banjing: 4
   my: {fileID: 1365875135}
-  sudu: 1.5
+  sudu: 3
   qishi: 0
 --- !u!95 &1365875140
 Animator:
@@ -68473,8 +68473,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0a0c041932cd31342ac6f80ed122fc30, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  minDamage: 160
-  maxDamage: 200
+  minDamage: 1000
+  maxDamage: 1200
   damageCanvas: {fileID: 1653438522851164676, guid: c6aa2a77fb6975f47a90208e5b011eaf,
     type: 3}
   Jituinumber: 0.5
@@ -68722,8 +68722,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0a0c041932cd31342ac6f80ed122fc30, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  minDamage: 160
-  maxDamage: 200
+  minDamage: 1000
+  maxDamage: 1200
   damageCanvas: {fileID: 1653438522851164676, guid: c6aa2a77fb6975f47a90208e5b011eaf,
     type: 3}
   Jituinumber: 0.5
@@ -72610,8 +72610,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0a0c041932cd31342ac6f80ed122fc30, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  minDamage: 160
-  maxDamage: 200
+  minDamage: 1000
+  maxDamage: 1200
   damageCanvas: {fileID: 1653438522851164676, guid: c6aa2a77fb6975f47a90208e5b011eaf,
     type: 3}
   Jituinumber: 0.5
@@ -72840,8 +72840,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0a0c041932cd31342ac6f80ed122fc30, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  minDamage: 180
-  maxDamage: 200
+  minDamage: 120
+  maxDamage: 160
   damageCanvas: {fileID: 1653438522851164676, guid: c6aa2a77fb6975f47a90208e5b011eaf,
     type: 3}
   Jituinumber: 0.6
@@ -73167,8 +73167,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0a0c041932cd31342ac6f80ed122fc30, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  minDamage: 160
-  maxDamage: 180
+  minDamage: 440
+  maxDamage: 480
   damageCanvas: {fileID: 1653438522851164676, guid: c6aa2a77fb6975f47a90208e5b011eaf,
     type: 3}
   Jituinumber: 3
@@ -73308,8 +73308,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0a0c041932cd31342ac6f80ed122fc30, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  minDamage: 400
-  maxDamage: 450
+  minDamage: 1150
+  maxDamage: 1200
   damageCanvas: {fileID: 1653438522851164676, guid: c6aa2a77fb6975f47a90208e5b011eaf,
     type: 3}
   Jituinumber: 1
@@ -74816,8 +74816,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0a0c041932cd31342ac6f80ed122fc30, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  minDamage: 550
-  maxDamage: 600
+  minDamage: 920
+  maxDamage: 960
   damageCanvas: {fileID: 1653438522851164676, guid: c6aa2a77fb6975f47a90208e5b011eaf,
     type: 3}
   Jituinumber: 0.7
@@ -75609,8 +75609,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0a0c041932cd31342ac6f80ed122fc30, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  minDamage: 80
-  maxDamage: 100
+  minDamage: 160
+  maxDamage: 200
   damageCanvas: {fileID: 1653438522851164676, guid: c6aa2a77fb6975f47a90208e5b011eaf,
     type: 3}
   Jituinumber: 0.5
@@ -75924,8 +75924,8 @@ MonoBehaviour:
   player: {fileID: 880272840}
   banjing: 4
   my: {fileID: 2013195463}
-  sudu: 1.5
-  qishi: 2
+  sudu: 3
+  qishi: 1
 --- !u!95 &2013195468
 Animator:
   serializedVersion: 3
@@ -76273,8 +76273,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0a0c041932cd31342ac6f80ed122fc30, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  minDamage: 550
-  maxDamage: 600
+  minDamage: 920
+  maxDamage: 960
   damageCanvas: {fileID: 1653438522851164676, guid: c6aa2a77fb6975f47a90208e5b011eaf,
     type: 3}
   Jituinumber: 0.7
@@ -76460,8 +76460,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0a0c041932cd31342ac6f80ed122fc30, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  minDamage: 80
-  maxDamage: 100
+  minDamage: 160
+  maxDamage: 200
   damageCanvas: {fileID: 1653438522851164676, guid: c6aa2a77fb6975f47a90208e5b011eaf,
     type: 3}
   Jituinumber: 0.5
@@ -76740,8 +76740,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0a0c041932cd31342ac6f80ed122fc30, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  minDamage: 80
-  maxDamage: 100
+  minDamage: 160
+  maxDamage: 200
   damageCanvas: {fileID: 1653438522851164676, guid: c6aa2a77fb6975f47a90208e5b011eaf,
     type: 3}
   Jituinumber: 0.5
@@ -76949,8 +76949,8 @@ MonoBehaviour:
   player: {fileID: 880272840}
   banjing: 5
   my: {fileID: 2111655125}
-  sudu: 2
-  qishi: 0.6
+  sudu: 6
+  qishi: 0.2
 --- !u!95 &2111655130
 Animator:
   serializedVersion: 3
@@ -82834,8 +82834,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0a0c041932cd31342ac6f80ed122fc30, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  minDamage: 50
-  maxDamage: 60
+  minDamage: 60
+  maxDamage: 80
   damageCanvas: {fileID: 1653438522851164676, guid: c6aa2a77fb6975f47a90208e5b011eaf,
     type: 3}
   Jituinumber: 2.5
@@ -83588,6 +83588,16 @@ PrefabInstance:
       propertyPath: xiue
       value: 8
       objectReference: {fileID: 0}
+    - target: {fileID: 8998020705128571150, guid: 65260811006b1ad4da1821f97491fb0f,
+        type: 3}
+      propertyPath: maxDamage
+      value: 720
+      objectReference: {fileID: 0}
+    - target: {fileID: 8998020705128571150, guid: 65260811006b1ad4da1821f97491fb0f,
+        type: 3}
+      propertyPath: minDamage
+      value: 680
+      objectReference: {fileID: 0}
     - target: {fileID: 8998020705128571151, guid: 65260811006b1ad4da1821f97491fb0f,
         type: 3}
       propertyPath: m_IsTrigger
@@ -83696,6 +83706,16 @@ PrefabInstance:
         type: 3}
       propertyPath: xiue
       value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6619089804611509311, guid: 7d63e4b81dd695449af27bdf5f5a8019,
+        type: 3}
+      propertyPath: maxDamage
+      value: 120
+      objectReference: {fileID: 0}
+    - target: {fileID: 6619089804611509311, guid: 7d63e4b81dd695449af27bdf5f5a8019,
+        type: 3}
+      propertyPath: minDamage
+      value: 100
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7d63e4b81dd695449af27bdf5f5a8019, type: 3}
