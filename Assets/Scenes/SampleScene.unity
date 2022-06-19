@@ -512,7 +512,7 @@ RectTransform:
   - {fileID: 1031187593}
   - {fileID: 1459317397}
   m_Father: {fileID: 1701798058}
-  m_RootOrder: 13
+  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -785,8 +785,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0a0c041932cd31342ac6f80ed122fc30, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  minDamage: 5
-  maxDamage: 10
+  minDamage: 3
+  maxDamage: 5
   damageCanvas: {fileID: 1653438522851164676, guid: c6aa2a77fb6975f47a90208e5b011eaf,
     type: 3}
   Jituinumber: 0
@@ -5427,8 +5427,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0a0c041932cd31342ac6f80ed122fc30, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  minDamage: 30
-  maxDamage: 40
+  minDamage: 25
+  maxDamage: 30
   damageCanvas: {fileID: 1653438522851164676, guid: c6aa2a77fb6975f47a90208e5b011eaf,
     type: 3}
   Jituinumber: 0
@@ -66028,8 +66028,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0a0c041932cd31342ac6f80ed122fc30, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  minDamage: 140
-  maxDamage: 160
+  minDamage: 80
+  maxDamage: 100
   damageCanvas: {fileID: 1653438522851164676, guid: c6aa2a77fb6975f47a90208e5b011eaf,
     type: 3}
   Jituinumber: 0
@@ -73698,8 +73698,8 @@ RectTransform:
   - {fileID: 726428372}
   - {fileID: 609687887}
   - {fileID: 2129245639}
-  - {fileID: 1759441897}
   - {fileID: 32138722}
+  - {fileID: 1759441897}
   - {fileID: 1510373539}
   m_Father: {fileID: 0}
   m_RootOrder: 10
@@ -73961,7 +73961,7 @@ RectTransform:
   m_LocalScale: {x: 0.9, y: 0.05217548, z: 1}
   m_Children: []
   m_Father: {fileID: 1701798058}
-  m_RootOrder: 12
+  m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
