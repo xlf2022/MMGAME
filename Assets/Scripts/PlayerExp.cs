@@ -43,7 +43,7 @@ public class PlayerExp : MonoBehaviour
         {
             Expnow = Expnow- Expmax;
             LVnumber++;
-            Expmax += 150;
+            Expmax += 70;
 
             //以下是升级选择的部分
             Pgame.Pausegame();//暂停游戏
