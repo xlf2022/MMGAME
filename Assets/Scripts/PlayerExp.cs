@@ -9,6 +9,7 @@ public class PlayerExp : MonoBehaviour
     public float Expnow;//当前经验值
     public int LVnumber;//当前等级
     public Text LvText;//升级的文字
+    public float UPNO;//每次升级升级加数值
 
     public GameObject Bag;//bag是游戏选择道具界面
 
@@ -43,7 +44,7 @@ public class PlayerExp : MonoBehaviour
         {
             Expnow = Expnow- Expmax;
             LVnumber++;
-            Expmax += 70;
+            Expmax += UPNO;
 
             //以下是升级选择的部分
             Pgame.Pausegame();//暂停游戏

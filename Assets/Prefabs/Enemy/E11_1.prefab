@@ -143,7 +143,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 3
-  maxHp: 100
+  maxHp: 950
   hp: 0
   isattacked: 0
   hurtLength: 0.3
@@ -161,6 +161,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 01def33df0f1d4544b12d1c0515f3d46, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  minDamage: 50
-  maxDamage: 80
+  minDamage: 80
+  maxDamage: 100
   attackDamage: 0
