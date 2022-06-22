@@ -1135,13 +1135,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0a0c041932cd31342ac6f80ed122fc30, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  minDamage: 440
-  maxDamage: 480
+  minDamage: 220
+  maxDamage: 240
   damageCanvas: {fileID: 1653438522851164676, guid: c6aa2a77fb6975f47a90208e5b011eaf,
     type: 3}
-  Jituinumber: 3
-  xiue: 6
-  jianshu: 0.2
+  Jituinumber: 1.5
+  xiue: 1
+  jianshu: 0.8
 --- !u!114 &107483215
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1709,7 +1709,7 @@ MonoBehaviour:
   maxDamage: 400
   damageCanvas: {fileID: 1653438522851164676, guid: c6aa2a77fb6975f47a90208e5b011eaf,
     type: 3}
-  Jituinumber: 3
+  Jituinumber: 0
   xiue: 0
   jianshu: 0
 --- !u!50 &248393561
@@ -2595,7 +2595,7 @@ MonoBehaviour:
   damageCanvas: {fileID: 1653438522851164676, guid: c6aa2a77fb6975f47a90208e5b011eaf,
     type: 3}
   Jituinumber: 0.5
-  xiue: 6
+  xiue: 8
   jianshu: 0
 --- !u!61 &375709472
 BoxCollider2D:
@@ -5823,7 +5823,7 @@ MonoBehaviour:
   damageCanvas: {fileID: 1653438522851164676, guid: c6aa2a77fb6975f47a90208e5b011eaf,
     type: 3}
   Jituinumber: 0.7
-  xiue: 2
+  xiue: 8
   jianshu: 1
 --- !u!114 &448805956
 MonoBehaviour:
@@ -6182,7 +6182,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4d2bbcb23b987664592995f419e82f10, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  EXP: 2500
+  EXP: 5000
   PEXP: {fileID: 1557815091}
 --- !u!95 &457785676
 Animator:
@@ -47338,7 +47338,7 @@ MonoBehaviour:
   damageCanvas: {fileID: 1653438522851164676, guid: c6aa2a77fb6975f47a90208e5b011eaf,
     type: 3}
   Jituinumber: 4.5
-  xiue: 0
+  xiue: 20
   jianshu: 1
 --- !u!114 &474052434
 MonoBehaviour:
@@ -50379,7 +50379,7 @@ MonoBehaviour:
   damageCanvas: {fileID: 1653438522851164676, guid: c6aa2a77fb6975f47a90208e5b011eaf,
     type: 3}
   Jituinumber: 0.5
-  xiue: 6
+  xiue: 8
   jianshu: 0
 --- !u!61 &533430437
 BoxCollider2D:
@@ -53745,7 +53745,7 @@ MonoBehaviour:
   damageCanvas: {fileID: 1653438522851164676, guid: c6aa2a77fb6975f47a90208e5b011eaf,
     type: 3}
   Jituinumber: 4
-  xiue: 0
+  xiue: 5
   jianshu: 1
 --- !u!1 &609687886
 GameObject:
@@ -53888,13 +53888,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0a0c041932cd31342ac6f80ed122fc30, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  minDamage: 440
-  maxDamage: 480
+  minDamage: 220
+  maxDamage: 240
   damageCanvas: {fileID: 1653438522851164676, guid: c6aa2a77fb6975f47a90208e5b011eaf,
     type: 3}
-  Jituinumber: 3
-  xiue: 6
-  jianshu: 0.2
+  Jituinumber: 1.5
+  xiue: 1
+  jianshu: 0.8
 --- !u!114 &636916641
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -54066,13 +54066,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0a0c041932cd31342ac6f80ed122fc30, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  minDamage: 60
-  maxDamage: 80
+  minDamage: 30
+  maxDamage: 40
   damageCanvas: {fileID: 1653438522851164676, guid: c6aa2a77fb6975f47a90208e5b011eaf,
     type: 3}
-  Jituinumber: 2.5
-  xiue: 4
-  jianshu: 0.2
+  Jituinumber: 1
+  xiue: 0.02
+  jianshu: 0.8
 --- !u!114 &651998871
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -54211,8 +54211,8 @@ MonoBehaviour:
   maxDamage: 200
   damageCanvas: {fileID: 1653438522851164676, guid: c6aa2a77fb6975f47a90208e5b011eaf,
     type: 3}
-  Jituinumber: 1
-  xiue: 6
+  Jituinumber: 0.6
+  xiue: 1.5
   jianshu: 1
 --- !u!61 &674266244
 BoxCollider2D:
@@ -54446,7 +54446,7 @@ MonoBehaviour:
   damageCanvas: {fileID: 1653438522851164676, guid: c6aa2a77fb6975f47a90208e5b011eaf,
     type: 3}
   Jituinumber: 0.5
-  xiue: 6
+  xiue: 8
   jianshu: 0
 --- !u!61 &684710400
 BoxCollider2D:
@@ -54668,7 +54668,7 @@ MonoBehaviour:
   damageCanvas: {fileID: 1653438522851164676, guid: c6aa2a77fb6975f47a90208e5b011eaf,
     type: 3}
   Jituinumber: 0.5
-  xiue: 6
+  xiue: 4
   jianshu: 0
 --- !u!61 &688768919
 BoxCollider2D:
@@ -54954,9 +54954,9 @@ MonoBehaviour:
   maxDamage: 20
   damageCanvas: {fileID: 1653438522851164676, guid: c6aa2a77fb6975f47a90208e5b011eaf,
     type: 3}
-  Jituinumber: 2
-  xiue: 3
-  jianshu: 0.2
+  Jituinumber: 0.5
+  xiue: 0.01
+  jianshu: 0.8
 --- !u!50 &723481631
 Rigidbody2D:
   serializedVersion: 4
@@ -55219,13 +55219,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0a0c041932cd31342ac6f80ed122fc30, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  minDamage: 440
-  maxDamage: 480
+  minDamage: 220
+  maxDamage: 240
   damageCanvas: {fileID: 1653438522851164676, guid: c6aa2a77fb6975f47a90208e5b011eaf,
     type: 3}
-  Jituinumber: 3
-  xiue: 6
-  jianshu: 0.2
+  Jituinumber: 1.5
+  xiue: 1
+  jianshu: 0.8
 --- !u!114 &741529934
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -56125,7 +56125,7 @@ MonoBehaviour:
   damageCanvas: {fileID: 1653438522851164676, guid: c6aa2a77fb6975f47a90208e5b011eaf,
     type: 3}
   Jituinumber: 0.5
-  xiue: 6
+  xiue: 8
   jianshu: 0
 --- !u!61 &823517925
 BoxCollider2D:
@@ -56413,13 +56413,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0a0c041932cd31342ac6f80ed122fc30, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  minDamage: 60
-  maxDamage: 80
+  minDamage: 30
+  maxDamage: 40
   damageCanvas: {fileID: 1653438522851164676, guid: c6aa2a77fb6975f47a90208e5b011eaf,
     type: 3}
-  Jituinumber: 2.5
-  xiue: 4
-  jianshu: 0.2
+  Jituinumber: 1
+  xiue: 0.02
+  jianshu: 0.8
 --- !u!114 &868668485
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -56564,7 +56564,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bb86d9f99bfd10b43aa372f1d4d36870, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  addxue: 1
+  addxue: 1.5
   shijian: 5
   texiao: {fileID: 1970584391}
   PlayerHealth: {fileID: 880272844}
@@ -56754,7 +56754,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 670af4bd868dfba4da9e6c4c4a6e4ce2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 7.5
+  moveSpeed: 6.5
 --- !u!114 &880272844
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -59911,13 +59911,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0a0c041932cd31342ac6f80ed122fc30, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  minDamage: 440
-  maxDamage: 480
+  minDamage: 220
+  maxDamage: 240
   damageCanvas: {fileID: 1653438522851164676, guid: c6aa2a77fb6975f47a90208e5b011eaf,
     type: 3}
-  Jituinumber: 3
-  xiue: 6
-  jianshu: 0.2
+  Jituinumber: 1.5
+  xiue: 1
+  jianshu: 0.8
 --- !u!114 &984510715
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -66220,7 +66220,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bb86d9f99bfd10b43aa372f1d4d36870, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  addxue: 0.6
+  addxue: 1
   shijian: 5
   texiao: {fileID: 1529563997}
   PlayerHealth: {fileID: 880272844}
@@ -66669,7 +66669,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4d2bbcb23b987664592995f419e82f10, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  EXP: 80
+  EXP: 200
   PEXP: {fileID: 1557815091}
 --- !u!1 &1229803029
 GameObject:
@@ -66855,7 +66855,7 @@ MonoBehaviour:
   damageCanvas: {fileID: 1653438522851164676, guid: c6aa2a77fb6975f47a90208e5b011eaf,
     type: 3}
   Jituinumber: 0.5
-  xiue: 3
+  xiue: 2
   jianshu: 0
 --- !u!1 &1236131130
 GameObject:
@@ -66910,7 +66910,7 @@ MonoBehaviour:
   damageCanvas: {fileID: 1653438522851164676, guid: c6aa2a77fb6975f47a90208e5b011eaf,
     type: 3}
   Jituinumber: 5
-  xiue: 0
+  xiue: 100
   jianshu: 1
 --- !u!114 &1236131133
 MonoBehaviour:
@@ -67195,7 +67195,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4d2bbcb23b987664592995f419e82f10, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  EXP: 400
+  EXP: 800
   PEXP: {fileID: 1557815091}
 --- !u!95 &1291535936
 Animator:
@@ -67532,7 +67532,7 @@ MonoBehaviour:
   maxDamage: 100
   damageCanvas: {fileID: 1653438522851164676, guid: c6aa2a77fb6975f47a90208e5b011eaf,
     type: 3}
-  Jituinumber: 3
+  Jituinumber: 0
   xiue: 0
   jianshu: 0
 --- !u!50 &1310282883
@@ -67665,7 +67665,7 @@ MonoBehaviour:
   maxDamage: 2400
   damageCanvas: {fileID: 1653438522851164676, guid: c6aa2a77fb6975f47a90208e5b011eaf,
     type: 3}
-  Jituinumber: 3
+  Jituinumber: 0
   xiue: 0
   jianshu: 0
 --- !u!50 &1310519780
@@ -67883,7 +67883,7 @@ MonoBehaviour:
   damageCanvas: {fileID: 1653438522851164676, guid: c6aa2a77fb6975f47a90208e5b011eaf,
     type: 3}
   Jituinumber: 0.5
-  xiue: 6
+  xiue: 8
   jianshu: 0
 --- !u!61 &1339618741
 BoxCollider2D:
@@ -68993,7 +68993,7 @@ MonoBehaviour:
   damageCanvas: {fileID: 1653438522851164676, guid: c6aa2a77fb6975f47a90208e5b011eaf,
     type: 3}
   Jituinumber: 0.5
-  xiue: 6
+  xiue: 8
   jianshu: 0
 --- !u!61 &1471676490
 BoxCollider2D:
@@ -69242,7 +69242,7 @@ MonoBehaviour:
   damageCanvas: {fileID: 1653438522851164676, guid: c6aa2a77fb6975f47a90208e5b011eaf,
     type: 3}
   Jituinumber: 0.5
-  xiue: 6
+  xiue: 8
   jianshu: 0
 --- !u!61 &1481284381
 BoxCollider2D:
@@ -73162,7 +73162,7 @@ MonoBehaviour:
   damageCanvas: {fileID: 1653438522851164676, guid: c6aa2a77fb6975f47a90208e5b011eaf,
     type: 3}
   Jituinumber: 0.5
-  xiue: 6
+  xiue: 8
   jianshu: 0
 --- !u!61 &1611969929
 BoxCollider2D:
@@ -73714,13 +73714,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0a0c041932cd31342ac6f80ed122fc30, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  minDamage: 440
-  maxDamage: 480
+  minDamage: 220
+  maxDamage: 240
   damageCanvas: {fileID: 1653438522851164676, guid: c6aa2a77fb6975f47a90208e5b011eaf,
     type: 3}
-  Jituinumber: 3
-  xiue: 6
-  jianshu: 0.2
+  Jituinumber: 1.5
+  xiue: 1
+  jianshu: 0.8
 --- !u!114 &1659608750
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -73860,7 +73860,7 @@ MonoBehaviour:
   damageCanvas: {fileID: 1653438522851164676, guid: c6aa2a77fb6975f47a90208e5b011eaf,
     type: 3}
   Jituinumber: 1
-  xiue: 15
+  xiue: 7
   jianshu: 1
 --- !u!61 &1670255272
 BoxCollider2D:
@@ -75002,9 +75002,9 @@ MonoBehaviour:
   maxDamage: 20
   damageCanvas: {fileID: 1653438522851164676, guid: c6aa2a77fb6975f47a90208e5b011eaf,
     type: 3}
-  Jituinumber: 2
-  xiue: 3
-  jianshu: 0.2
+  Jituinumber: 0.5
+  xiue: 0.01
+  jianshu: 0.8
 --- !u!114 &1780063417
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -75571,7 +75571,7 @@ MonoBehaviour:
   damageCanvas: {fileID: 1653438522851164676, guid: c6aa2a77fb6975f47a90208e5b011eaf,
     type: 3}
   Jituinumber: 0.7
-  xiue: 2
+  xiue: 8
   jianshu: 1
 --- !u!114 &1885247401
 MonoBehaviour:
@@ -76334,7 +76334,7 @@ MonoBehaviour:
   damageCanvas: {fileID: 1653438522851164676, guid: c6aa2a77fb6975f47a90208e5b011eaf,
     type: 3}
   Jituinumber: 0.5
-  xiue: 6
+  xiue: 4
   jianshu: 0
 --- !u!61 &1974038601
 BoxCollider2D:
@@ -76870,8 +76870,8 @@ MonoBehaviour:
   maxDamage: 50
   damageCanvas: {fileID: 1653438522851164676, guid: c6aa2a77fb6975f47a90208e5b011eaf,
     type: 3}
-  Jituinumber: 1
-  xiue: 2
+  Jituinumber: 0.2
+  xiue: 0.5
   jianshu: 1
 --- !u!61 &2023556797
 BoxCollider2D:
@@ -76998,7 +76998,7 @@ MonoBehaviour:
   damageCanvas: {fileID: 1653438522851164676, guid: c6aa2a77fb6975f47a90208e5b011eaf,
     type: 3}
   Jituinumber: 0.7
-  xiue: 2
+  xiue: 8
   jianshu: 1
 --- !u!114 &2069151156
 MonoBehaviour:
@@ -77185,7 +77185,7 @@ MonoBehaviour:
   damageCanvas: {fileID: 1653438522851164676, guid: c6aa2a77fb6975f47a90208e5b011eaf,
     type: 3}
   Jituinumber: 0.5
-  xiue: 6
+  xiue: 4
   jianshu: 0
 --- !u!61 &2076436176
 BoxCollider2D:
@@ -77544,7 +77544,7 @@ MonoBehaviour:
   damageCanvas: {fileID: 1653438522851164676, guid: c6aa2a77fb6975f47a90208e5b011eaf,
     type: 3}
   Jituinumber: 0.5
-  xiue: 6
+  xiue: 4
   jianshu: 0
 --- !u!61 &2103069184
 BoxCollider2D:
@@ -83639,13 +83639,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0a0c041932cd31342ac6f80ed122fc30, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  minDamage: 60
-  maxDamage: 80
+  minDamage: 30
+  maxDamage: 40
   damageCanvas: {fileID: 1653438522851164676, guid: c6aa2a77fb6975f47a90208e5b011eaf,
     type: 3}
-  Jituinumber: 2.5
-  xiue: 4
-  jianshu: 0.2
+  Jituinumber: 1
+  xiue: 0.02
+  jianshu: 0.8
 --- !u!114 &2136463236
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -83783,7 +83783,7 @@ MonoBehaviour:
   damageCanvas: {fileID: 1653438522851164676, guid: c6aa2a77fb6975f47a90208e5b011eaf,
     type: 3}
   Jituinumber: 0.5
-  xiue: 3
+  xiue: 2
   jianshu: 0
 --- !u!61 &2142737301
 BoxCollider2D:
@@ -84617,6 +84617,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8998020705128571150, guid: 65260811006b1ad4da1821f97491fb0f,
         type: 3}
+      propertyPath: jianshu
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8998020705128571150, guid: 65260811006b1ad4da1821f97491fb0f,
+        type: 3}
       propertyPath: maxDamage
       value: 720
       objectReference: {fileID: 0}
@@ -84624,6 +84629,11 @@ PrefabInstance:
         type: 3}
       propertyPath: minDamage
       value: 680
+      objectReference: {fileID: 0}
+    - target: {fileID: 8998020705128571150, guid: 65260811006b1ad4da1821f97491fb0f,
+        type: 3}
+      propertyPath: Jituinumber
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8998020705128571151, guid: 65260811006b1ad4da1821f97491fb0f,
         type: 3}
@@ -84806,7 +84816,12 @@ PrefabInstance:
     - target: {fileID: 6619089804611509311, guid: 7d63e4b81dd695449af27bdf5f5a8019,
         type: 3}
       propertyPath: xiue
-      value: 3
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6619089804611509311, guid: 7d63e4b81dd695449af27bdf5f5a8019,
+        type: 3}
+      propertyPath: jianshu
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6619089804611509311, guid: 7d63e4b81dd695449af27bdf5f5a8019,
         type: 3}
@@ -84817,6 +84832,11 @@ PrefabInstance:
         type: 3}
       propertyPath: minDamage
       value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 6619089804611509311, guid: 7d63e4b81dd695449af27bdf5f5a8019,
+        type: 3}
+      propertyPath: Jituinumber
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7d63e4b81dd695449af27bdf5f5a8019, type: 3}
@@ -84904,12 +84924,17 @@ PrefabInstance:
     - target: {fileID: 6485354137272009316, guid: 08b52398935873c4295b2cf416f86b6a,
         type: 3}
       propertyPath: xiue
-      value: 1
+      value: 0.7
       objectReference: {fileID: 0}
     - target: {fileID: 6485354137272009316, guid: 08b52398935873c4295b2cf416f86b6a,
         type: 3}
       propertyPath: jianshu
-      value: 0.5
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6485354137272009316, guid: 08b52398935873c4295b2cf416f86b6a,
+        type: 3}
+      propertyPath: Jituinumber
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6485354137272009317, guid: 08b52398935873c4295b2cf416f86b6a,
         type: 3}
