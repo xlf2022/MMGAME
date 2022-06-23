@@ -56564,7 +56564,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bb86d9f99bfd10b43aa372f1d4d36870, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  addxue: 1.5
+  addxue: 0.5
   shijian: 5
   texiao: {fileID: 1970584391}
   PlayerHealth: {fileID: 880272844}
@@ -66220,7 +66220,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bb86d9f99bfd10b43aa372f1d4d36870, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  addxue: 1
+  addxue: 0.3
   shijian: 5
   texiao: {fileID: 1529563997}
   PlayerHealth: {fileID: 880272844}
@@ -66551,7 +66551,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bb86d9f99bfd10b43aa372f1d4d36870, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  addxue: 0.3
+  addxue: 0.1
   shijian: 5
   texiao: {fileID: 1931545013}
   PlayerHealth: {fileID: 880272844}
