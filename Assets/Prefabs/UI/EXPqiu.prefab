@@ -133,7 +133,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0dce50786c4f4204b86734bd3ad2a1b6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 8
+  moveSpeed: 12
   fanwei: 6
   EXP: 100
   PEXP: {fileID: 0}

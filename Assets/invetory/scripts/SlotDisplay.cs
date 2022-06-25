@@ -39,12 +39,13 @@ public class SlotDisplay : MonoBehaviour
 
     public void onclickbutton()//点击以后把该单元格的数据传输到1级背包库，并关闭选择道具菜单
     {
-        Sybag.SetActive(false);
-        Pgame.Resumegame();//恢复游戏
+        
         if (MyLV1bag.itemList.Count <= 9)
         { MyLV1bag.itemList.Add(slotItem);
             SY1bag.itemList.Remove(slotItem);
             mylv1ga.freshM1bag();//刷新1级背包显示
+            Sybag.SetActive(false);
+            Pgame.Resumegame();//恢复游戏
         }
         else
         {

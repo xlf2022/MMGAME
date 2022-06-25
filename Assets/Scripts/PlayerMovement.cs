@@ -20,14 +20,17 @@ public class PlayerMovement : MonoBehaviour
     {
         StartCoroutine(isAttackco());
         moveH = Input.GetAxis("Horizontal") * nowSpeed;
-        moveV = Input.GetAxis("Vertical") * nowSpeed;
+
+          moveV = Input.GetAxis("Vertical") * nowSpeed;
         Flip();
-       
+
     }
 
-    private void FixedUpdate()
+   private void FixedUpdate()
     {
-        rb.velocity = new Vector2(moveH, moveV);
+        //rb.velocity = new Vector2(moveH, moveV);
+        transform.position += Vector3.right * moveH*Time.deltaTime;
+        transform.position += Vector3.up * moveV * Time.deltaTime;
     }
 
     private void Flip()

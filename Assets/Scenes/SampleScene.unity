@@ -512,7 +512,7 @@ RectTransform:
   - {fileID: 1031187593}
   - {fileID: 1459317397}
   m_Father: {fileID: 1701798058}
-  m_RootOrder: 12
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -660,7 +660,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1701798058}
-  m_RootOrder: 7
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -865,7 +865,7 @@ MonoBehaviour:
     type: 3}
   Jituinumber: 0
   xiue: 0
-  jianshu: 0
+  jianshu: 1
 --- !u!1 &86633687
 GameObject:
   m_ObjectHideFlags: 0
@@ -987,7 +987,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1701798058}
-  m_RootOrder: 8
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -5525,7 +5525,7 @@ MonoBehaviour:
     type: 3}
   Jituinumber: 0
   xiue: 0
-  jianshu: 0
+  jianshu: 1
 --- !u!114 &422209545
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -47338,7 +47338,7 @@ MonoBehaviour:
   damageCanvas: {fileID: 1653438522851164676, guid: c6aa2a77fb6975f47a90208e5b011eaf,
     type: 3}
   Jituinumber: 4.5
-  xiue: 20
+  xiue: 9
   jianshu: 1
 --- !u!114 &474052434
 MonoBehaviour:
@@ -53745,7 +53745,7 @@ MonoBehaviour:
   damageCanvas: {fileID: 1653438522851164676, guid: c6aa2a77fb6975f47a90208e5b011eaf,
     type: 3}
   Jituinumber: 4
-  xiue: 5
+  xiue: 3
   jianshu: 1
 --- !u!1 &609687886
 GameObject:
@@ -53777,7 +53777,7 @@ RectTransform:
   m_Children:
   - {fileID: 235552146}
   m_Father: {fileID: 1701798058}
-  m_RootOrder: 10
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -54211,7 +54211,7 @@ MonoBehaviour:
   maxDamage: 200
   damageCanvas: {fileID: 1653438522851164676, guid: c6aa2a77fb6975f47a90208e5b011eaf,
     type: 3}
-  Jituinumber: 0.6
+  Jituinumber: 0.2
   xiue: 1.5
   jianshu: 1
 --- !u!61 &674266244
@@ -55010,7 +55010,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1701798058}
-  m_RootOrder: 9
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -56564,7 +56564,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bb86d9f99bfd10b43aa372f1d4d36870, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  addxue: 0.5
+  addxue: 0.25
   shijian: 5
   texiao: {fileID: 1970584391}
   PlayerHealth: {fileID: 880272844}
@@ -66220,7 +66220,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bb86d9f99bfd10b43aa372f1d4d36870, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  addxue: 0.3
+  addxue: 0.1
   shijian: 5
   texiao: {fileID: 1529563997}
   PlayerHealth: {fileID: 880272844}
@@ -66384,7 +66384,7 @@ MonoBehaviour:
     type: 3}
   Jituinumber: 0
   xiue: 0
-  jianshu: 0
+  jianshu: 1
 --- !u!114 &1161124786
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -66551,7 +66551,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bb86d9f99bfd10b43aa372f1d4d36870, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  addxue: 0.1
+  addxue: 0.04
   shijian: 5
   texiao: {fileID: 1931545013}
   PlayerHealth: {fileID: 880272844}
@@ -66910,7 +66910,7 @@ MonoBehaviour:
   damageCanvas: {fileID: 1653438522851164676, guid: c6aa2a77fb6975f47a90208e5b011eaf,
     type: 3}
   Jituinumber: 5
-  xiue: 100
+  xiue: 30
   jianshu: 1
 --- !u!114 &1236131133
 MonoBehaviour:
@@ -69933,7 +69933,7 @@ RectTransform:
   m_LocalScale: {x: 16.314152, y: 0.629992, z: 1}
   m_Children: []
   m_Father: {fileID: 1701798058}
-  m_RootOrder: 6
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -69956,7 +69956,7 @@ MonoBehaviour:
   Expnow: 0
   LVnumber: 0
   LvText: {fileID: 107201652}
-  UPNO: 200
+  UPNO: 220
   Bag: {fileID: 32138721}
   SYinventory: {fileID: 1459317401}
   M1Inventory: {fileID: 1510373543}
@@ -73295,7 +73295,7 @@ RectTransform:
   m_LocalScale: {x: 1.7, y: 0.2, z: 1}
   m_Children: []
   m_Father: {fileID: 1701798058}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -73859,7 +73859,7 @@ MonoBehaviour:
   maxDamage: 1200
   damageCanvas: {fileID: 1653438522851164676, guid: c6aa2a77fb6975f47a90208e5b011eaf,
     type: 3}
-  Jituinumber: 1
+  Jituinumber: 0.2
   xiue: 7
   jianshu: 1
 --- !u!61 &1670255272
@@ -74314,7 +74314,6 @@ RectTransform:
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_Children:
   - {fileID: 441151490}
-  - {fileID: 1847379878}
   - {fileID: 7128130950088012527}
   - {fileID: 1647838830}
   - {fileID: 1753656731}
@@ -74327,6 +74326,7 @@ RectTransform:
   - {fileID: 2129245639}
   - {fileID: 32138722}
   - {fileID: 1759441897}
+  - {fileID: 1847379878}
   - {fileID: 1510373539}
   m_Father: {fileID: 0}
   m_RootOrder: 10
@@ -74463,7 +74463,7 @@ RectTransform:
   m_LocalScale: {x: 1.6, y: 0.1, z: 1}
   m_Children: []
   m_Father: {fileID: 1701798058}
-  m_RootOrder: 4
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -74600,7 +74600,7 @@ RectTransform:
   m_LocalScale: {x: 0.9, y: 0.05217548, z: 1}
   m_Children: []
   m_Father: {fileID: 1701798058}
-  m_RootOrder: 13
+  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
@@ -75332,12 +75332,12 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1701798058}
-  m_RootOrder: 1
+  m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 101}
-  m_SizeDelta: {x: 100, y: 100}
+  m_AnchoredPosition: {x: 0, y: 290}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1001 &1849603002
 PrefabInstance:
@@ -75928,7 +75928,7 @@ RectTransform:
   m_LocalScale: {x: 16.314152, y: 0.629992, z: 1}
   m_Children: []
   m_Father: {fileID: 1701798058}
-  m_RootOrder: 5
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -83405,7 +83405,7 @@ RectTransform:
   m_LocalScale: {x: 0.9, y: 0.05217548, z: 1}
   m_Children: []
   m_Father: {fileID: 1701798058}
-  m_RootOrder: 11
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
@@ -84633,7 +84633,7 @@ PrefabInstance:
     - target: {fileID: 8998020705128571150, guid: 65260811006b1ad4da1821f97491fb0f,
         type: 3}
       propertyPath: Jituinumber
-      value: 1
+      value: 0.1
       objectReference: {fileID: 0}
     - target: {fileID: 8998020705128571151, guid: 65260811006b1ad4da1821f97491fb0f,
         type: 3}
@@ -84836,7 +84836,7 @@ PrefabInstance:
     - target: {fileID: 6619089804611509311, guid: 7d63e4b81dd695449af27bdf5f5a8019,
         type: 3}
       propertyPath: Jituinumber
-      value: 1
+      value: 0.1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7d63e4b81dd695449af27bdf5f5a8019, type: 3}
@@ -84934,7 +84934,7 @@ PrefabInstance:
     - target: {fileID: 6485354137272009316, guid: 08b52398935873c4295b2cf416f86b6a,
         type: 3}
       propertyPath: Jituinumber
-      value: 1
+      value: 0.1
       objectReference: {fileID: 0}
     - target: {fileID: 6485354137272009317, guid: 08b52398935873c4295b2cf416f86b6a,
         type: 3}
@@ -85119,7 +85119,7 @@ RectTransform:
   - {fileID: 8185436845844661320}
   - {fileID: 335028158327606366}
   m_Father: {fileID: 1701798058}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
