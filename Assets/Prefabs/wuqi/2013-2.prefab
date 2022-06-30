@@ -196,7 +196,7 @@ MonoBehaviour:
   damageCanvas: {fileID: 1653438522851164676, guid: c6aa2a77fb6975f47a90208e5b011eaf,
     type: 3}
   Jituinumber: 0
-  xiue: 1
+  xiue: 0
   jianshu: 0.5
 --- !u!114 &6003448814671860409
 MonoBehaviour:
