@@ -124,6 +124,8 @@ MonoBehaviour:
   hurtLength: 0.2
   EXPmaker: {fileID: 3170267995827103141, guid: 47bdb407a8a42c742a1eafdcc76ee950,
     type: 3}
+  startset: {fileID: 0}
+  daoju: {fileID: 3706950937698456869, guid: 8ca9e6cac2f205141b2ed261e224bba3, type: 3}
 --- !u!114 &4934336387650484624
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -152,9 +154,9 @@ CircleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0.0036369562, y: 0}
   serializedVersion: 2
-  m_Radius: 0.84375
+  m_Radius: 0.6146263
 --- !u!50 &3347476746908624603
 Rigidbody2D:
   serializedVersion: 4

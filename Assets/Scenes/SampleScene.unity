@@ -51900,7 +51900,7 @@ TilemapRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 517093f06019b01428bcf6cdc988ff93, type: 2}
+  - {fileID: 2100000, guid: 6ea918bb655795a459fc5a15801303d5, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -80872,6 +80872,8 @@ MonoBehaviour:
   M1Inventory: {fileID: 1510373543}
   MyLV2bag: {fileID: 11400000, guid: 18b09588022ec59438b70b6793032a7e, type: 2}
   MyLV3bag: {fileID: 11400000, guid: 8b17e07d8a7bd79459805623235b6a5a, type: 2}
+  baolv: 0.1
+  xishu: 1.5
   SY1bag: {fileID: 11400000, guid: b3629901820b6f24e90419c3ae8fdc0e, type: 2}
   thisitem1: {fileID: 11400000, guid: 954f621e65f7b7d47b25bcdf72889fdc, type: 2}
   thisitem2: {fileID: 11400000, guid: 159619c3176ef8142a8a0463b45f0617, type: 2}
@@ -91531,7 +91533,7 @@ TilemapRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 70b896a3953d23c4195fe6188ac9f45b, type: 2}
+  - {fileID: 2100000, guid: 8be5a6fc914d0b145a70d632237c0c1d, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -97994,7 +97996,7 @@ PrefabInstance:
     - target: {fileID: 2078080909914611247, guid: 7b2dda6f447e5b348b86102f8a23da12,
         type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2078080909914611247, guid: 7b2dda6f447e5b348b86102f8a23da12,
         type: 3}

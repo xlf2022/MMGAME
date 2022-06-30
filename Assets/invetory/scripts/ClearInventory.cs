@@ -8,6 +8,8 @@ public class ClearInventory : MonoBehaviour
     public M1Inventory M1Inventory;//1级背包处理器
     public Inventory MyLV2bag;//2级背包数据库
     public Inventory MyLV3bag;//3级背包数据库
+    public float baolv;//随机掉落道具概率
+    public float xishu;//每次掉落以后除以多少的系数
 
     public Inventory SY1bag;//1级牌库
     public item thisitem1;//小剑数据
@@ -72,6 +74,11 @@ public class ClearInventory : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+
+    }
+
+    public void diaoluo()
+    {
+        baolv = baolv / xishu;
     }
 }

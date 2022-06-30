@@ -22,12 +22,15 @@ public class Enemy_follow : MonoBehaviour
     private float hurtCounter;//受伤计数器
 
     public GameObject EXPmaker;//经验球生成
+    public ClearInventory startset;//开始设置
+    public GameObject daoju;//道具掉落
 
 
     void Start()
     {
         hp = maxHp;
         target = GameObject.FindGameObjectWithTag("Player").GetComponent<Transform>();
+        startset= GameObject.Find("StartSett").GetComponent<ClearInventory>();
         sp = GetComponent<SpriteRenderer>();
 
         Rmixspeed = moveSpeed - 0.3f;//随机移动最小速度
@@ -42,7 +45,9 @@ public class Enemy_follow : MonoBehaviour
     {
         FollowPlayer();
         if (hurtCounter <= 0)
-        { sp.material.SetFloat("_FlashAmount", 0); }
+        { 
+            sp.material.SetFloat("_FlashAmount", 0); 
+        }
         else
             hurtCounter -= Time.deltaTime;//计数器每帧减少
     }
@@ -69,6 +74,12 @@ public class Enemy_follow : MonoBehaviour
         if (hp <= 0)
         {
             Instantiate(EXPmaker,transform.position,Quaternion.identity);
+            float diaolv= Random.Range(0f,1f);
+            if (diaolv < startset.baolv)
+            {
+                Instantiate(daoju, transform.position, Quaternion.identity);
+                startset.diaoluo();
+            }
             Destroy(gameObject); 
         }
     }
