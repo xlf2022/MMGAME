@@ -1636,7 +1636,7 @@ MonoBehaviour:
   damageCanvas: {fileID: 1653438522851164676, guid: c6aa2a77fb6975f47a90208e5b011eaf,
     type: 3}
   Jituinumber: 1.5
-  xiue: 1
+  xiue: 0
   jianshu: 0.8
 --- !u!114 &107483215
 MonoBehaviour:
@@ -58981,7 +58981,7 @@ MonoBehaviour:
   damageCanvas: {fileID: 1653438522851164676, guid: c6aa2a77fb6975f47a90208e5b011eaf,
     type: 3}
   Jituinumber: 1.5
-  xiue: 1
+  xiue: 0
   jianshu: 0.8
 --- !u!114 &636916641
 MonoBehaviour:
@@ -59531,7 +59531,7 @@ MonoBehaviour:
   damageCanvas: {fileID: 1653438522851164676, guid: c6aa2a77fb6975f47a90208e5b011eaf,
     type: 3}
   Jituinumber: 1
-  xiue: 0.02
+  xiue: 0
   jianshu: 0.8
 --- !u!114 &651998871
 MonoBehaviour:
@@ -60787,7 +60787,7 @@ MonoBehaviour:
   damageCanvas: {fileID: 1653438522851164676, guid: c6aa2a77fb6975f47a90208e5b011eaf,
     type: 3}
   Jituinumber: 0.5
-  xiue: 0.01
+  xiue: 0
   jianshu: 0.8
 --- !u!50 &723481631
 Rigidbody2D:
@@ -61180,7 +61180,7 @@ MonoBehaviour:
   damageCanvas: {fileID: 1653438522851164676, guid: c6aa2a77fb6975f47a90208e5b011eaf,
     type: 3}
   Jituinumber: 1.5
-  xiue: 1
+  xiue: 0
   jianshu: 0.8
 --- !u!114 &741529934
 MonoBehaviour:
@@ -63490,7 +63490,7 @@ MonoBehaviour:
   damageCanvas: {fileID: 1653438522851164676, guid: c6aa2a77fb6975f47a90208e5b011eaf,
     type: 3}
   Jituinumber: 1
-  xiue: 0.02
+  xiue: 0
   jianshu: 0.8
 --- !u!114 &868668485
 MonoBehaviour:
@@ -63636,7 +63636,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bb86d9f99bfd10b43aa372f1d4d36870, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  addxue: 0.25
+  addxue: 0.1
   shijian: 5
   texiao: {fileID: 1970584391}
   PlayerHealth: {fileID: 880272844}
@@ -67112,7 +67112,7 @@ MonoBehaviour:
   damageCanvas: {fileID: 1653438522851164676, guid: c6aa2a77fb6975f47a90208e5b011eaf,
     type: 3}
   Jituinumber: 1.5
-  xiue: 1
+  xiue: 0
   jianshu: 0.8
 --- !u!114 &984510715
 MonoBehaviour:
@@ -74576,7 +74576,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bb86d9f99bfd10b43aa372f1d4d36870, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  addxue: 0.1
+  addxue: 0.06
   shijian: 5
   texiao: {fileID: 1529563997}
   PlayerHealth: {fileID: 880272844}
@@ -75279,7 +75279,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bb86d9f99bfd10b43aa372f1d4d36870, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  addxue: 0.04
+  addxue: 0.03
   shijian: 5
   texiao: {fileID: 1931545013}
   PlayerHealth: {fileID: 880272844}
@@ -78629,7 +78629,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!95 &1407107568
 Animator:
   serializedVersion: 3
@@ -81062,7 +81062,7 @@ MonoBehaviour:
   Expnow: 0
   LVnumber: 0
   LvText: {fileID: 107201652}
-  UPNO: 220
+  UPNO: 300
   Bag: {fileID: 32138721}
   SYinventory: {fileID: 1459317401}
   M1Inventory: {fileID: 1510373543}
@@ -85655,7 +85655,7 @@ MonoBehaviour:
   damageCanvas: {fileID: 1653438522851164676, guid: c6aa2a77fb6975f47a90208e5b011eaf,
     type: 3}
   Jituinumber: 1.5
-  xiue: 1
+  xiue: 0
   jianshu: 0.8
 --- !u!114 &1659608750
 MonoBehaviour:
@@ -87521,7 +87521,7 @@ MonoBehaviour:
   damageCanvas: {fileID: 1653438522851164676, guid: c6aa2a77fb6975f47a90208e5b011eaf,
     type: 3}
   Jituinumber: 0.5
-  xiue: 0.01
+  xiue: 0
   jianshu: 0.8
 --- !u!114 &1780063417
 MonoBehaviour:
@@ -97650,7 +97650,7 @@ MonoBehaviour:
   damageCanvas: {fileID: 1653438522851164676, guid: c6aa2a77fb6975f47a90208e5b011eaf,
     type: 3}
   Jituinumber: 1
-  xiue: 0.02
+  xiue: 0
   jianshu: 0.8
 --- !u!114 &2136463236
 MonoBehaviour:
