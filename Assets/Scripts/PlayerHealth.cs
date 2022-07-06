@@ -42,7 +42,7 @@ public class PlayerHealth : MonoBehaviour
 
     IEnumerator isAttackco()//每0.2秒后设定一次,无敌帧检测时间，这段时间收到伤害不会再受伤
     {
-        yield return new WaitForSeconds(0.1f);
+        yield return new WaitForSeconds(0.15f);
         isattacked = false;
     }
 

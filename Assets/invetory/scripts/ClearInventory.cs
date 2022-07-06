@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class ClearInventory : MonoBehaviour
 {
@@ -10,6 +11,9 @@ public class ClearInventory : MonoBehaviour
     public Inventory MyLV3bag;//3级背包数据库
     public float baolv;//随机掉落道具概率
     public float xishu;//每次掉落以后除以多少的系数
+    public GameObject shibei;//石碑物体
+    public Text shibeiinfo;//石碑信息
+    public Text shibeiW;//石碑写者
 
     public Inventory SY1bag;//1级牌库
     public item thisitem1;//小剑数据
@@ -36,6 +40,10 @@ public class ClearInventory : MonoBehaviour
 
     void Start()
     {
+        shibeiinfo = GameObject.Find("shibeiinfo").GetComponent<Text>();
+        shibeiW = GameObject.Find("writename").GetComponent<Text>();
+        shibei.SetActive(false);
+        
         SY1bag.itemList.Clear();//清空1级牌库
         for (int i = 0; i < 12; i++)
         {

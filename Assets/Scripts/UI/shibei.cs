@@ -8,30 +8,42 @@ public class shibei : MonoBehaviour
     public string writename;//笔者名字
     [TextArea]//增加输入信息的行数
     public string itemInfo;//信息
-    private GameObject yindao;//引导石碑
+    private GameObject startset;//开始设置，调用引导石碑
     private Text shibeiinfo;//石碑信息
     private Text shibeiW;//石碑写者
+    private bool yidu;//已读信息
 
     void Start()
     {
-        yindao= GameObject.Find("yindao");
-        shibeiinfo= GameObject.Find("shibeiinfo").GetComponent<Text>();
-        shibeiW= GameObject.Find("writename").GetComponent<Text>();
-        shibeiinfo.text = itemInfo;
-        shibeiW.text = writename;
-        yindao.SetActive(false);
+        
+        yidu = false;//非读状态
+        Destroy(gameObject, 20);
+        startset = GameObject.Find("StartSett");
+        //shibeiinfo = GameObject.Find("shibeiinfo").GetComponent<Text>();
+        //shibeiW = GameObject.Find("writename").GetComponent<Text>();
+        //startset.GetComponent<ClearInventory>().shibeiinfo.text= itemInfo;
+        //startset.GetComponent<ClearInventory>().shibeiW.text = writename;
+        //shibeiinfo.text = itemInfo;
+        //shibeiW.text = writename;
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+        startset.GetComponent<ClearInventory>().shibeiinfo.text = itemInfo;
+        startset.GetComponent<ClearInventory>().shibeiW.text = writename;
+
     }
     private void OnTriggerEnter2D(Collider2D other)//主角碰撞检测
     {
         if (other.gameObject.tag == "Player")//通过标签触碰检测
         {
-            yindao.SetActive(true);
+            if (yidu == false)
+            {
+                ClearInventory start = startset.GetComponent<ClearInventory>();
+                start.shibei.SetActive(true);
+                yidu = true;
+            }
 
         }
     }
