@@ -12,12 +12,14 @@ public class shibei : MonoBehaviour
     private Text shibeiinfo;//石碑信息
     private Text shibeiW;//石碑写者
     private bool yidu;//已读信息
+    private PauseGame Pgame;//暂停游戏功能
 
     void Start()
     {
         
         yidu = false;//非读状态
         Destroy(gameObject, 20);
+        Pgame = GameObject.Find("PasueMenu").GetComponent<PauseGame>();
         startset = GameObject.Find("StartSett");
         //shibeiinfo = GameObject.Find("shibeiinfo").GetComponent<Text>();
         //shibeiW = GameObject.Find("writename").GetComponent<Text>();
@@ -40,6 +42,7 @@ public class shibei : MonoBehaviour
         {
             if (yidu == false)
             {
+                Pgame.Pausegame();//暂停游戏
                 ClearInventory start = startset.GetComponent<ClearInventory>();
                 start.shibei.SetActive(true);
                 yidu = true;

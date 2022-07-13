@@ -89,4 +89,7 @@ public class ClearInventory : MonoBehaviour
     {
         baolv = baolv / xishu;
     }
+
+
+
 }
