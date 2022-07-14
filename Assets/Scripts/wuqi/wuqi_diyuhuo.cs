@@ -9,6 +9,7 @@ public class wuqi_diyuhuo : MonoBehaviour
     public Transform playerP;//玩家位置；
     public float time;//间隔时间
     private float nowtime;//当前的时间
+    public GameObject linshi;//临时存放生成的游戏物体
     void Start()
     {
         nowtime = time;
@@ -19,7 +20,7 @@ public class wuqi_diyuhuo : MonoBehaviour
         nowtime -= Time.deltaTime;
         if (nowtime < 0)
         {
-            Instantiate(diyuhuo, playerP.position, Quaternion.identity);
+            linshi=Instantiate(diyuhuo, playerP.position, Quaternion.identity);
             nowtime = time;
         }
     }

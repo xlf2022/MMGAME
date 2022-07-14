@@ -528,6 +528,7 @@ MonoBehaviour:
   diyuhuo: {fileID: 3274154407483453822, guid: 37c19cc6eb590294b9720be81ce6358c, type: 3}
   playerP: {fileID: 880272840}
   time: 7
+  linshi: {fileID: 0}
 --- !u!114 &31721154
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -543,6 +544,7 @@ MonoBehaviour:
   diyuhuo: {fileID: 3274154407483453822, guid: 5486e2f13594dbb46a3eaa32bfd92979, type: 3}
   playerP: {fileID: 880272840}
   time: 7
+  linshi: {fileID: 0}
 --- !u!114 &31721155
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -558,6 +560,7 @@ MonoBehaviour:
   diyuhuo: {fileID: 3274154407483453822, guid: 97b446ad6b463164ab76b6f39301ee02, type: 3}
   playerP: {fileID: 880272840}
   time: 7
+  linshi: {fileID: 0}
 --- !u!1 &32138721
 GameObject:
   m_ObjectHideFlags: 0
@@ -969,7 +972,6 @@ GameObject:
   - component: {fileID: 56786788}
   - component: {fileID: 56786791}
   - component: {fileID: 56786790}
-  - component: {fileID: 56786789}
   m_Layer: 5
   m_Name: health
   m_TagString: Untagged
@@ -996,22 +998,6 @@ RectTransform:
   m_AnchoredPosition: {x: 153.9, y: -24.2}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &56786789
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 56786787}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bdfad5a635007bc4bbf9c24e4cfe4d38, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  lv1: {fileID: -1596910589239748762, guid: 7c5f6d184f7faeb429d9b5a68370d31f, type: 3}
-  lv2: {fileID: 6888888692887921976, guid: 37c19cc6eb590294b9720be81ce6358c, type: 3}
-  lv3: {fileID: 6795361011924413678, guid: cf0b874b9bd428a4e9a60def48bdde5f, type: 3}
-  mytext: {fileID: 56786790}
 --- !u!114 &56786790
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2953,6 +2939,7 @@ MonoBehaviour:
   diyuhuo: {fileID: 7974194025463824979, guid: fcaa2d46eaab14e4b88ff6fafbcd7666, type: 3}
   playerP: {fileID: 880272840}
   time: 1
+  linshi: {fileID: 0}
 --- !u!4 &149989249
 Transform:
   m_ObjectHideFlags: 0
@@ -2999,6 +2986,7 @@ MonoBehaviour:
   diyuhuo: {fileID: 2676254250232836916, guid: 211d7167cf2c02f48bc8b02e576e38b3, type: 3}
   playerP: {fileID: 880272840}
   time: 0.2
+  linshi: {fileID: 0}
 --- !u!4 &150419831
 Transform:
   m_ObjectHideFlags: 0
@@ -52947,6 +52935,7 @@ MonoBehaviour:
   diyuhuo: {fileID: 7974194025463824979, guid: 29f2b64d1c0b1554caaf27cac1a0bcf4, type: 3}
   playerP: {fileID: 880272840}
   time: 3
+  linshi: {fileID: 0}
 --- !u!4 &487135978
 Transform:
   m_ObjectHideFlags: 0
@@ -62106,6 +62095,7 @@ MonoBehaviour:
   diyuhuo: {fileID: 8011432379180949316, guid: 51776d0ea58f36b4d9c29cb23f6ff306, type: 3}
   playerP: {fileID: 880272840}
   time: 0.2
+  linshi: {fileID: 0}
 --- !u!4 &678489450 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3235100842242592146, guid: 90c0d897b73ccd54caf60964b4f81d0d,
@@ -74187,6 +74177,7 @@ MonoBehaviour:
   diyuhuo: {fileID: 7974194025463824979, guid: d1df27aa650e39c428fde9a343cc4543, type: 3}
   playerP: {fileID: 880272840}
   time: 2
+  linshi: {fileID: 0}
 --- !u!4 &1095172589
 Transform:
   m_ObjectHideFlags: 0
@@ -74326,6 +74317,7 @@ MonoBehaviour:
   diyuhuo: {fileID: 6164343757088829001, guid: 7c5f6d184f7faeb429d9b5a68370d31f, type: 3}
   playerP: {fileID: 880272840}
   time: 8
+  linshi: {fileID: 0}
 --- !u!114 &1106432930
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -74341,6 +74333,7 @@ MonoBehaviour:
   diyuhuo: {fileID: 6164343757088829001, guid: 1428ad2531241bc4395f13e6adee4467, type: 3}
   playerP: {fileID: 880272840}
   time: 8
+  linshi: {fileID: 0}
 --- !u!1 &1112775089
 GameObject:
   m_ObjectHideFlags: 0
@@ -89281,6 +89274,7 @@ MonoBehaviour:
   diyuhuo: {fileID: 8011432379180949316, guid: 5e89f95eed4206741b64b6ac664a7f78, type: 3}
   playerP: {fileID: 880272840}
   time: 0.15
+  linshi: {fileID: 0}
 --- !u!4 &1594676030
 Transform:
   m_ObjectHideFlags: 0
@@ -92145,6 +92139,7 @@ MonoBehaviour:
   diyuhuo: {fileID: 5225812811161683191, guid: 4d292e32e4e4d8247ab0046fdb1e36ad, type: 3}
   playerP: {fileID: 880272840}
   time: 0.15
+  linshi: {fileID: 0}
 --- !u!1 &1759441896
 GameObject:
   m_ObjectHideFlags: 0
@@ -93236,6 +93231,7 @@ MonoBehaviour:
   diyuhuo: {fileID: 8011432379180949316, guid: 85d2171b7cf5a57419f29267be44933f, type: 3}
   playerP: {fileID: 880272840}
   time: 0.1
+  linshi: {fileID: 0}
 --- !u!4 &1815402311
 Transform:
   m_ObjectHideFlags: 0
@@ -93644,6 +93640,7 @@ MonoBehaviour:
   diyuhuo: {fileID: 3603679086523272620, guid: cf0b874b9bd428a4e9a60def48bdde5f, type: 3}
   playerP: {fileID: 880272840}
   time: 6
+  linshi: {fileID: 0}
 --- !u!4 &1884093900
 Transform:
   m_ObjectHideFlags: 0
@@ -93673,6 +93670,7 @@ MonoBehaviour:
   diyuhuo: {fileID: 3603679086523272620, guid: 6278618b0d2f83441871db5b1dc40e41, type: 3}
   playerP: {fileID: 880272840}
   time: 6
+  linshi: {fileID: 0}
 --- !u!114 &1884093902
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -93688,6 +93686,7 @@ MonoBehaviour:
   diyuhuo: {fileID: 3603679086523272620, guid: 514f9c6cfe4b1af40aa22897b6b556f9, type: 3}
   playerP: {fileID: 880272840}
   time: 6
+  linshi: {fileID: 0}
 --- !u!114 &1884093903
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -93703,6 +93702,7 @@ MonoBehaviour:
   diyuhuo: {fileID: 3603679086523272620, guid: ae89ed58f95e12e41a14e574587e744f, type: 3}
   playerP: {fileID: 880272840}
   time: 6
+  linshi: {fileID: 0}
 --- !u!1 &1885247398
 GameObject:
   m_ObjectHideFlags: 0
@@ -95677,12 +95677,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 2018167437}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 918cf5a40f37c3f4b93b7f0268476819, type: 3}
+  m_Script: {fileID: 11500000, guid: 070f1c20bb5c33f499e775bed0dfd73c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  lv1: {fileID: -8199311374758898206, guid: 1428ad2531241bc4395f13e6adee4467, type: 3}
-  lv2: {fileID: 6888888692887921976, guid: 97b446ad6b463164ab76b6f39301ee02, type: 3}
-  lv3: {fileID: 6795361011924413678, guid: ae89ed58f95e12e41a14e574587e744f, type: 3}
+  DD: {fileID: 1106432927}
+  linshi: {fileID: 0}
   mytext: {fileID: 2018167440}
 --- !u!114 &2018167440
 MonoBehaviour:
@@ -96141,6 +96140,7 @@ MonoBehaviour:
   diyuhuo: {fileID: 7069554173877046864, guid: da058d693e9df794486a468d37415252, type: 3}
   playerP: {fileID: 880272840}
   time: 0.18
+  linshi: {fileID: 0}
 --- !u!4 &2060459085
 Transform:
   m_ObjectHideFlags: 0
