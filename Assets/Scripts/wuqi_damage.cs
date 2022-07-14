@@ -15,10 +15,14 @@ public class wuqi_damage : MonoBehaviour
     public float xiue;//吸血数值
     private PlayerHealth playerHealth1;//调用hp函数,跟吸血相关
     public float jianshu;//减速系数
+    public float alldamage;//总伤害数
+    public float allxixue;//总吸血数
     void Start()
     {
         player = GameObject.FindGameObjectWithTag("Player").GetComponent<Transform>();
         playerHealth1 = GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerHealth>();
+        alldamage = 0;
+        allxixue = 0;
     }
 
 
@@ -41,6 +45,7 @@ public class wuqi_damage : MonoBehaviour
               
                 //造成伤害的函数
                 attackDamage = Random.Range(minDamage, maxDamage);
+                alldamage += attackDamage;
                 other.gameObject.GetComponent<Enemy_follow>().TakenDamage(attackDamage);
 
                 //UI显示画布
@@ -54,6 +59,7 @@ public class wuqi_damage : MonoBehaviour
                                                        other.transform.position.y + difference.y* Jituinumber);
 
                 //吸血效果
+                allxixue += xiue;
                 playerHealth1.AddHP(xiue);
 
                 other.gameObject.GetComponent<Enemy_follow>().slowspeed(jianshu);
