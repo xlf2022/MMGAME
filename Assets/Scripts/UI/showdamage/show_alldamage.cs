@@ -6,8 +6,11 @@ using UnityEngine.UI;
 public class show_alldamage : MonoBehaviour
 {
     public wuqi_damage lv1;
+    public float number1;
     public wuqi_damage lv2;
+    public float number2;
     public wuqi_damage lv3;
+    public float number3;
     public Text mytext;
     private int all;
     // Start is called before the first frame update
@@ -19,7 +22,7 @@ public class show_alldamage : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        all = Mathf.RoundToInt(lv1.alldamage + lv2.alldamage + lv3.alldamage);
+        all = Mathf.RoundToInt(lv1.alldamage* number1 + lv2.alldamage* number2 + lv3.alldamage* number3);
         mytext.text = all.ToString();
     }
 }

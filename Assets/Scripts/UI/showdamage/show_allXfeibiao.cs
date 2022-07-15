@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class show_allDfeibiao : MonoBehaviour
+public class show_allXfeibiao : MonoBehaviour
 {
     public wuqi_diyuhuo linshi1;//1级飞镖
     public wuqi_diyuhuo linshi2;//
@@ -30,7 +30,7 @@ public class show_allDfeibiao : MonoBehaviour
     {
         if (linshi1.linshi != null)
         {
-             a1 = linshis+Mathf.RoundToInt(linshi1.linshi.GetComponent<wuqi_damage>().alldamage*2);
+            a1 = linshis + Mathf.RoundToInt(linshi1.linshi.GetComponent<wuqi_damage>().allxixue * 2);
         }
         if (linshi1.linshi == null)
         {
@@ -39,7 +39,7 @@ public class show_allDfeibiao : MonoBehaviour
 
         if (linshi2.linshi != null)
         {
-            a2 = linshis2 + Mathf.RoundToInt(linshi2.linshi.GetComponent<wuqi_damage>().alldamage * 2);
+            a2 = linshis2 + Mathf.RoundToInt(linshi2.linshi.GetComponent<wuqi_damage>().allxixue * 2);
         }
         if (linshi2.linshi == null)
         {
@@ -48,7 +48,7 @@ public class show_allDfeibiao : MonoBehaviour
 
         if (linshi3.linshi != null)
         {
-            a3 = linshis3 + Mathf.RoundToInt(linshi3.linshi.GetComponent<wuqi_damage>().alldamage * 2);
+            a3 = linshis3 + Mathf.RoundToInt(linshi3.linshi.GetComponent<wuqi_damage>().allxixue * 2);
         }
         if (linshi3.linshi == null)
         {
