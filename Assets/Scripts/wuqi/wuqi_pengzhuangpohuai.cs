@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class wuqi_pengzhuangpohuai : MonoBehaviour
 {
+    public float lifeTimer;//显示持续时间的长短
     // Start is called before the first frame update
     void Start()
     {
@@ -20,6 +21,6 @@ public class wuqi_pengzhuangpohuai : MonoBehaviour
     {
         
         if (other.gameObject.tag == "Enemy")//通过标签触碰检测
-        { Destroy(gameObject); }
+        { Destroy(gameObject, lifeTimer); }
      }
 }

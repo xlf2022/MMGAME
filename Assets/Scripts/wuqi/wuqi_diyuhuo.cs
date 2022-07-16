@@ -32,11 +32,14 @@ public class wuqi_diyuhuo : MonoBehaviour
         }
         if (linshi != null)
         {
+         
             if (linshi.GetComponent<wuqi_damage>().alldamage == 0)
             {
+                
                 alllinshi = alldamage;
                 allXlinshi = allxixue;
             }
+          
             alldamage = alllinshi+linshi.GetComponent<wuqi_damage>().alldamage;
             allxixue= allXlinshi + linshi.GetComponent<wuqi_damage>().allxixue;
         }

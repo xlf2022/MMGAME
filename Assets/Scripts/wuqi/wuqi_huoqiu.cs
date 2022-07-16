@@ -12,7 +12,8 @@ public class wuqi_huoqiu : MonoBehaviour
     void Start()
     {
         Ppostion = GameObject.FindGameObjectWithTag("Player").GetComponent<Transform>();
-        
+        Destroy(gameObject,lifeTimer);
+
     }
 
     void Update()

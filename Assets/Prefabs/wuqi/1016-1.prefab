@@ -11,10 +11,10 @@ GameObject:
   - component: {fileID: 8011432379180949319}
   - component: {fileID: 8011432379180949313}
   - component: {fileID: 8011432379180949318}
-  - component: {fileID: 891365237829008599}
   - component: {fileID: 1648591692046906668}
   - component: {fileID: 4926736783938486277}
   - component: {fileID: 6224977091941555213}
+  - component: {fileID: 1531901888121395006}
   m_Layer: 0
   m_Name: 1016-1
   m_TagString: Untagged
@@ -101,18 +101,6 @@ MonoBehaviour:
   Ppostion: {fileID: 0}
   lifeTimer: 2
   nowspeed: 30
---- !u!114 &891365237829008599
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8011432379180949316}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c8dd030fd99d53d4bbd463e84c2fad23, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!50 &1648591692046906668
 Rigidbody2D:
   serializedVersion: 4
@@ -176,6 +164,21 @@ MonoBehaviour:
   maxDamage: 5
   damageCanvas: {fileID: 1653438522851164676, guid: c6aa2a77fb6975f47a90208e5b011eaf,
     type: 3}
-  Jituinumber: 0.2
+  Jituinumber: 0.05
   xiue: 0.01
   jianshu: 1
+  alldamage: 0
+  allxixue: 0
+--- !u!114 &1531901888121395006
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8011432379180949316}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c8dd030fd99d53d4bbd463e84c2fad23, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  lifeTimer: 0.1
