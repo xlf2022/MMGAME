@@ -13,6 +13,7 @@ public class daoju : MonoBehaviour
     public Inventory MyLV1bag;//1级背包库
     public GameObject fullshow1;//道具满了提示
     private GameObject setposition;//道具满了出现位置，以开始设定为主
+    public AudioSource Mysource;
 
     void Start()
     {
@@ -20,6 +21,7 @@ public class daoju : MonoBehaviour
         image.sprite = thisitem.itemImage;
         my1bagcontrol = GameObject.Find("Mybag").GetComponent<M1Inventory>();
         setposition = GameObject.Find("fullshowweizhi");
+        Mysource = GameObject.Find("itemget").GetComponent<AudioSource>();
 
     }
 
@@ -35,6 +37,7 @@ public class daoju : MonoBehaviour
         {
             if (MyLV1bag.itemList.Count <= 9)
             {
+                Mysource.Play();
                 MyLV1bag.itemList.Add(thisitem);
                 my1bagcontrol.freshM1bag();//刷新1级背包显示
 

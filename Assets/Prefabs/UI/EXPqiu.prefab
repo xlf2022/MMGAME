@@ -135,5 +135,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   moveSpeed: 12
   fanwei: 6
-  EXP: 100
+  EXP: 1000
   PEXP: {fileID: 0}
+  Mysource: {fileID: 0}

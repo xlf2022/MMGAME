@@ -24,7 +24,8 @@ public class fullshow : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        if (Input.GetMouseButtonDown(0))
+        { Destroy(gameObject); }
         transform.position += new Vector3(0, UpSpeed * Time.deltaTime, 0);//向上移动
     }
 

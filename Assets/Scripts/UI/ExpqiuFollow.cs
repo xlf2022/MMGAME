@@ -12,11 +12,15 @@ public class ExpqiuFollow : MonoBehaviour
 
     public PlayerExp PEXP;
 
+    public AudioSource Mysource;
+
 
     void Start()
     {
         PEXP = GameObject.FindGameObjectWithTag("EXP").GetComponent<PlayerExp>();
         target = GameObject.FindGameObjectWithTag("Player").GetComponent<Transform>();
+        Mysource= GameObject.Find("expget").GetComponent<AudioSource>();
+        
     }
 
     // Update is called once per frame
@@ -40,6 +44,7 @@ public class ExpqiuFollow : MonoBehaviour
     {
         if (other.gameObject.tag == "Player")//通过标签触碰检测
         {
+            Mysource.Play();
             Destroy(gameObject);
             PEXP.takenExp(EXP);
            
