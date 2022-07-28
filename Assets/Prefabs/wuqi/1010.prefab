@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 6164343757088829002}
   - component: {fileID: 6164343757088829003}
   - component: {fileID: -1596910589239748762}
+  - component: {fileID: -7928027229880169849}
   m_Layer: 0
   m_Name: 1010
   m_TagString: Untagged
@@ -171,3 +172,19 @@ MonoBehaviour:
   Jituinumber: 0.1
   xiue: 0.1
   jianshu: 1
+  alldamage: 0
+  allxixue: 0
+--- !u!114 &-7928027229880169849
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6164343757088829001}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6824b7b0124f0604b922449f5875ee05, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Mysource: {fileID: 0}
+  wuqiname: 1010music
