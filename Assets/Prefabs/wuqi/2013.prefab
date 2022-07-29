@@ -168,6 +168,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   anim: {fileID: 9171314936494773517}
+  Mysource: {fileID: 0}
+  wuqiname: 2013music
 --- !u!114 &9171314936494773511
 MonoBehaviour:
   m_ObjectHideFlags: 0

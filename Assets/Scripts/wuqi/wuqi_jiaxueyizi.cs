@@ -9,6 +9,7 @@ public class wuqi_jiaxueyizi : MonoBehaviour
     private int kaiguan;//加血开关
     private float moveH, moveV;//移动参数
     public GameObject texiao;//椅子特效
+    public AudioSource Mysource;//椅子音效
 
     public PlayerHealth PlayerHealth;//调用加血函数
     // Start is called before the first frame update
@@ -33,6 +34,7 @@ public class wuqi_jiaxueyizi : MonoBehaviour
         {
             if (kaiguan == 0)
             { PlayerHealth.AddHP(addxue);
+                
                 Debug.Log("正在加血");
                 texiao.SetActive(true);
             }
@@ -44,5 +46,6 @@ public class wuqi_jiaxueyizi : MonoBehaviour
     {
         yield return new WaitForSeconds(shijian);
         kaiguan = 0;
+        Mysource.Play();
     }
 }

@@ -18,6 +18,7 @@ public class PlayerExp : MonoBehaviour
     public M1Inventory M1Inventory;//1级背包，内含：添加，刷新函数
 
     public PauseGame Pgame;//暂停游戏功能
+    public AudioSource Mysource;//升级音效
 
     private Image Expbar;
     // Start is called before the first frame update
@@ -43,6 +44,7 @@ public class PlayerExp : MonoBehaviour
         if (Expnow >= Expmax)
         {
             Expnow = Expnow- Expmax;
+            Mysource.Play();//播放升级音效
             LVnumber++;
             Expmax += UPNO;
 
