@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 2676254250232836920}
   - component: {fileID: 4547637857334345495}
   - component: {fileID: 5777659957803696331}
+  - component: {fileID: 6653058737822968731}
   - component: {fileID: 7120222452156678486}
   m_Layer: 0
   m_Name: "3009\u20141 "
@@ -165,6 +166,20 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 2.046875, y: 2.109375}
   m_EdgeRadius: 0
+--- !u!114 &6653058737822968731
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2676254250232836916}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6824b7b0124f0604b922449f5875ee05, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Mysource: {fileID: 0}
+  wuqiname: 3009music
 --- !u!114 &7120222452156678486
 MonoBehaviour:
   m_ObjectHideFlags: 0

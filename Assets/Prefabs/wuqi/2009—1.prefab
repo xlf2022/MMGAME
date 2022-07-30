@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 7069554173877046876}
   - component: {fileID: 8656931779906339443}
   - component: {fileID: 1662305458170428847}
+  - component: {fileID: 2747329732353716392}
   - component: {fileID: 2733669062857784370}
   m_Layer: 0
   m_Name: "2009\u20141"
@@ -165,6 +166,20 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 2.046875, y: 2.109375}
   m_EdgeRadius: 0
+--- !u!114 &2747329732353716392
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7069554173877046864}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6824b7b0124f0604b922449f5875ee05, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Mysource: {fileID: 0}
+  wuqiname: 2009music
 --- !u!114 &2733669062857784370
 MonoBehaviour:
   m_ObjectHideFlags: 0
