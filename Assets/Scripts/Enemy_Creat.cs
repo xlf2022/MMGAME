@@ -55,6 +55,50 @@ public class Enemy_Creat : MonoBehaviour
     public float createtime12;
     public float freshtime12;
 
+    public GameObject enemy14;//650
+    public float createtime14;
+    public float freshtime14;
+
+    public GameObject enemy15;//700
+    public float createtime15;
+    public float freshtime15;
+
+    public GameObject enemy16;//750
+    public float createtime16;
+    public float freshtime16;
+
+    public GameObject enemy17;//800
+    public float createtime17;
+    public float freshtime17;
+
+    public GameObject enemy18;//850
+    public float createtime18;
+    public float freshtime18;
+
+    public GameObject enemy19;//900
+    public float createtime19;
+    public float freshtime19;
+
+    public GameObject enemy20;//950
+    public float createtime20;
+    public float freshtime20;
+
+    public GameObject enemy21;//1000
+    public float createtime21;
+    public float freshtime21;
+
+    public GameObject enemy22;//1050
+    public float createtime22;
+    public float freshtime22;
+
+    public GameObject enemy24;//1100
+    public float createtime24;
+    public float freshtime24;
+
+    public GameObject enemy25;//1200
+    public float createtime25;
+    public float freshtime25;
+
 
     private bool iscreate1;//判定是否生成
     private Vector2 pos;
@@ -79,6 +123,18 @@ public class Enemy_Creat : MonoBehaviour
         FreshEnemy(createtime10, enemy10, freshtime10);
         FreshEnemy(createtime11, enemy11, freshtime11);
         FreshEnemy(createtime12, enemy12, freshtime12);
+        FreshEnemy(createtime14, enemy14, freshtime14);
+        FreshEnemy(createtime15, enemy15, freshtime15);
+        FreshEnemy(createtime16, enemy16, freshtime16);
+        FreshEnemy(createtime17, enemy17, freshtime17);
+        FreshEnemy(createtime18, enemy18, freshtime18);
+        FreshEnemy(createtime19, enemy19, freshtime19);
+        FreshEnemy(createtime20, enemy20, freshtime20);
+        FreshEnemy(createtime21, enemy21, freshtime21);
+        FreshEnemy(createtime22, enemy22, freshtime22);
+        FreshEnemy(createtime24, enemy24, freshtime24);
+        FreshEnemy(createtime25, enemy25, freshtime25);
+
     }
 
     public void FreshEnemy(float Createtime, GameObject Enemy, float Freshtime)

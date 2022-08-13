@@ -177,7 +177,7 @@ MonoBehaviour:
   maxDamage: 20
   damageCanvas: {fileID: 1653438522851164676, guid: c6aa2a77fb6975f47a90208e5b011eaf,
     type: 3}
-  Jituinumber: 0.1
+  Jituinumber: 0.4
   xiue: 0.2
   jianshu: 1
   alldamage: 0
