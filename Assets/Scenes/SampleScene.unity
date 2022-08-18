@@ -174,7 +174,7 @@ MonoBehaviour:
   damageCanvas: {fileID: 1653438522851164676, guid: c6aa2a77fb6975f47a90208e5b011eaf,
     type: 3}
   Jituinumber: 0
-  xiue: 4
+  xiue: 2
   jianshu: 1
   alldamage: 0
   allxixue: 0
@@ -7986,7 +7986,7 @@ MonoBehaviour:
   damageCanvas: {fileID: 1653438522851164676, guid: c6aa2a77fb6975f47a90208e5b011eaf,
     type: 3}
   Jituinumber: 0
-  xiue: 4
+  xiue: 2
   jianshu: 1
   alldamage: 0
   allxixue: 0
@@ -8418,7 +8418,7 @@ MonoBehaviour:
   damageCanvas: {fileID: 1653438522851164676, guid: c6aa2a77fb6975f47a90208e5b011eaf,
     type: 3}
   Jituinumber: 0
-  xiue: 4
+  xiue: 2
   jianshu: 1
   alldamage: 0
   allxixue: 0
@@ -9515,7 +9515,7 @@ MonoBehaviour:
   damageCanvas: {fileID: 1653438522851164676, guid: c6aa2a77fb6975f47a90208e5b011eaf,
     type: 3}
   Jituinumber: 0.5
-  xiue: 16
+  xiue: 10
   jianshu: 0
   alldamage: 0
   allxixue: 0
@@ -13087,7 +13087,7 @@ MonoBehaviour:
   damageCanvas: {fileID: 1653438522851164676, guid: c6aa2a77fb6975f47a90208e5b011eaf,
     type: 3}
   Jituinumber: 0.7
-  xiue: 8
+  xiue: 6
   jianshu: 1
   alldamage: 0
   allxixue: 0
@@ -13291,7 +13291,7 @@ MonoBehaviour:
   damageCanvas: {fileID: 1653438522851164676, guid: c6aa2a77fb6975f47a90208e5b011eaf,
     type: 3}
   Jituinumber: 0
-  xiue: 4
+  xiue: 2
   jianshu: 1
   alldamage: 0
   allxixue: 0
@@ -54619,7 +54619,7 @@ MonoBehaviour:
   damageCanvas: {fileID: 1653438522851164676, guid: c6aa2a77fb6975f47a90208e5b011eaf,
     type: 3}
   Jituinumber: 4.5
-  xiue: 40
+  xiue: 14
   jianshu: 1
   alldamage: 0
   allxixue: 0
@@ -58884,7 +58884,7 @@ MonoBehaviour:
   damageCanvas: {fileID: 1653438522851164676, guid: c6aa2a77fb6975f47a90208e5b011eaf,
     type: 3}
   Jituinumber: 0.5
-  xiue: 16
+  xiue: 10
   jianshu: 0
   alldamage: 0
   allxixue: 0
@@ -62825,7 +62825,7 @@ MonoBehaviour:
   damageCanvas: {fileID: 1653438522851164676, guid: c6aa2a77fb6975f47a90208e5b011eaf,
     type: 3}
   Jituinumber: 4
-  xiue: 10
+  xiue: 7
   jianshu: 1
   alldamage: 0
   allxixue: 0
@@ -65193,7 +65193,7 @@ MonoBehaviour:
   damageCanvas: {fileID: 1653438522851164676, guid: c6aa2a77fb6975f47a90208e5b011eaf,
     type: 3}
   Jituinumber: 0.5
-  xiue: 16
+  xiue: 10
   jianshu: 0
   alldamage: 0
   allxixue: 0
@@ -68377,7 +68377,7 @@ MonoBehaviour:
   damageCanvas: {fileID: 1653438522851164676, guid: c6aa2a77fb6975f47a90208e5b011eaf,
     type: 3}
   Jituinumber: 0.5
-  xiue: 16
+  xiue: 10
   jianshu: 0
   alldamage: 0
   allxixue: 0
@@ -69477,6 +69477,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -6157586703825722808, guid: da3dfad8f08bc294abcd2181253ccea3,
         type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.9999999
+      objectReference: {fileID: 0}
+    - target: {fileID: -6157586703825722808, guid: da3dfad8f08bc294abcd2181253ccea3,
+        type: 3}
       propertyPath: m_LocalPosition.x
       value: 1.226289
       objectReference: {fileID: 0}
@@ -69984,6 +69989,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Layer
       value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: -450966811176590373, guid: da3dfad8f08bc294abcd2181253ccea3,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.9999999
       objectReference: {fileID: 0}
     - target: {fileID: -450966811176590373, guid: da3dfad8f08bc294abcd2181253ccea3,
         type: 3}
@@ -70504,6 +70514,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Layer
       value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5731256428619181176, guid: da3dfad8f08bc294abcd2181253ccea3,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.9999999
+      objectReference: {fileID: 0}
+    - target: {fileID: 5731256428619181176, guid: da3dfad8f08bc294abcd2181253ccea3,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.9999999
       objectReference: {fileID: 0}
     - target: {fileID: 5731256428619181176, guid: da3dfad8f08bc294abcd2181253ccea3,
         type: 3}
@@ -71571,7 +71591,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.12848377, y: -0.04831958}
+  m_Offset: {x: -0.16435665, y: 0.041362286}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -71582,7 +71602,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.7960117, y: 0.9373884}
+  m_Size: {x: 0.8318846, y: 1.2602439}
   m_EdgeRadius: 0
 --- !u!50 &880272842
 Rigidbody2D:
@@ -85717,7 +85737,7 @@ MonoBehaviour:
   damageCanvas: {fileID: 1653438522851164676, guid: c6aa2a77fb6975f47a90208e5b011eaf,
     type: 3}
   Jituinumber: 5
-  xiue: 300
+  xiue: 30
   jianshu: 1
   alldamage: 0
   allxixue: 0
@@ -87901,7 +87921,7 @@ MonoBehaviour:
   damageCanvas: {fileID: 1653438522851164676, guid: c6aa2a77fb6975f47a90208e5b011eaf,
     type: 3}
   Jituinumber: 0.5
-  xiue: 16
+  xiue: 10
   jianshu: 0
   alldamage: 0
   allxixue: 0
@@ -90263,7 +90283,7 @@ MonoBehaviour:
   damageCanvas: {fileID: 1653438522851164676, guid: c6aa2a77fb6975f47a90208e5b011eaf,
     type: 3}
   Jituinumber: 0.5
-  xiue: 16
+  xiue: 10
   jianshu: 0
   alldamage: 0
   allxixue: 0
@@ -90528,7 +90548,7 @@ MonoBehaviour:
   damageCanvas: {fileID: 1653438522851164676, guid: c6aa2a77fb6975f47a90208e5b011eaf,
     type: 3}
   Jituinumber: 0.5
-  xiue: 16
+  xiue: 10
   jianshu: 0
   alldamage: 0
   allxixue: 0
@@ -91408,6 +91428,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1527354860}
+  - component: {fileID: 1527354861}
   m_Layer: 0
   m_Name: nvshen
   m_TagString: Untagged
@@ -91430,6 +91451,21 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1527354861
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1527354859}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 98c419087e2922f43a7cef774c745927, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  damageshow: {fileID: 1713609952}
+  nvshen: {fileID: 1553211587}
+  kaiguan: 0
 --- !u!1 &1529341723
 GameObject:
   m_ObjectHideFlags: 0
@@ -96171,7 +96207,7 @@ MonoBehaviour:
   damageCanvas: {fileID: 1653438522851164676, guid: c6aa2a77fb6975f47a90208e5b011eaf,
     type: 3}
   Jituinumber: 0.5
-  xiue: 16
+  xiue: 10
   jianshu: 0
   alldamage: 0
   allxixue: 0
@@ -97169,7 +97205,7 @@ MonoBehaviour:
   damageCanvas: {fileID: 1653438522851164676, guid: c6aa2a77fb6975f47a90208e5b011eaf,
     type: 3}
   Jituinumber: 0.2
-  xiue: 14
+  xiue: 10
   jianshu: 1
   alldamage: 0
   allxixue: 0
@@ -97445,6 +97481,80 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1761111935}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1676662265
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1676662266}
+  - component: {fileID: 1676662268}
+  - component: {fileID: 1676662267}
+  m_Layer: 5
+  m_Name: LoveBar
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1676662266
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1676662265}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 3.597239, y: 0.36248, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1701798058}
+  m_RootOrder: 17
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 724, y: -481}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1676662267
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1676662265}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 39e04813e6f1a104ba8e178ba74e0314, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1676662268
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1676662265}
+  m_CullTransparentMesh: 0
 --- !u!1 &1677069901 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8998020705128571155, guid: 65260811006b1ad4da1821f97491fb0f,
@@ -97768,6 +97878,8 @@ RectTransform:
   - {fileID: 1510373539}
   - {fileID: 663142416}
   - {fileID: 1713609953}
+  - {fileID: 1676662266}
+  - {fileID: 1922547783}
   m_Father: {fileID: 0}
   m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -98017,7 +98129,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 695, y: -128}
+  m_AnchoredPosition: {x: 695, y: -34}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &1713609954
@@ -100490,7 +100602,7 @@ MonoBehaviour:
   damageCanvas: {fileID: 1653438522851164676, guid: c6aa2a77fb6975f47a90208e5b011eaf,
     type: 3}
   Jituinumber: 0.7
-  xiue: 8
+  xiue: 6
   jianshu: 1
   alldamage: 0
   allxixue: 0
@@ -101002,6 +101114,80 @@ CanvasRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1915312208}
+  m_CullTransparentMesh: 0
+--- !u!1 &1922547782
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1922547783}
+  - component: {fileID: 1922547785}
+  - component: {fileID: 1922547784}
+  m_Layer: 5
+  m_Name: LoveZhi
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1922547783
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1922547782}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 3.597239, y: 0.3044322, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1701798058}
+  m_RootOrder: 18
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 724.5, y: -480.7}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1922547784
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1922547782}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 0.3726415, b: 0.8908948, a: 1}
+  m_RaycastTarget: 1
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 1d0a3794f24ba5f48b44f4eed5c94606, type: 3}
+  m_Type: 3
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 0
+  m_FillAmount: 0.5
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1922547785
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1922547782}
   m_CullTransparentMesh: 0
 --- !u!1 &1928638097
 GameObject:
@@ -103659,7 +103845,7 @@ MonoBehaviour:
   damageCanvas: {fileID: 1653438522851164676, guid: c6aa2a77fb6975f47a90208e5b011eaf,
     type: 3}
   Jituinumber: 0.7
-  xiue: 8
+  xiue: 6
   jianshu: 1
   alldamage: 0
   allxixue: 0
@@ -104888,7 +105074,7 @@ MonoBehaviour:
   damageCanvas: {fileID: 1653438522851164676, guid: c6aa2a77fb6975f47a90208e5b011eaf,
     type: 3}
   Jituinumber: 0
-  xiue: 4
+  xiue: 2
   jianshu: 1
   alldamage: 0
   allxixue: 0
@@ -111960,7 +112146,7 @@ PrefabInstance:
     - target: {fileID: 8998020705128571150, guid: 65260811006b1ad4da1821f97491fb0f,
         type: 3}
       propertyPath: xiue
-      value: 16
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 8998020705128571150, guid: 65260811006b1ad4da1821f97491fb0f,
         type: 3}
