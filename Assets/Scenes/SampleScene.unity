@@ -54693,7 +54693,7 @@ MonoBehaviour:
   damageCanvas: {fileID: 1653438522851164676, guid: c6aa2a77fb6975f47a90208e5b011eaf,
     type: 3}
   Jituinumber: 4.5
-  xiue: 14
+  xiue: 12
   jianshu: 1
   alldamage: 0
   allxixue: 0
@@ -58783,12 +58783,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 514892601}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.099549, y: -9.9, z: 58.0407}
+  m_LocalPosition: {x: 1.099549, y: -9.95, z: 58.0407}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1553211590}
   m_Father: {fileID: 1527354860}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &514892603
 MonoBehaviour:
@@ -62944,7 +62944,7 @@ MonoBehaviour:
   damageCanvas: {fileID: 1653438522851164676, guid: c6aa2a77fb6975f47a90208e5b011eaf,
     type: 3}
   Jituinumber: 4
-  xiue: 7
+  xiue: 5
   jianshu: 1
   alldamage: 0
   allxixue: 0
@@ -71458,7 +71458,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bb86d9f99bfd10b43aa372f1d4d36870, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  addxue: 0.1
+  addxue: 0.08
   shijian: 5
   texiao: {fileID: 1970584391}
   Mysource: {fileID: 305877178}
@@ -84158,7 +84158,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bb86d9f99bfd10b43aa372f1d4d36870, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  addxue: 0.06
+  addxue: 0.04
   shijian: 5
   texiao: {fileID: 1529563997}
   Mysource: {fileID: 305877178}
@@ -85075,7 +85075,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bb86d9f99bfd10b43aa372f1d4d36870, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  addxue: 0.03
+  addxue: 0.02
   shijian: 5
   texiao: {fileID: 1931545013}
   Mysource: {fileID: 305877178}
@@ -91605,6 +91605,7 @@ Transform:
   m_LocalPosition: {x: 11.300475, y: 0.90543747, z: -58.040703}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
+  - {fileID: 2109930588}
   - {fileID: 514892602}
   m_Father: {fileID: 0}
   m_RootOrder: 16
@@ -105239,6 +105240,50 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Mysource: {fileID: 2082573817}
+--- !u!1 &2109930587
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2109930588}
+  - component: {fileID: 2109930589}
+  m_Layer: 0
+  m_Name: GetInto
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2109930588
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2109930587}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1527354860}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2109930589
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2109930587}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c74d24c7d1fffa47b45f640a1fbc68d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  linshiitem: {fileID: 0}
 --- !u!1 &2111655124
 GameObject:
   m_ObjectHideFlags: 0

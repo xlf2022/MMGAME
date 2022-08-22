@@ -143,8 +143,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 01def33df0f1d4544b12d1c0515f3d46, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  minDamage: 70
-  maxDamage: 80
+  minDamage: 90
+  maxDamage: 100
   attackDamage: 0
 --- !u!114 &6421518699586823539
 MonoBehaviour:
