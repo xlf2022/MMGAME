@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5bf7c34a0dc4e6348bea04faa70406ee, type: 3}
+  m_Name: tutuhuanzhuang
+  m_EditorClassIdentifier: 
+  m_Labels:
+  - m_Name: L_naizi
+    m_Hash: -532702412
+    m_CategoryList:
+    - m_Name: HZ1
+      m_Hash: -1874677618
+      m_Sprite: {fileID: 4945864033684368124, guid: da3dfad8f08bc294abcd2181253ccea3,
+        type: 3}
+    - m_Name: HZ2
+      m_Hash: 155967796
+      m_Sprite: {fileID: 4695812847623747583, guid: b6073c543a7657e4280d069e2d6da1ac,
+        type: 3}
+  - m_Name: R_naizi
+    m_Hash: -673284953
+    m_CategoryList:
+    - m_Name: HZ1
+      m_Hash: -1874677618
+      m_Sprite: {fileID: 6042907762974045446, guid: da3dfad8f08bc294abcd2181253ccea3,
+        type: 3}
+    - m_Name: HZ2
+      m_Hash: 155967796
+      m_Sprite: {fileID: 7911136634622518552, guid: b6073c543a7657e4280d069e2d6da1ac,
+        type: 3}
+  - m_Name: body
+    m_Hash: -609743950
+    m_CategoryList:
+    - m_Name: HZ1
+      m_Hash: -1874677618
+      m_Sprite: {fileID: -7228001423842733505, guid: da3dfad8f08bc294abcd2181253ccea3,
+        type: 3}
+    - m_Name: HZ2
+      m_Hash: 155967796
+      m_Sprite: {fileID: 7318920943005043991, guid: b6073c543a7657e4280d069e2d6da1ac,
+        type: 3}
+  - m_Name: pigu
+    m_Hash: 128907260
+    m_CategoryList:
+    - m_Name: HZ1
+      m_Hash: -1874677618
+      m_Sprite: {fileID: -7688651248549993800, guid: da3dfad8f08bc294abcd2181253ccea3,
+        type: 3}
+    - m_Name: HZ2
+      m_Hash: 155967796
+      m_Sprite: {fileID: -3507150795611942093, guid: b6073c543a7657e4280d069e2d6da1ac,
+        type: 3}
