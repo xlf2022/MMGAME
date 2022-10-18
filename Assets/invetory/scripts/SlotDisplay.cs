@@ -24,7 +24,7 @@ public class SlotDisplay : MonoBehaviour
     public GameObject fullshow1;//道具满了提示
     private GameObject setposition;//道具满了出现位置，以开始设定为主
 
-  //  public Getitem getitem;//鼠标点击获得道具的时候，得到item数据用于改变女主动画
+    public Getitem getitem;//鼠标点击获得道具的时候，得到item数据用于改变女主动画
 
     public void Start()
     {
@@ -32,7 +32,7 @@ public class SlotDisplay : MonoBehaviour
         setposition = GameObject.Find("fullshowweizhi");
         mylv1ga= GameObject.Find("Mybag").GetComponent<M1Inventory>();
         Pgame = GameObject.Find("PasueMenu").GetComponent<PauseGame>();
-      //  getitem= GameObject.Find("GetItem").GetComponent<Getitem>();
+        getitem= GameObject.Find("GetItem").GetComponent<Getitem>();
     }
     public void Update()
     {
@@ -46,7 +46,7 @@ public class SlotDisplay : MonoBehaviour
         if (MyLV1bag.itemList.Count <= 9)
         { MyLV1bag.itemList.Add(slotItem);
             SY1bag.itemList.Remove(slotItem);
-           // getitem.thisitem = slotItem;//女神得到数据
+            getitem.thisitem = slotItem;//女神得到数据
             mylv1ga.freshM1bag();//刷新1级背包显示
             Sybag.SetActive(false);
             Pgame.Resumegame();//恢复游戏
