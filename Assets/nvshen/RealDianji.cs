@@ -14,13 +14,11 @@ public class RealDianji : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        RaycastHit2D hit = Physics2D.Raycast(Camera.main.ScreenToWorldPoint(Input.mousePosition), Vector2.zero);
-        if (hit.collider != null)
+    
+    }
 
-        {
-
-            anmia.SetBool("dianji", true);
-
-        }
+    private void OnMouseDown()
+    {
+        anmia.SetBool("dianji", true);
     }
 }
