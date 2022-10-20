@@ -63418,7 +63418,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_CategoryHash: -8.820997e+26
-  m_labelHash: 15932412
+  m_labelHash: -1.0414858e+13
 --- !u!1 &633453430
 GameObject:
   m_ObjectHideFlags: 0
@@ -89764,7 +89764,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_CategoryHash: -3.2166124e+13
-  m_labelHash: 1.8337223e+18
+  m_labelHash: -2.8855899e+31
 --- !u!1 &1529341723
 GameObject:
   m_ObjectHideFlags: 0
@@ -96510,6 +96510,18 @@ MonoBehaviour:
   tutuhate: {fileID: 11400000, guid: 98482e1f2e5ee5841be18c012e2c7732, type: 2}
   jian: -15
   anmia: {fileID: 1007056748}
+  LXiong: {fileID: 625042632}
+  LXnumber: 4
+  RXiong: {fileID: 1528618877}
+  RXnumber: 4
+  Qipao: {fileID: 1985090446}
+  Qipaonumber: 3
+  Rhand: {fileID: 1515483060}
+  Rhandnumber: 4
+  Shangbanshen: {fileID: 1610416641}
+  Shangbanshennumber: 4
+  Shenti: {fileID: 723409642}
+  Shentinumber: 2
 --- !u!1 &1722113466
 GameObject:
   m_ObjectHideFlags: 0
@@ -100818,7 +100830,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_CategoryHash: 172677.75
-  m_labelHash: -6.8705165e-25
+  m_labelHash: 8.1455314e+27
 --- !u!1 &1986193706
 GameObject:
   m_ObjectHideFlags: 0
@@ -111627,7 +111639,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 2569726874186579162, guid: 36d8d37c77ad23d43a338b6051e29397,
+      objectReference: {fileID: -5291032518163400101, guid: 05f460a21e6dcf646b6ab1039f7acb56,
         type: 3}
     - target: {fileID: 2870589614927090311, guid: de6378aeb71a97a40baa0028f5b22153,
         type: 3}
@@ -111768,7 +111780,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 2183498985779830484, guid: 36d8d37c77ad23d43a338b6051e29397,
+      objectReference: {fileID: 1127367286206523161, guid: 05f460a21e6dcf646b6ab1039f7acb56,
         type: 3}
     - target: {fileID: 3372376111082926801, guid: de6378aeb71a97a40baa0028f5b22153,
         type: 3}
@@ -112190,7 +112202,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 6469194223185817351, guid: 36d8d37c77ad23d43a338b6051e29397,
+      objectReference: {fileID: -2704101035470621360, guid: 05f460a21e6dcf646b6ab1039f7acb56,
         type: 3}
     - target: {fileID: 6335396541958530784, guid: de6378aeb71a97a40baa0028f5b22153,
         type: 3}

@@ -16,102 +16,102 @@ MonoBehaviour:
   - m_Name: RXiong
     m_Hash: -706082285
     m_CategoryList:
-    - m_Name: RX4
-      m_Hash: -1011941339
+    - m_Name: 4
+      m_Hash: -206169288
       m_Sprite: {fileID: 1127367286206523161, guid: 05f460a21e6dcf646b6ab1039f7acb56,
         type: 3}
-    - m_Name: RX3
-      m_Hash: 1573623174
+    - m_Name: 3
+      m_Hash: 1842515611
       m_Sprite: {fileID: 2183498985779830484, guid: 36d8d37c77ad23d43a338b6051e29397,
         type: 3}
-    - m_Name: RX2
-      m_Hash: 718054672
+    - m_Name: 2
+      m_Hash: 450215437
       m_Sprite: {fileID: -5799264620807263158, guid: 68369f26520edb84c9d9495e7dd80747,
         type: 3}
-    - m_Name: RX1
-      m_Hash: -1278872406
+    - m_Name: 1
+      m_Hash: -2082672713
       m_Sprite: {fileID: -8412931612591181579, guid: 201764c3661eda34fbcf859ae8c3375b,
         type: 3}
   - m_Name: LXiong
     m_Hash: -331978248
     m_CategoryList:
-    - m_Name: LX4
-      m_Hash: -719876513
+    - m_Name: 4
+      m_Hash: -206169288
       m_Sprite: {fileID: -5291032518163400101, guid: 05f460a21e6dcf646b6ab1039f7acb56,
         type: 3}
-    - m_Name: LX3
-      m_Hash: 1265835004
+    - m_Name: 3
+      m_Hash: 1842515611
       m_Sprite: {fileID: 2569726874186579162, guid: 36d8d37c77ad23d43a338b6051e29397,
         type: 3}
-    - m_Name: LX2
-      m_Hash: 1014246250
+    - m_Name: 2
+      m_Hash: 450215437
       m_Sprite: {fileID: -2217374084522643194, guid: 68369f26520edb84c9d9495e7dd80747,
         type: 3}
-    - m_Name: LX1
-      m_Hash: -1518503216
+    - m_Name: 1
+      m_Hash: -2082672713
       m_Sprite: {fileID: -173678668421081207, guid: 201764c3661eda34fbcf859ae8c3375b,
         type: 3}
   - m_Name: QiPao
     m_Hash: 1210622320
     m_CategoryList:
-    - m_Name: QP4
-      m_Hash: 154154100
+    - m_Name: 3
+      m_Hash: 1842515611
       m_Sprite: {fileID: -2704101035470621360, guid: 05f460a21e6dcf646b6ab1039f7acb56,
         type: 3}
-    - m_Name: QP3
-      m_Hash: -1756061225
+    - m_Name: 2
+      m_Hash: 450215437
       m_Sprite: {fileID: 6469194223185817351, guid: 36d8d37c77ad23d43a338b6051e29397,
         type: 3}
-    - m_Name: QP2
-      m_Hash: -531394239
+    - m_Name: 1
+      m_Hash: -2082672713
       m_Sprite: {fileID: -4993649786749473533, guid: 201764c3661eda34fbcf859ae8c3375b,
         type: 3}
   - m_Name: RHand
     m_Hash: 585455899
     m_CategoryList:
-    - m_Name: RH4
-      m_Hash: -1989340556
+    - m_Name: 4
+      m_Hash: -206169288
       m_Sprite: {fileID: -793355870858756373, guid: 05f460a21e6dcf646b6ab1039f7acb56,
         type: 3}
-    - m_Name: RH3
-      m_Hash: 386500567
+    - m_Name: 3
+      m_Hash: 1842515611
       m_Sprite: {fileID: -9212030278089870781, guid: 36d8d37c77ad23d43a338b6051e29397,
         type: 3}
-    - m_Name: RH2
-      m_Hash: 1611577153
+    - m_Name: 2
+      m_Hash: 450215437
       m_Sprite: {fileID: 6925157662242854030, guid: 68369f26520edb84c9d9495e7dd80747,
         type: 3}
-    - m_Name: RH1
-      m_Hash: -116922629
+    - m_Name: 1
+      m_Hash: -2082672713
       m_Sprite: {fileID: -2141084460218868913, guid: 201764c3661eda34fbcf859ae8c3375b,
         type: 3}
   - m_Name: ShangBanShen
     m_Hash: -1320206882
     m_CategoryList:
-    - m_Name: SBS4
-      m_Hash: 1002495196
+    - m_Name: 4
+      m_Hash: -206169288
       m_Sprite: {fileID: -6696901087645335141, guid: 05f460a21e6dcf646b6ab1039f7acb56,
         type: 3}
-    - m_Name: SBS3
-      m_Hash: -1515959937
+    - m_Name: 3
+      m_Hash: 1842515611
       m_Sprite: {fileID: -4518877797700931649, guid: 36d8d37c77ad23d43a338b6051e29397,
         type: 3}
-    - m_Name: SBS2
-      m_Hash: -761038359
+    - m_Name: 2
+      m_Hash: 450215437
       m_Sprite: {fileID: 4424369555763456612, guid: 68369f26520edb84c9d9495e7dd80747,
         type: 3}
-    - m_Name: SBS1
-      m_Hash: 1269442643
+    - m_Name: 1
+      m_Hash: -2082672713
       m_Sprite: {fileID: -5009423723336753550, guid: 201764c3661eda34fbcf859ae8c3375b,
         type: 3}
   - m_Name: Shenti
     m_Hash: -1558813853
     m_CategoryList:
-    - m_Name: ST4
-      m_Hash: 1859659038
+    - m_Name: 2
+      m_Hash: 450215437
       m_Sprite: {fileID: 4612016915992068703, guid: 05f460a21e6dcf646b6ab1039f7acb56,
         type: 3}
-    - m_Name: ST3
-      m_Hash: -256069443
+    - m_Name: 1
+      m_Hash: -2082672713
       m_Sprite: {fileID: 6461040521851702491, guid: 201764c3661eda34fbcf859ae8c3375b,
         type: 3}
