@@ -49,9 +49,16 @@ public class Haoganjianding : MonoBehaviour
 
     private int allnumber;//装备总数
 
+    public Animator dao;//动画特效刀
+
+    public Animator aixin;//动画爱心
+
+    public music_bofan bofan;//同文件下音源文件
+
     public void Start()
     {
         allnumber = LXnumber + RXnumber + Qipaonumber + Rhandnumber + Shangbanshennumber + Shentinumber-6;
+
     }
 
     public void Update()
@@ -65,6 +72,9 @@ public class Haoganjianding : MonoBehaviour
                 thisitem = null;
                 getitem.thisitem = null;
                 anmia.SetFloat("mean", 0);//切换正常动画
+                aixin.speed = 1;//爱心动画播放
+                bofan.kaixin_music();//开心音效
+
             }
             if (tutuhate.itemList.Contains(thisitem))//如果该物品包含在讨厌的列表内
             {
@@ -73,17 +83,15 @@ public class Haoganjianding : MonoBehaviour
                 getitem.thisitem = null;
                 anmia.SetFloat("mean", 1);//切换生气动画
                 tuoyi();
-
-
+                dao.speed = 1;//刀动画播放
+                int i= Random.Range(0, 5);
+                if (i <= 3)
+                { bofan.shengqi_music(); }//生气音效
+                if (i == 4)
+                { bofan.shengqi1_music(); }//生气音效1
             }
-         
         }
-        jiance(LXiong,LXnumber);//检测左胸状态
-        jiance(RXiong, RXnumber);
-        jiance(Qipao, Qipaonumber);
-        jiance(Rhand, Rhandnumber);
-        jiance(Shangbanshen,Shangbanshennumber);
-        jiance(Shenti, Shentinumber);
+       
     }
 
     public void jiance(SpriteResolver a, int c)
@@ -91,7 +99,7 @@ public class Haoganjianding : MonoBehaviour
         a.SetCategoryAndLabel(a.GetCategory(),c.ToString());
     }
 
-    public void tuoyi()
+    public void tuoyi()//设置脱衣系数
     {
         if (allnumber != 0)
         {
@@ -144,6 +152,15 @@ public class Haoganjianding : MonoBehaviour
         }
     }
 
+    public void xianshiyifu()//显示衣服状态
+    {
+        jiance(LXiong, LXnumber);//检测左胸状态
+        jiance(RXiong, RXnumber);
+        jiance(Qipao, Qipaonumber);
+        jiance(Rhand, Rhandnumber);
+        jiance(Shangbanshen, Shangbanshennumber);
+        jiance(Shenti, Shentinumber);
+    }
 
 
 }
