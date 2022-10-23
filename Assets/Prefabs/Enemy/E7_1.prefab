@@ -144,7 +144,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 3.4
-  maxHp: 580
+  maxHp: 200
   hp: 0
   isattacked: 0
   hurtLength: 0.2

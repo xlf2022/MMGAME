@@ -12,14 +12,19 @@ public class PlayerHealth : MonoBehaviour
     public float Btime;//闪烁的时间
     private Renderer myRender;
 
+
     [HideInInspector]
     public bool isattacked;//是否变量做受伤检测
+
+    public PauseGame Pgame;//暂停游戏功能,死亡时用
+    public GameObject DeathShibei;//死亡石碑
     void Start()
     {
 
         Php = PmaxHp;
 
         myRender = GetComponent<Renderer>();
+        DeathShibei.SetActive(false);
     }
 
     // Update is called once per frame
@@ -34,7 +39,9 @@ public class PlayerHealth : MonoBehaviour
         StartCoroutine(isAttackco());//调用下面的 isattackco函数
         Php -= _amout;
         if (Php <= 0)
-        { Destroy(gameObject); }
+        { Pgame.Pausegame();
+            DeathShibei.SetActive(true);
+        }
         BlinkPlayer(Brknumbers, Btime);
     }
 
