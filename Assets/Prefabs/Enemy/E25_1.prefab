@@ -143,8 +143,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 01def33df0f1d4544b12d1c0515f3d46, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  minDamage: 150
-  maxDamage: 200
+  minDamage: 1500
+  maxDamage: 2000
   attackDamage: 0
 --- !u!114 &3843062724777283191
 MonoBehaviour:
@@ -158,7 +158,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 996332cf84460b441b6f36a75960fbca, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 7
+  moveSpeed: 10
   maxHp: 10000
   hp: 0
   isattacked: 0
