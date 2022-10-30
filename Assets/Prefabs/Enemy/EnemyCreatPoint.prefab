@@ -45,71 +45,71 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   countdown: {fileID: 0}
   enemy1: {fileID: 4934336387650484628, guid: 879c56d9c23061649b943dc94298b965, type: 3}
-  createtime1: 37.5
+  createtime1: 25
   freshtime1: 5
   enemy2: {fileID: 3983867153591410317, guid: fda37311de0806243ab3f872f9789eb7, type: 3}
-  createtime2: 75
-  freshtime2: 5.8
+  createtime2: 50
+  freshtime2: 4.8
   enemy3: {fileID: 9082534340638103992, guid: dda7c6ae59673494ca2fccbbb8cb65af, type: 3}
-  createtime3: 112.5
-  freshtime3: 5.6
+  createtime3: 75
+  freshtime3: 4.6
   enemy4: {fileID: 8391111952717122953, guid: d62f4951b755977469602c196369d614, type: 3}
-  createtime4: 150
-  freshtime4: 5.4
+  createtime4: 100
+  freshtime4: 4.4
   enemy5: {fileID: 4858541825733110603, guid: 670a26495c9ca9f418145ceffee219e5, type: 3}
-  createtime5: 187.5
-  freshtime5: 5.2
+  createtime5: 125
+  freshtime5: 4.2
   enemy6: {fileID: 6867196236210245707, guid: 93588978ecf43f6488a5fdbbab7fc2f5, type: 3}
-  createtime6: 225
-  freshtime6: 5
+  createtime6: 150
+  freshtime6: 4
   enemy7: {fileID: 6331669193102482188, guid: 0a3f5a02d0ddb9b438cad1d8b4f2a0fc, type: 3}
-  createtime7: 262.5
-  freshtime7: 4.8
+  createtime7: 175
+  freshtime7: 3.8
   enemy8: {fileID: 2597432281490104136, guid: d6bb6132a12a786498c2e8cd1f4c72f3, type: 3}
-  createtime8: 300
-  freshtime8: 4.6
+  createtime8: 200
+  freshtime8: 3.6
   enemy9: {fileID: 9089017572212055151, guid: baf0d2d9dca326c47ad8956c9506b204, type: 3}
-  createtime9: 337.5
-  freshtime9: 4.4
+  createtime9: 225
+  freshtime9: 3.4
   enemy10: {fileID: 5947189820258483604, guid: 2ea6694ca1c27a141b0789f86d40ebf4, type: 3}
-  createtime10: 375
-  freshtime10: 4.2
+  createtime10: 250
+  freshtime10: 3.2
   enemy11: {fileID: 3235100842242592145, guid: 90c0d897b73ccd54caf60964b4f81d0d, type: 3}
-  createtime11: 412.5
-  freshtime11: 4
+  createtime11: 275
+  freshtime11: 3
   enemy12: {fileID: 2467349610990144735, guid: 1ce3797b8c7d9fa49a3fa77efc72ccff, type: 3}
-  createtime12: 450
-  freshtime12: 3.8
+  createtime12: 300
+  freshtime12: 2.8
   enemy14: {fileID: 2884022950057052688, guid: 1accc54f8faf6bf43a3f310aa9cd89c1, type: 3}
-  createtime14: 487.5
-  freshtime14: 3.6
+  createtime14: 325
+  freshtime14: 2.6
   enemy15: {fileID: 815549118624110038, guid: 35d771905fd03bb4aa7a959def2a906d, type: 3}
-  createtime15: 525
-  freshtime15: 3.4
+  createtime15: 350
+  freshtime15: 2.4
   enemy16: {fileID: 7924686626328662744, guid: 5ca8c33989dc2cf41af800678d5754b2, type: 3}
-  createtime16: 562.5
-  freshtime16: 3.2
+  createtime16: 375
+  freshtime16: 2.2
   enemy17: {fileID: 6466770744711303128, guid: 81137319ce377274c83728781d34d5a4, type: 3}
-  createtime17: 600
-  freshtime17: 3
+  createtime17: 400
+  freshtime17: 2
   enemy18: {fileID: 3438583768970765580, guid: f7e0fe22b155a1740b2cd1b8f51799d9, type: 3}
-  createtime18: 637.5
-  freshtime18: 3
+  createtime18: 425
+  freshtime18: 2
   enemy19: {fileID: 1169731344207894188, guid: d37b82d225e383b449efdf4ccc519090, type: 3}
-  createtime19: 675
-  freshtime19: 3
+  createtime19: 450
+  freshtime19: 2
   enemy20: {fileID: 6421518699586823543, guid: b9237925d538c354c853899906a84cf6, type: 3}
-  createtime20: 712.5
-  freshtime20: 3
+  createtime20: 475
+  freshtime20: 2
   enemy21: {fileID: 1133551210145216466, guid: 7709dec1ffa830644989657d275b5be2, type: 3}
-  createtime21: 750
-  freshtime21: 3
+  createtime21: 500
+  freshtime21: 2
   enemy22: {fileID: 7917373708483188502, guid: ab6836ddb4cf7e74b9866b864eb71e8b, type: 3}
-  createtime22: 787.5
-  freshtime22: 3
+  createtime22: 525
+  freshtime22: 2
   enemy24: {fileID: 8600357184762887604, guid: 1490858cbcda0444fb70511004d1f24e, type: 3}
-  createtime24: 825
-  freshtime24: 3
+  createtime24: 550
+  freshtime24: 2
   enemy25: {fileID: 3843062724777283187, guid: 9dba9abf3b4a8804c9fda5c2c09e08b7, type: 3}
-  createtime25: 900
-  freshtime25: 3
+  createtime25: 600
+  freshtime25: 2

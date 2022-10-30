@@ -66192,7 +66192,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bc86eee2d933f2e418b55212114711d9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  totalTime2: 900
+  totalTime2: 600
   CountDown1Text: {fileID: 726428374}
   CountDown2Text: {fileID: 726428374}
 --- !u!114 &726428374
@@ -111264,13 +111264,7 @@ PrefabInstance:
       propertyPath: countdown
       value: 
       objectReference: {fileID: 726428373}
-    - target: {fileID: 499999194772052584, guid: 8ac5bdb7f47cf50428d9185ed0b73818,
-        type: 3}
-      propertyPath: playerFollow
-      value: 
-      objectReference: {fileID: 880272840}
-    m_RemovedComponents:
-    - {fileID: 499999194772052584, guid: 8ac5bdb7f47cf50428d9185ed0b73818, type: 3}
+    m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8ac5bdb7f47cf50428d9185ed0b73818, type: 3}
 --- !u!114 &537203135127618368
 MonoBehaviour:

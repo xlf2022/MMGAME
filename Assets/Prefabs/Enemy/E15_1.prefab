@@ -144,7 +144,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 4.5
-  maxHp: 380
+  maxHp: 290
   hp: 0
   isattacked: 0
   hurtLength: 0.2
@@ -165,7 +165,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   minDamage: 70
-  maxDamage: 80
+  maxDamage: 75
   attackDamage: 0
 --- !u!50 &1770521329119024421
 Rigidbody2D:
