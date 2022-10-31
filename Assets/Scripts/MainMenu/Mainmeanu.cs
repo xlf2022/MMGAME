@@ -14,4 +14,8 @@ public class Mainmeanu : MonoBehaviour
     {
         Application.Quit();
     }
+    public void returncaidan()
+     {
+        SceneManager.LoadScene(0);
+    }
 }

@@ -43,7 +43,8 @@ public class ClearInventory : MonoBehaviour
         shibeiinfo = GameObject.Find("shibeiinfo").GetComponent<Text>();
         shibeiW = GameObject.Find("writename").GetComponent<Text>();
         shibei.SetActive(false);
-        
+        Time.timeScale = 1f;//时间走起来
+
         SY1bag.itemList.Clear();//清空1级牌库
         for (int i = 0; i < 12; i++)
         {

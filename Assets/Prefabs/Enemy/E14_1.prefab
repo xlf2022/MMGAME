@@ -164,8 +164,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 01def33df0f1d4544b12d1c0515f3d46, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  minDamage: 65
-  maxDamage: 70
+  minDamage: 35
+  maxDamage: 40
   attackDamage: 0
 --- !u!50 &5423690657137827101
 Rigidbody2D:

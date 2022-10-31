@@ -55,6 +55,10 @@ public class Haoganjianding : MonoBehaviour
 
     public music_bofan bofan;//同文件下音源文件
 
+    public CountDownTest daojishi;//倒计时
+
+    
+
     public void Start()
     {
         allnumber = LXnumber + RXnumber + Qipaonumber + Rhandnumber + Shangbanshennumber + Shentinumber-6;
@@ -91,7 +95,11 @@ public class Haoganjianding : MonoBehaviour
                 { bofan.shengqi1_music(); }//生气音效1
             }
         }
-       
+
+        if (HaoGan.Haogan < 0)
+        {
+            daojishi.totalTime2 = 0;
+        }
     }
 
     public void jiance(SpriteResolver a, int c)

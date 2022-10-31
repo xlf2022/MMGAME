@@ -174,7 +174,7 @@ MonoBehaviour:
   damageCanvas: {fileID: 1653438522851164676, guid: c6aa2a77fb6975f47a90208e5b011eaf,
     type: 3}
   Jituinumber: 0
-  xiue: 2
+  xiue: 4
   jianshu: 1
   alldamage: 0
   allxixue: 0
@@ -526,6 +526,100 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!1 &15821983
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 15821984}
+  - component: {fileID: 15821987}
+  - component: {fileID: 15821986}
+  - component: {fileID: 15821985}
+  m_Layer: 5
+  m_Name: Play
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &15821984
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 15821983}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1727949786}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: -14.3}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &15821985
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 15821983}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e19747de3f5aca642ab2be37e372fb86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_EffectColor: {r: 0, g: 0, b: 0, a: 0.5}
+  m_EffectDistance: {x: 2, y: -2}
+  m_UseGraphicAlpha: 1
+--- !u!114 &15821986
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 15821983}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_RaycastTarget: 1
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 80
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 7
+    m_MaxSize: 90
+    m_Alignment: 4
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: "\u8FD4\u56DE"
+--- !u!222 &15821987
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 15821983}
+  m_CullTransparentMesh: 0
 --- !u!1 &24657084
 GameObject:
   m_ObjectHideFlags: 0
@@ -1951,7 +2045,7 @@ MonoBehaviour:
   damageCanvas: {fileID: 1653438522851164676, guid: c6aa2a77fb6975f47a90208e5b011eaf,
     type: 3}
   Jituinumber: 0
-  xiue: 0
+  xiue: 1
   jianshu: 1
   alldamage: 0
   allxixue: 0
@@ -2621,7 +2715,7 @@ MonoBehaviour:
   damageCanvas: {fileID: 1653438522851164676, guid: c6aa2a77fb6975f47a90208e5b011eaf,
     type: 3}
   Jituinumber: 1.5
-  xiue: 0
+  xiue: 1
   jianshu: 0.8
   alldamage: 0
   allxixue: 0
@@ -6784,7 +6878,7 @@ MonoBehaviour:
   damageCanvas: {fileID: 1653438522851164676, guid: c6aa2a77fb6975f47a90208e5b011eaf,
     type: 3}
   Jituinumber: 0
-  xiue: 0.5
+  xiue: 1
   jianshu: 1
   alldamage: 0
   allxixue: 0
@@ -8060,7 +8154,7 @@ MonoBehaviour:
   damageCanvas: {fileID: 1653438522851164676, guid: c6aa2a77fb6975f47a90208e5b011eaf,
     type: 3}
   Jituinumber: 0
-  xiue: 2
+  xiue: 4
   jianshu: 1
   alldamage: 0
   allxixue: 0
@@ -8492,7 +8586,7 @@ MonoBehaviour:
   damageCanvas: {fileID: 1653438522851164676, guid: c6aa2a77fb6975f47a90208e5b011eaf,
     type: 3}
   Jituinumber: 0
-  xiue: 2
+  xiue: 4
   jianshu: 1
   alldamage: 0
   allxixue: 0
@@ -8632,6 +8726,80 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Mysource: {fileID: 1951795070}
+--- !u!1 &341220234
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 341220235}
+  - component: {fileID: 341220237}
+  - component: {fileID: 341220236}
+  m_Layer: 5
+  m_Name: Image
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &341220235
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 341220234}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1727949786}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -176, y: 0}
+  m_SizeDelta: {x: 150, y: 150}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &341220236
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 341220234}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 449aea213be569c43abf69861b34bb63, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &341220237
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 341220234}
+  m_CullTransparentMesh: 0
 --- !u!1 &345077510
 GameObject:
   m_ObjectHideFlags: 0
@@ -9589,7 +9757,7 @@ MonoBehaviour:
   damageCanvas: {fileID: 1653438522851164676, guid: c6aa2a77fb6975f47a90208e5b011eaf,
     type: 3}
   Jituinumber: 0.5
-  xiue: 10
+  xiue: 15
   jianshu: 0
   alldamage: 0
   allxixue: 0
@@ -12732,7 +12900,7 @@ MonoBehaviour:
   damageCanvas: {fileID: 1653438522851164676, guid: c6aa2a77fb6975f47a90208e5b011eaf,
     type: 3}
   Jituinumber: 0
-  xiue: 0
+  xiue: 2
   jianshu: 1
   alldamage: 0
   allxixue: 0
@@ -13369,7 +13537,7 @@ MonoBehaviour:
   damageCanvas: {fileID: 1653438522851164676, guid: c6aa2a77fb6975f47a90208e5b011eaf,
     type: 3}
   Jituinumber: 0
-  xiue: 2
+  xiue: 4
   jianshu: 1
   alldamage: 0
   allxixue: 0
@@ -54697,7 +54865,7 @@ MonoBehaviour:
   damageCanvas: {fileID: 1653438522851164676, guid: c6aa2a77fb6975f47a90208e5b011eaf,
     type: 3}
   Jituinumber: 4.5
-  xiue: 12
+  xiue: 8
   jianshu: 1
   alldamage: 0
   allxixue: 0
@@ -58962,7 +59130,7 @@ MonoBehaviour:
   damageCanvas: {fileID: 1653438522851164676, guid: c6aa2a77fb6975f47a90208e5b011eaf,
     type: 3}
   Jituinumber: 0.5
-  xiue: 10
+  xiue: 15
   jianshu: 0
   alldamage: 0
   allxixue: 0
@@ -62440,7 +62608,7 @@ MonoBehaviour:
   damageCanvas: {fileID: 1653438522851164676, guid: c6aa2a77fb6975f47a90208e5b011eaf,
     type: 3}
   Jituinumber: 0.5
-  xiue: 0
+  xiue: 0.1
   jianshu: 1
   alldamage: 0
   allxixue: 0
@@ -63721,7 +63889,7 @@ MonoBehaviour:
   damageCanvas: {fileID: 1653438522851164676, guid: c6aa2a77fb6975f47a90208e5b011eaf,
     type: 3}
   Jituinumber: 1.5
-  xiue: 0
+  xiue: 1
   jianshu: 0.8
   alldamage: 0
   allxixue: 0
@@ -64287,7 +64455,7 @@ MonoBehaviour:
   damageCanvas: {fileID: 1653438522851164676, guid: c6aa2a77fb6975f47a90208e5b011eaf,
     type: 3}
   Jituinumber: 1
-  xiue: 0
+  xiue: 0.2
   jianshu: 0.8
   alldamage: 0
   allxixue: 0
@@ -64747,7 +64915,7 @@ MonoBehaviour:
   damageCanvas: {fileID: 1653438522851164676, guid: c6aa2a77fb6975f47a90208e5b011eaf,
     type: 3}
   Jituinumber: 0.2
-  xiue: 1.5
+  xiue: 3
   jianshu: 1
   alldamage: 0
   allxixue: 0
@@ -65291,7 +65459,7 @@ MonoBehaviour:
   damageCanvas: {fileID: 1653438522851164676, guid: c6aa2a77fb6975f47a90208e5b011eaf,
     type: 3}
   Jituinumber: 0.5
-  xiue: 10
+  xiue: 15
   jianshu: 0
   alldamage: 0
   allxixue: 0
@@ -65455,7 +65623,7 @@ MonoBehaviour:
   damageCanvas: {fileID: 1653438522851164676, guid: c6aa2a77fb6975f47a90208e5b011eaf,
     type: 3}
   Jituinumber: 0.5
-  xiue: 4
+  xiue: 8
   jianshu: 0
   alldamage: 0
   allxixue: 0
@@ -66516,7 +66684,7 @@ MonoBehaviour:
   damageCanvas: {fileID: 1653438522851164676, guid: c6aa2a77fb6975f47a90208e5b011eaf,
     type: 3}
   Jituinumber: 1.5
-  xiue: 0
+  xiue: 1
   jianshu: 0.8
   alldamage: 0
   allxixue: 0
@@ -66786,7 +66954,7 @@ MonoBehaviour:
   damageCanvas: {fileID: 1653438522851164676, guid: c6aa2a77fb6975f47a90208e5b011eaf,
     type: 3}
   Jituinumber: 0
-  xiue: 1.5
+  xiue: 3
   jianshu: 1
   alldamage: 0
   allxixue: 0
@@ -67294,7 +67462,7 @@ MonoBehaviour:
   damageCanvas: {fileID: 1653438522851164676, guid: c6aa2a77fb6975f47a90208e5b011eaf,
     type: 3}
   Jituinumber: 0
-  xiue: 1.5
+  xiue: 3
   jianshu: 1
   alldamage: 0
   allxixue: 0
@@ -68533,7 +68701,7 @@ MonoBehaviour:
   damageCanvas: {fileID: 1653438522851164676, guid: c6aa2a77fb6975f47a90208e5b011eaf,
     type: 3}
   Jituinumber: 0.5
-  xiue: 10
+  xiue: 15
   jianshu: 0
   alldamage: 0
   allxixue: 0
@@ -69365,7 +69533,7 @@ MonoBehaviour:
   damageCanvas: {fileID: 1653438522851164676, guid: c6aa2a77fb6975f47a90208e5b011eaf,
     type: 3}
   Jituinumber: 1
-  xiue: 0
+  xiue: 0.2
   jianshu: 0.8
   alldamage: 0
   allxixue: 0
@@ -69526,7 +69694,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bb86d9f99bfd10b43aa372f1d4d36870, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  addxue: 0.08
+  addxue: 0.16
   shijian: 5
   texiao: {fileID: 1970584391}
   Mysource: {fileID: 305877178}
@@ -70021,7 +70189,7 @@ MonoBehaviour:
   damageCanvas: {fileID: 1653438522851164676, guid: c6aa2a77fb6975f47a90208e5b011eaf,
     type: 3}
   Jituinumber: 0.6
-  xiue: 0
+  xiue: 0.2
   jianshu: 1
   alldamage: 0
   allxixue: 0
@@ -74433,7 +74601,7 @@ MonoBehaviour:
   damageCanvas: {fileID: 1653438522851164676, guid: c6aa2a77fb6975f47a90208e5b011eaf,
     type: 3}
   Jituinumber: 1.5
-  xiue: 0
+  xiue: 1
   jianshu: 0.8
   alldamage: 0
   allxixue: 0
@@ -79029,7 +79197,7 @@ MonoBehaviour:
   damageCanvas: {fileID: 1653438522851164676, guid: c6aa2a77fb6975f47a90208e5b011eaf,
     type: 3}
   Jituinumber: 0
-  xiue: 0.5
+  xiue: 1
   jianshu: 1
   alldamage: 0
   allxixue: 0
@@ -82428,7 +82596,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bb86d9f99bfd10b43aa372f1d4d36870, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  addxue: 0.04
+  addxue: 0.08
   shijian: 5
   texiao: {fileID: 1529563997}
   Mysource: {fileID: 305877178}
@@ -82618,7 +82786,7 @@ MonoBehaviour:
   damageCanvas: {fileID: 1653438522851164676, guid: c6aa2a77fb6975f47a90208e5b011eaf,
     type: 3}
   Jituinumber: 0
-  xiue: 0
+  xiue: 3
   jianshu: 1
   alldamage: 0
   allxixue: 0
@@ -83345,7 +83513,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bb86d9f99bfd10b43aa372f1d4d36870, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  addxue: 0.02
+  addxue: 0.04
   shijian: 5
   texiao: {fileID: 1931545013}
   Mysource: {fileID: 305877178}
@@ -84098,7 +84266,7 @@ MonoBehaviour:
   damageCanvas: {fileID: 1653438522851164676, guid: c6aa2a77fb6975f47a90208e5b011eaf,
     type: 3}
   Jituinumber: 0.5
-  xiue: 2
+  xiue: 4
   jianshu: 0
   alldamage: 0
   allxixue: 0
@@ -86476,7 +86644,7 @@ MonoBehaviour:
   damageCanvas: {fileID: 1653438522851164676, guid: c6aa2a77fb6975f47a90208e5b011eaf,
     type: 3}
   Jituinumber: 0.5
-  xiue: 10
+  xiue: 15
   jianshu: 0
   alldamage: 0
   allxixue: 0
@@ -86765,7 +86933,7 @@ MonoBehaviour:
   damageCanvas: {fileID: 1653438522851164676, guid: c6aa2a77fb6975f47a90208e5b011eaf,
     type: 3}
   Jituinumber: 0
-  xiue: 0.5
+  xiue: 1
   jianshu: 1
   alldamage: 0
   allxixue: 0
@@ -86997,7 +87165,7 @@ MonoBehaviour:
   damageCanvas: {fileID: 1653438522851164676, guid: c6aa2a77fb6975f47a90208e5b011eaf,
     type: 3}
   Jituinumber: 0
-  xiue: 1.5
+  xiue: 3
   jianshu: 1
   alldamage: 0
   allxixue: 0
@@ -88838,7 +89006,7 @@ MonoBehaviour:
   damageCanvas: {fileID: 1653438522851164676, guid: c6aa2a77fb6975f47a90208e5b011eaf,
     type: 3}
   Jituinumber: 0.5
-  xiue: 10
+  xiue: 15
   jianshu: 0
   alldamage: 0
   allxixue: 0
@@ -89103,7 +89271,7 @@ MonoBehaviour:
   damageCanvas: {fileID: 1653438522851164676, guid: c6aa2a77fb6975f47a90208e5b011eaf,
     type: 3}
   Jituinumber: 0.5
-  xiue: 10
+  xiue: 15
   jianshu: 0
   alldamage: 0
   allxixue: 0
@@ -94731,7 +94899,7 @@ MonoBehaviour:
   damageCanvas: {fileID: 1653438522851164676, guid: c6aa2a77fb6975f47a90208e5b011eaf,
     type: 3}
   Jituinumber: 0.5
-  xiue: 10
+  xiue: 15
   jianshu: 0
   alldamage: 0
   allxixue: 0
@@ -95337,7 +95505,7 @@ MonoBehaviour:
   damageCanvas: {fileID: 1653438522851164676, guid: c6aa2a77fb6975f47a90208e5b011eaf,
     type: 3}
   Jituinumber: 0.6
-  xiue: 0
+  xiue: 0.2
   jianshu: 1
   alldamage: 0
   allxixue: 0
@@ -95667,7 +95835,7 @@ MonoBehaviour:
   damageCanvas: {fileID: 1653438522851164676, guid: c6aa2a77fb6975f47a90208e5b011eaf,
     type: 3}
   Jituinumber: 1.5
-  xiue: 0
+  xiue: 1
   jianshu: 0.8
   alldamage: 0
   allxixue: 0
@@ -95779,6 +95947,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1668609072}
+  - component: {fileID: 1668609073}
   m_Layer: 5
   m_Name: deathshibei
   m_TagString: Untagged
@@ -95799,6 +95968,7 @@ RectTransform:
   m_Children:
   - {fileID: 1690578512}
   - {fileID: 1740445866}
+  - {fileID: 1727949786}
   m_Father: {fileID: 1701798058}
   m_RootOrder: 18
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -95807,6 +95977,18 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 76}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1668609073
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1668609071}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 38b9ef98ad10464468d90ec6af8d41e7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1670255269
 GameObject:
   m_ObjectHideFlags: 0
@@ -95861,7 +96043,7 @@ MonoBehaviour:
   damageCanvas: {fileID: 1653438522851164676, guid: c6aa2a77fb6975f47a90208e5b011eaf,
     type: 3}
   Jituinumber: 0.2
-  xiue: 10
+  xiue: 20
   jianshu: 1
   alldamage: 0
   allxixue: 0
@@ -96958,6 +97140,7 @@ MonoBehaviour:
   dao: {fileID: 928300987}
   aixin: {fileID: 2036261368}
   bofan: {fileID: 1716787848}
+  daojishi: {fileID: 726428373}
 --- !u!114 &1716787848
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -97171,6 +97354,137 @@ CanvasRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1724982500}
+  m_CullTransparentMesh: 0
+--- !u!1 &1727949785
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1727949786}
+  - component: {fileID: 1727949789}
+  - component: {fileID: 1727949788}
+  - component: {fileID: 1727949787}
+  m_Layer: 5
+  m_Name: 'Quitbutton '
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1727949786
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1727949785}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.79999995, y: 0.79999995, z: 1}
+  m_Children:
+  - {fileID: 15821984}
+  - {fileID: 341220235}
+  m_Father: {fileID: 1668609072}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: -320}
+  m_SizeDelta: {x: 300, y: 150}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1727949787
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1727949785}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.6981132, g: 0.6981132, b: 0.6981132, a: 1}
+    m_PressedColor: {r: 0.41509432, g: 0.41509432, b: 0.41509432, a: 1}
+    m_SelectedColor: {r: 1, g: 1, b: 1, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_SelectedTrigger: Selected
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 1727949788}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1668609073}
+        m_MethodName: returncaidan
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &1727949788
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1727949785}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 999beb6f4d86e444b9f25ab7bd321e92, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1727949789
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1727949785}
   m_CullTransparentMesh: 0
 --- !u!1 &1735333770
 GameObject:
@@ -101044,7 +101358,7 @@ MonoBehaviour:
   damageCanvas: {fileID: 1653438522851164676, guid: c6aa2a77fb6975f47a90208e5b011eaf,
     type: 3}
   Jituinumber: 0.5
-  xiue: 4
+  xiue: 8
   jianshu: 0
   alldamage: 0
   allxixue: 0
@@ -101964,7 +102278,7 @@ MonoBehaviour:
   damageCanvas: {fileID: 1653438522851164676, guid: c6aa2a77fb6975f47a90208e5b011eaf,
     type: 3}
   Jituinumber: 0
-  xiue: 1.5
+  xiue: 3
   jianshu: 1
   alldamage: 0
   allxixue: 0
@@ -102346,7 +102660,7 @@ MonoBehaviour:
   damageCanvas: {fileID: 1653438522851164676, guid: c6aa2a77fb6975f47a90208e5b011eaf,
     type: 3}
   Jituinumber: 0.2
-  xiue: 0.5
+  xiue: 1
   jianshu: 1
   alldamage: 0
   allxixue: 0
@@ -103397,7 +103711,7 @@ MonoBehaviour:
   damageCanvas: {fileID: 1653438522851164676, guid: c6aa2a77fb6975f47a90208e5b011eaf,
     type: 3}
   Jituinumber: 0.5
-  xiue: 4
+  xiue: 8
   jianshu: 0
   alldamage: 0
   allxixue: 0
@@ -104448,7 +104762,7 @@ MonoBehaviour:
   damageCanvas: {fileID: 1653438522851164676, guid: c6aa2a77fb6975f47a90208e5b011eaf,
     type: 3}
   Jituinumber: 0.5
-  xiue: 4
+  xiue: 8
   jianshu: 0
   alldamage: 0
   allxixue: 0
@@ -104613,7 +104927,7 @@ MonoBehaviour:
   damageCanvas: {fileID: 1653438522851164676, guid: c6aa2a77fb6975f47a90208e5b011eaf,
     type: 3}
   Jituinumber: 0
-  xiue: 2
+  xiue: 4
   jianshu: 1
   alldamage: 0
   allxixue: 0
@@ -110906,7 +111220,7 @@ MonoBehaviour:
   damageCanvas: {fileID: 1653438522851164676, guid: c6aa2a77fb6975f47a90208e5b011eaf,
     type: 3}
   Jituinumber: 1
-  xiue: 0
+  xiue: 0.2
   jianshu: 0.8
   alldamage: 0
   allxixue: 0
@@ -111061,7 +111375,7 @@ MonoBehaviour:
   damageCanvas: {fileID: 1653438522851164676, guid: c6aa2a77fb6975f47a90208e5b011eaf,
     type: 3}
   Jituinumber: 0.5
-  xiue: 2
+  xiue: 4
   jianshu: 0
   alldamage: 0
   allxixue: 0
@@ -111679,7 +111993,7 @@ PrefabInstance:
     - target: {fileID: 8998020705128571150, guid: 65260811006b1ad4da1821f97491fb0f,
         type: 3}
       propertyPath: xiue
-      value: 10
+      value: 13
       objectReference: {fileID: 0}
     - target: {fileID: 8998020705128571150, guid: 65260811006b1ad4da1821f97491fb0f,
         type: 3}
@@ -111808,7 +112122,7 @@ PrefabInstance:
     - target: {fileID: 6619089804611509311, guid: 7d63e4b81dd695449af27bdf5f5a8019,
         type: 3}
       propertyPath: xiue
-      value: 1.5
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 6619089804611509311, guid: 7d63e4b81dd695449af27bdf5f5a8019,
         type: 3}
@@ -111842,7 +112156,7 @@ PrefabInstance:
     - target: {fileID: 6485354137272009316, guid: 08b52398935873c4295b2cf416f86b6a,
         type: 3}
       propertyPath: xiue
-      value: 0.7
+      value: 0.9
       objectReference: {fileID: 0}
     - target: {fileID: 6485354137272009316, guid: 08b52398935873c4295b2cf416f86b6a,
         type: 3}

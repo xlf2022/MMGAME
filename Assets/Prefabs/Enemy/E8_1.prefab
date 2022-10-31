@@ -138,8 +138,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 01def33df0f1d4544b12d1c0515f3d46, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  minDamage: 40
-  maxDamage: 45
+  minDamage: 19
+  maxDamage: 24
   attackDamage: 0
 --- !u!61 &2597432281490104142
 BoxCollider2D:
