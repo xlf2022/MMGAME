@@ -57,7 +57,7 @@ public class Haoganjianding : MonoBehaviour
 
     public CountDownTest daojishi;//倒计时
 
-    
+
 
     public void Start()
     {

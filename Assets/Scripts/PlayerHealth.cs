@@ -18,6 +18,10 @@ public class PlayerHealth : MonoBehaviour
 
     public PauseGame Pgame;//暂停游戏功能,死亡时用
     public GameObject DeathShibei;//死亡石碑
+    public AudioSource Mysource;//石碑音效
+    public AudioSource lost;//输音效
+    public AudioSource bgm;//背景音乐
+
     void Start()
     {
 
@@ -41,6 +45,10 @@ public class PlayerHealth : MonoBehaviour
         if (Php <= 0)
         { Pgame.Pausegame();
             DeathShibei.SetActive(true);
+
+            bgm.Pause();
+            Mysource.Play();
+            lost.Play();
         }
         BlinkPlayer(Brknumbers, Btime);
     }

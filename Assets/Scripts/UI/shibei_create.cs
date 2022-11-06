@@ -18,6 +18,8 @@ public class shibei_create : MonoBehaviour
     public GameObject shibei5;//石碑5
     public float createtime5;//出现时间
 
+    public AudioSource Mysource;//石碑音效
+
     private bool iscreate1;
 
     // Start is called before the first frame update
@@ -47,6 +49,7 @@ public class shibei_create : MonoBehaviour
                 GameObject.Instantiate(Enemy, transform.position, Quaternion.identity);
                 iscreate1 = true;
                 StartCoroutine(iscreate(Freshtime));
+                Mysource.Play();
             }
         }
     }

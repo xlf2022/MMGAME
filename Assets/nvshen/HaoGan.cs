@@ -8,6 +8,7 @@ public class HaoGan : MonoBehaviour
     public float MAXHaoGan;//最大好感
     public float Haogan;//当前好感
     private Image Hao;//控制图片
+    public AudioSource aixin;//爱心音效
 
     void Start()
     {
@@ -22,6 +23,7 @@ public class HaoGan : MonoBehaviour
         if (Haogan >= MAXHaoGan)
         {
             Haogan = 50;
+            aixin.Play();
         }
     }
 

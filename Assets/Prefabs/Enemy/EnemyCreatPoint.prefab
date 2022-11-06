@@ -108,7 +108,7 @@ MonoBehaviour:
   createtime22: 525
   freshtime22: 2
   enemy24: {fileID: 8600357184762887604, guid: 1490858cbcda0444fb70511004d1f24e, type: 3}
-  createtime24: 550
+  createtime24: 575
   freshtime24: 2
   enemy25: {fileID: 3843062724777283187, guid: 9dba9abf3b4a8804c9fda5c2c09e08b7, type: 3}
   createtime25: 600
