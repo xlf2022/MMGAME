@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 8283772985533640756}
   - component: {fileID: 767672588396692351}
   - component: {fileID: 280471958844820378}
+  - component: {fileID: 660122489806357634}
   - component: {fileID: 351572495306938826}
   m_Layer: 5
   m_Name: fullshow
@@ -79,9 +80,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'you can not add goods!
-
-'
+  m_Text: 
 --- !u!114 &280471958844820378
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -97,6 +96,22 @@ MonoBehaviour:
   m_EffectColor: {r: 1, g: 1, b: 1, a: 0.5}
   m_EffectDistance: {x: 1, y: -1}
   m_UseGraphicAlpha: 1
+--- !u!114 &660122489806357634
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 785832536577438087}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a772e7241c1c41488da1d70422d0b9b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Nowlanguage: {fileID: 0}
+  thistext: {fileID: 767672588396692351}
+  Chinese: "\u9053\u5177\u5DF2\u6EE1\uFF0C\u65E0\u6CD5\u6DFB\u52A0\uFF01"
+  English: "The props are full\uFF01\uFF01"
 --- !u!114 &351572495306938826
 MonoBehaviour:
   m_ObjectHideFlags: 0

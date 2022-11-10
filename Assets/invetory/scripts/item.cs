@@ -7,10 +7,14 @@ using UnityEngine.UI;
 public class item : ScriptableObject//用于存储所有物体的信息
 {
     public string itemName;//名字
+    public string itemNameC;//名字
     public Sprite itemImage;//对应图片
     public int itemHeld;//持有数
     [TextArea]//增加输入信息的行数
     public string itemInfo;//信息
+
+    [TextArea]//增加输入信息的行数
+    public string itemInfoC;//信息
 
     public int itemNomuber;//编号
     public GameObject itemObject;//对应的游戏物品
