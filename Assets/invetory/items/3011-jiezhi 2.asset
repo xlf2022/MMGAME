@@ -12,10 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 15b58c992d1fd244f861dc351c2a690a, type: 3}
   m_Name: 3011-jiezhi 2
   m_EditorClassIdentifier: 
-  itemName: jiezhi
+  itemName: Diamond Ring
+  itemNameC: "\u94BB\u77F3\u6212\u6307"
   itemImage: {fileID: 21300000, guid: 94ce0100eef6d094bbeffb8ce79b11af, type: 3}
   itemHeld: 0
-  itemInfo: 
+  itemInfo: "It's flying\uFF01\uFF01"
+  itemInfoC: "\u98DE\u8D77\u6765\u4E86\uFF01\uFF01"
   itemNomuber: 3011
   itemObject: {fileID: 0}
   itemNextNomber: 0

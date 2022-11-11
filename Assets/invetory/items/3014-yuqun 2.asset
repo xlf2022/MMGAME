@@ -12,10 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 15b58c992d1fd244f861dc351c2a690a, type: 3}
   m_Name: 3014-yuqun 2
   m_EditorClassIdentifier: 
-  itemName: yuqun
+  itemName: Sharks
+  itemNameC: "\u9CA8\u9C7C\u7FA4"
   itemImage: {fileID: 21300000, guid: 485b39690ec8920439b4e18bf95a62ff, type: 3}
   itemHeld: 3
-  itemInfo: 
+  itemInfo: Sword shark cruise
+  itemInfoC: "\u5251\u9CA8\u5DE1\u822A"
   itemNomuber: 3014
   itemObject: {fileID: 0}
   itemNextNomber: 0

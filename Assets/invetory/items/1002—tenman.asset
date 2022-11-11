@@ -13,10 +13,10 @@ MonoBehaviour:
   m_Name: "1002\u2014tenman"
   m_EditorClassIdentifier: 
   itemName: Small Rattan
-  itemNameC: "\u5351\u5FAE\u7684\u85E4\u6761"
+  itemNameC: "\u7F20\u7ED5\u85E4\u8513"
   itemImage: {fileID: 21300000, guid: a104ee3e981af9541be12070ce1b0cdc, type: 3}
   itemHeld: 2
-  itemInfo: Repel the enemy.
+  itemInfo: Repel the enemy
   itemInfoC: "\u968F\u673A\u751F\u957F\uFF0C\u51FB\u9000\u654C\u4EBA"
   itemNomuber: 1002
   itemObject: {fileID: 0}

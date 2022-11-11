@@ -12,10 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 15b58c992d1fd244f861dc351c2a690a, type: 3}
   m_Name: 3009-diyuhuo 1
   m_EditorClassIdentifier: 
-  itemName: diyuhuo
+  itemName: Hellfire
+  itemNameC: "\u5730\u72F1\u706B"
   itemImage: {fileID: 21300000, guid: 05e3b57e34355d145a8ed991c9651e73, type: 3}
   itemHeld: 1
-  itemInfo: 
+  itemInfo: "Illidan said he could use it\uFF01"
+  itemInfoC: "\u4F0A\u5229\u4E39\u7528\u4E86\u90FD\u8BF4\u597D\u4F7F\uFF01"
   itemNomuber: 3009
   itemObject: {fileID: 0}
   itemNextNomber: 0

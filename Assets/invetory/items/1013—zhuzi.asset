@@ -12,10 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 15b58c992d1fd244f861dc351c2a690a, type: 3}
   m_Name: "1013\u2014zhuzi"
   m_EditorClassIdentifier: 
-  itemName: zhuzi
+  itemName: 'Bamboo '
+  itemNameC: "\u7AF9\u7B0B"
   itemImage: {fileID: 21300000, guid: 69875db3ea05dff4fbe5624606be5a4a, type: 3}
   itemHeld: 3
-  itemInfo: 
+  itemInfo: ' bamboo traps around you'
+  itemInfoC: "\u5728\u4F60\u5468\u56F4\u79CD\u4E0B\u7AF9\u5B50\u9677\u9631\uFF0C\u9020\u6210\u51CF\u901F"
   itemNomuber: 1013
   itemObject: {fileID: 0}
   itemNextNomber: 2013

@@ -13,11 +13,11 @@ MonoBehaviour:
   m_Name: "1004\u2014file"
   m_EditorClassIdentifier: 
   itemName: Fireball
-  itemNameC: "\u5C0F\u706B\u7403"
+  itemNameC: "\u5C0F\u578B\u706B\u7403"
   itemImage: {fileID: 21300000, guid: a8200de5f52e6fa49adadfe5a2ffe094, type: 3}
   itemHeld: 1
-  itemInfo: Fire circle.
-  itemInfoC: 
+  itemInfo: Fireballs surround you
+  itemInfoC: "\u706B\u7403\u56F4\u7ED5\u7740\u4F60"
   itemNomuber: 1004
   itemObject: {fileID: 0}
   itemNextNomber: 2004

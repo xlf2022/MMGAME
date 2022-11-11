@@ -12,10 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 15b58c992d1fd244f861dc351c2a690a, type: 3}
   m_Name: 2010-feibiao 1
   m_EditorClassIdentifier: 
-  itemName: feibiao
+  itemName: Ninja Mask
+  itemNameC: "\u5FCD\u8005\u9762\u5177"
   itemImage: {fileID: 21300000, guid: daaa17d81d1d5b147bc8dadb1a7a7918, type: 3}
   itemHeld: 1
-  itemInfo: 
+  itemInfo: "Darts changed to 3\uFF0Cdamage increases"
+  itemInfoC: "\u98DE\u9556\u6570\u91CF\u53D8\u4E3A3\uFF0C\u4F24\u5BB3\u63D0\u9AD8"
   itemNomuber: 2010
   itemObject: {fileID: 0}
   itemNextNomber: 3010

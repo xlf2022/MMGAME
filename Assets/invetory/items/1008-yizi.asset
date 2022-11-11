@@ -12,10 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 15b58c992d1fd244f861dc351c2a690a, type: 3}
   m_Name: 1008-yizi
   m_EditorClassIdentifier: 
-  itemName: yizi
+  itemName: Cushion
+  itemNameC: "\u5750\u57AB"
   itemImage: {fileID: 21300000, guid: d8811c9b71f84ba4095ccd6effe92471, type: 3}
   itemHeld: 1
-  itemInfo: 
+  itemInfo: Immobilization returns blood
+  itemInfoC: "\u4E0D\u52A8\u56DE\u8840"
   itemNomuber: 1008
   itemObject: {fileID: 0}
   itemNextNomber: 2008

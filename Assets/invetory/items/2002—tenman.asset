@@ -12,10 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 15b58c992d1fd244f861dc351c2a690a, type: 3}
   m_Name: "2002\u2014tenman"
   m_EditorClassIdentifier: 
-  itemName: ' Rattan'
+  itemName: Bifurcated Vine
+  itemNameC: "\u5206\u53C9\u85E4\u8513"
   itemImage: {fileID: 21300000, guid: 75014bb9e28dba04da7a4767d9d9489b, type: 3}
   itemHeld: 3
-  itemInfo: Increase to three.Damage 60-50
+  itemInfo: Vines is increased to 3, increasing damage
+  itemInfoC: "\u85E4\u8513\u6570\u91CF\u589E\u52A0\u4E3A3\uFF0C\u4F24\u5BB3\u63D0\u5347"
   itemNomuber: 2002
   itemObject: {fileID: 0}
   itemNextNomber: 3002

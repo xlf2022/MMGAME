@@ -12,10 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 15b58c992d1fd244f861dc351c2a690a, type: 3}
   m_Name: 1011-jiezhi
   m_EditorClassIdentifier: 
-  itemName: jiezhi
+  itemName: Silver Ring
+  itemNameC: "\u94F6\u6212\u6307"
   itemImage: {fileID: 21300000, guid: dc0e9c3c3d538d44a86ece4b2fae89b5, type: 3}
   itemHeld: 0
-  itemInfo: 
+  itemInfo: Increase some moving speed
+  itemInfoC: "\u589E\u52A0\u4E00\u4E9B\u79FB\u901F"
   itemNomuber: 1011
   itemObject: {fileID: 0}
   itemNextNomber: 2011

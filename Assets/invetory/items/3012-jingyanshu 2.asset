@@ -12,10 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 15b58c992d1fd244f861dc351c2a690a, type: 3}
   m_Name: 3012-jingyanshu 2
   m_EditorClassIdentifier: 
-  itemName: zhongzi
+  itemName: Seed Flower
+  itemNameC: "\u79CD\u5B50\u5F00\u82B1"
   itemImage: {fileID: 21300000, guid: eb2ea5d942420aa43963b924b426fc47, type: 3}
   itemHeld: 0
-  itemInfo: 
+  itemInfo: Upgrading is like eating and drinking
+  itemInfoC: "\u5347\u7EA7\u5982\u5403\u996D\u559D\u6C34"
   itemNomuber: 3012
   itemObject: {fileID: 0}
   itemNextNomber: 0

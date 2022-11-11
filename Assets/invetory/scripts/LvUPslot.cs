@@ -6,6 +6,7 @@ using UnityEngine.UI;
 public class LvUPslot : MonoBehaviour
 {
     // Start is called before the first frame update
+    public NowLanguage Nowlanguage;
 
     public item slotItem;//道具数据信息
     public Image slotimage;//图片
@@ -19,7 +20,9 @@ public class LvUPslot : MonoBehaviour
 
     void Start()
     {
+        Nowlanguage = GameObject.FindGameObjectWithTag("Language").GetComponent<NowLanguage>();
         my.SetActive(false);//关掉自己
+       
     }
 
     // Update is called once per frame
@@ -33,10 +36,20 @@ public class LvUPslot : MonoBehaviour
         my.SetActive(true);//显示自己
         slotItem = item;
         slotimage.sprite = item.itemImage;
-        slotstringname = item.itemName;
+         slotstringname = item.itemName;
         slotsinfo = item.itemInfo;
         slotname.text = slotstringname;
         slotinformation.text = slotsinfo;
+     //   if (Nowlanguage.key == 1)
+      //  {
+     //       slotstringname = item.itemNameC;
+     //       slotsinfo = item.itemInfoC;
+      //  }
+       // if (Nowlanguage.key == 2)
+       // {
+        //    slotstringname = item.itemName;
+       //     slotsinfo = item.itemInfo;
+       // }
         StartCoroutine(Noshow());
 
     }

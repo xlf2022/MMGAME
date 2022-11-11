@@ -12,10 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 15b58c992d1fd244f861dc351c2a690a, type: 3}
   m_Name: 3008-yizi 2
   m_EditorClassIdentifier: 
-  itemName: yizi
+  itemName: Noble Sofa
+  itemNameC: "\u9AD8\u8D35\u6C99\u53D1"
   itemImage: {fileID: 21300000, guid: dad690f797c722a44a54417e8ef6cd66, type: 3}
   itemHeld: 1
-  itemInfo: 
+  itemInfo: "Come here\uFF01\uFF01"
+  itemInfoC: "\u6709\u79CD\u4F60\u8FC7\u6765\u554A\uFF01"
   itemNomuber: 3008
   itemObject: {fileID: 0}
   itemNextNomber: 0

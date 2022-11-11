@@ -5,6 +5,7 @@ using UnityEngine.UI;
 
 public class SlotDisplay : MonoBehaviour
 {
+    public NowLanguage Nowlanguage;//语言系统
     public item slotItem;//道具数据信息
     public Image slotimage;//图片
     public Text slotname;//道具名字
@@ -33,6 +34,7 @@ public class SlotDisplay : MonoBehaviour
         mylv1ga= GameObject.Find("Mybag").GetComponent<M1Inventory>();
         Pgame = GameObject.Find("PasueMenu").GetComponent<PauseGame>();
         getitem= GameObject.Find("GetItem").GetComponent<Getitem>();
+        Nowlanguage = GameObject.FindGameObjectWithTag("Language").GetComponent<NowLanguage>();
     }
     public void Update()
     {

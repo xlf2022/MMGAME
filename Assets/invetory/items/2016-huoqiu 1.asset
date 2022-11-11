@@ -12,10 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 15b58c992d1fd244f861dc351c2a690a, type: 3}
   m_Name: 2016-huoqiu 1
   m_EditorClassIdentifier: 
-  itemName: huoqiu
+  itemName: Firecracker
+  itemNameC: "\u706B\u94F3"
   itemImage: {fileID: 21300000, guid: 63f4f63a442a66c4daa97a489d765ef5, type: 3}
   itemHeld: 0
-  itemInfo: 
+  itemInfo: Faster attack speed and stronger repulsion
+  itemInfoC: "\u653B\u51FB\u901F\u5EA6\u66F4\u5FEB\uFF0C\u51FB\u9000\u66F4\u5F3A"
   itemNomuber: 2016
   itemObject: {fileID: 0}
   itemNextNomber: 3016

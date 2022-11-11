@@ -12,10 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 15b58c992d1fd244f861dc351c2a690a, type: 3}
   m_Name: 2012-jingyanshu 1
   m_EditorClassIdentifier: 
-  itemName: zhongzi
+  itemName: Germinated Seed
+  itemNameC: "\u53D1\u82BD\u79CD\u5B50"
   itemImage: {fileID: 21300000, guid: 1b6fd8591947dec49aca434d50eaa4c1, type: 3}
   itemHeld: 0
-  itemInfo: 
+  itemInfo: Increase more experience points
+  itemInfoC: "\u589E\u52A0\u66F4\u591A\u7ECF\u9A8C\u503C"
   itemNomuber: 2012
   itemObject: {fileID: 0}
   itemNextNomber: 3012

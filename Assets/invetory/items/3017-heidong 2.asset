@@ -12,10 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 15b58c992d1fd244f861dc351c2a690a, type: 3}
   m_Name: 3017-heidong 2
   m_EditorClassIdentifier: 
-  itemName: yanqiu
+  itemName: Yin-yang Eye
+  itemNameC: "\u9634\u9633\u773C"
   itemImage: {fileID: 21300000, guid: e68310dd74abaa14e819a45429c74a9b, type: 3}
   itemHeld: 1
-  itemInfo: 
+  itemInfo: All you can see is yours
+  itemInfoC: "\u4F60\u80FD\u770B\u5230\u7684\uFF0C\u90FD\u662F\u4F60\u7684"
   itemNomuber: 3017
   itemObject: {fileID: 0}
   itemNextNomber: 0

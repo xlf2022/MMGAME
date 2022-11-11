@@ -12,10 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 15b58c992d1fd244f861dc351c2a690a, type: 3}
   m_Name: 2009-diyuhuo
   m_EditorClassIdentifier: 
-  itemName: diyuhuo
+  itemName: Inferno Kindling
+  itemNameC: "\u5730\u72F1\u706B\u79CD"
   itemImage: {fileID: 21300000, guid: 5a320b1ce6c81824bba7af019ad38c5f, type: 3}
   itemHeld: 1
-  itemInfo: 
+  itemInfo: ' range increases, and the damage increases'
+  itemInfoC: "\u706B\u7130\u8303\u56F4\u53D8\u5927\uFF0C\u4F24\u5BB3\u63D0\u9AD8"
   itemNomuber: 2009
   itemObject: {fileID: 0}
   itemNextNomber: 3009

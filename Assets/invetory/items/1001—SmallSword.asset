@@ -13,10 +13,10 @@ MonoBehaviour:
   m_Name: "1001\u2014SmallSword"
   m_EditorClassIdentifier: 
   itemName: Little Sword
-  itemNameC: "\u7834\u635F\u7684\u5C0F\u5251"
+  itemNameC: "\u7834\u635F\u5C0F\u5251"
   itemImage: {fileID: 21300000, guid: 3d1f1e5d0cb9ecd4b9b8e59210f906b4, type: 3}
   itemHeld: 1
-  itemInfo: Range attack.
+  itemInfo: Range attack
   itemInfoC: "\u5411\u56DB\u5468\u6325\u780D"
   itemNomuber: 1001
   itemObject: {fileID: 6485354137272009337, guid: 08b52398935873c4295b2cf416f86b6a,

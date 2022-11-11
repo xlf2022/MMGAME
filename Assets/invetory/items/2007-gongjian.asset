@@ -12,10 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 15b58c992d1fd244f861dc351c2a690a, type: 3}
   m_Name: 2007-gongjian
   m_EditorClassIdentifier: 
-  itemName: gongjian
+  itemName: Sharp Bow
+  itemNameC: "\u9510\u5229\u4E4B\u5F13"
   itemImage: {fileID: 21300000, guid: fe216cf4dcd99ba498f1569ac31ec8e6, type: 3}
   itemHeld: 3
-  itemInfo: 
+  itemInfo: Greater range and higher damage
+  itemInfoC: "\u8303\u56F4\u53D8\u5927\uFF0C\u4F24\u5BB3\u66F4\u9AD8"
   itemNomuber: 2007
   itemObject: {fileID: 0}
   itemNextNomber: 3007

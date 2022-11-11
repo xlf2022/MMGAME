@@ -12,10 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 15b58c992d1fd244f861dc351c2a690a, type: 3}
   m_Name: "3002\u2014tenman"
   m_EditorClassIdentifier: 
-  itemName: Giant tree vine
+  itemName: Giant Vine
+  itemNameC: "\u5DE8\u4E4B\u85E4\u8513"
   itemImage: {fileID: 21300000, guid: 138faa95bbd88f34884a00ccee3d1671, type: 3}
   itemHeld: 1
-  itemInfo: Increase to five.Damage 180-160
+  itemInfo: Difficult to approach, referring to a monster
+  itemInfoC: "\u8BA9\u4EBA\u96BE\u4EE5\u9760\u8FD1,\u6307\u602A\u7269\u3002"
   itemNomuber: 3002
   itemObject: {fileID: 0}
   itemNextNomber: 0

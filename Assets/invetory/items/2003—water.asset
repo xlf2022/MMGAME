@@ -12,10 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 15b58c992d1fd244f861dc351c2a690a, type: 3}
   m_Name: "2003\u2014water"
   m_EditorClassIdentifier: 
-  itemName: 'Essence of water '
+  itemName: Water Polo
+  itemNameC: "\u73AF\u7ED5\u6C34\u7403"
   itemImage: {fileID: 21300000, guid: cc91fa512deae1d4ebfdf60bbd998570, type: 3}
   itemHeld: 1
-  itemInfo: Water columns around you.Damage 100-80
+  itemInfo: Water column appears around, increasing damage
+  itemInfoC: "\u56DB\u5468\u51FA\u73B0\u6C34\u67F1\uFF0C\u4F24\u5BB3\u63D0\u5347"
   itemNomuber: 2003
   itemObject: {fileID: 0}
   itemNextNomber: 3003

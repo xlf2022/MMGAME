@@ -12,10 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 15b58c992d1fd244f861dc351c2a690a, type: 3}
   m_Name: 3015-paopao 2
   m_EditorClassIdentifier: 
-  itemName: paopao
+  itemName: The King of Bubbles
+  itemNameC: "\u6CE1\u6CE1\u4E4B\u738B"
   itemImage: {fileID: 21300000, guid: a471e6976bda2ba42bc200568b20b92f, type: 3}
   itemHeld: 3
-  itemInfo: 
+  itemInfo: Big, big bubbles
+  itemInfoC: "\u5927\u5927\u5927\uFF0C\u5927\u5927\u7684\u6CE1\u6CE1"
   itemNomuber: 3015
   itemObject: {fileID: 0}
   itemNextNomber: 0

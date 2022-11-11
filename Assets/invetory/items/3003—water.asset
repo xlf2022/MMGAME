@@ -12,10 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 15b58c992d1fd244f861dc351c2a690a, type: 3}
   m_Name: "3003\u2014water"
   m_EditorClassIdentifier: 
-  itemName: ' Angel tears '
+  itemName: Water Curtain
+  itemNameC: "\u73B2\u73D1\u6C34\u5E55"
   itemImage: {fileID: 21300000, guid: f5f8393e6f045664abd40796a8c50a13, type: 3}
   itemHeld: 1
-  itemInfo: Eight water column diffusion.Damage 200-160
+  itemInfo: Water can repel the enemy and fish
+  itemInfoC: "\u6C34\u53EF\u9000\u654C\uFF0C\u4EA6\u53EF\u6478\u9C7C\u3002"
   itemNomuber: 3003
   itemObject: {fileID: 0}
   itemNextNomber: 0

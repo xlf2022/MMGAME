@@ -12,10 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 15b58c992d1fd244f861dc351c2a690a, type: 3}
   m_Name: 3005-Flower
   m_EditorClassIdentifier: 
-  itemName: ' Rose '
+  itemName: Bloom Scarlet
+  itemNameC: "\u7EFD\u653E\u6BB7\u7EA2"
   itemImage: {fileID: 21300000, guid: 947dfb012d413e048b8e08d88971472e, type: 3}
   itemHeld: 1
-  itemInfo: Flower of love
+  itemInfo: "Wow\uFF01\uFF01\uFF01\uFF01"
+  itemInfoC: "\u54C7\u54E6\uFF01\uFF01\uFF01\uFF01"
   itemNomuber: 3005
   itemObject: {fileID: 0}
   itemNextNomber: 0
