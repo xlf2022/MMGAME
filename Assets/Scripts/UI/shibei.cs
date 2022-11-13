@@ -5,18 +5,24 @@ using UnityEngine.UI;
 
 public class shibei : MonoBehaviour
 {
+    public NowLanguage Nowlanguage;
     public string writename;//笔者名字
+    public string writenameC;//笔者中文名字
     [TextArea]//增加输入信息的行数
     public string itemInfo;//信息
+    public string itemInfoC;//中文信息
+
+
     private GameObject startset;//开始设置，调用引导石碑
     private Text shibeiinfo;//石碑信息
+    
     private Text shibeiW;//石碑写者
     private bool yidu;//已读信息
     private PauseGame Pgame;//暂停游戏功能
 
     void Start()
     {
-        
+        Nowlanguage = GameObject.FindGameObjectWithTag("Language").GetComponent<NowLanguage>();
         yidu = false;//非读状态
         Destroy(gameObject, 20);
         Pgame = GameObject.Find("PasueMenu").GetComponent<PauseGame>();
@@ -32,8 +38,16 @@ public class shibei : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        startset.GetComponent<ClearInventory>().shibeiinfo.text = itemInfo;
-        startset.GetComponent<ClearInventory>().shibeiW.text = writename;
+        if (Nowlanguage.key == 2)
+        {
+            startset.GetComponent<ClearInventory>().shibeiinfo.text = itemInfo;
+            startset.GetComponent<ClearInventory>().shibeiW.text = writename;
+        }
+        if (Nowlanguage.key == 1)
+        {
+            startset.GetComponent<ClearInventory>().shibeiinfo.text = itemInfoC;
+            startset.GetComponent<ClearInventory>().shibeiW.text = writenameC;
+        }
 
     }
     private void OnTriggerEnter2D(Collider2D other)//主角碰撞检测

@@ -13,8 +13,10 @@ public class LvUPslot : MonoBehaviour
     public Text slotname;//道具名字
     public Text slotinformation;//道具介绍
 
-    public string slotstringname;//强转道具名字
-    public string slotsinfo;//强转信息
+    public string slotstringname;//强转道具名字:英文
+    public string slotstringnameC;//强转道具名字：中文
+    public string slotsinfo;//强转信息：英文
+    public string slotsinfoC;//强转信息：中文
 
     public GameObject my;//自己
 
@@ -36,20 +38,26 @@ public class LvUPslot : MonoBehaviour
         my.SetActive(true);//显示自己
         slotItem = item;
         slotimage.sprite = item.itemImage;
-         slotstringname = item.itemName;
+
+        slotstringname = item.itemName;
+        slotstringnameC = item.itemNameC;
+
         slotsinfo = item.itemInfo;
-        slotname.text = slotstringname;
-        slotinformation.text = slotsinfo;
-     //   if (Nowlanguage.key == 1)
-      //  {
-     //       slotstringname = item.itemNameC;
-     //       slotsinfo = item.itemInfoC;
-      //  }
-       // if (Nowlanguage.key == 2)
-       // {
-        //    slotstringname = item.itemName;
-       //     slotsinfo = item.itemInfo;
-       // }
+        slotsinfoC = item.itemInfoC;
+
+        //slotname.text = slotstringname;
+        //slotinformation.text = slotsinfo;
+
+        if (Nowlanguage.key == 1)
+        {
+            slotname.text = slotstringnameC;
+            slotinformation.text = slotsinfoC;
+        }
+        if (Nowlanguage.key == 2)
+        {
+            slotname.text = slotstringname;
+            slotinformation.text = slotsinfo;
+        }
         StartCoroutine(Noshow());
 
     }

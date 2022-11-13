@@ -146,8 +146,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4d53aabe5abd82d4880ab4cb3f265cb4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  writename: "\u6B66\u5668\u5927\u5E08"
-  itemInfo: "\u636E\u6211\u7814\u7A76\uFF0C\u4E09\u4E2A\u540C\u6837\u7684\u6B66\u5668\u53EF\u4EE5\u5408\u6210\u6700\u9AD8\u7EA7\u7684\u6B66\u5668\uFF0C\u4E3A\u4E86\u80FD\u6D3B\u4E0B\u53BB\u5C3D\u91CF\u5408\u6210\u9AD8\u7EA7\u6B66\u5668\u5427\u3002"
+  Nowlanguage: {fileID: 0}
+  writename: Weapon Master
+  writenameC: "\u6B66\u5668\u5927\u5E08"
+  itemInfo: "1+1+1=\uFF1F"
+  itemInfoC: "1+1+1=\uFF1F"
 --- !u!61 &3820829619424420795
 BoxCollider2D:
   m_ObjectHideFlags: 0

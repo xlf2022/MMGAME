@@ -39,6 +39,8 @@ public class SYInventory : MonoBehaviour
         newitem.slotimage.sprite = item.itemImage;
         newitem.slotstringname = item.itemName;
         newitem.slotsinfo = item.itemInfo;
+        newitem.slotstringnameC = item.itemNameC;
+        newitem.slotsinfoC = item.itemInfoC;
 
         itemss.Add(newitem.gameObject);//把新的物体搞入临时链表
     }

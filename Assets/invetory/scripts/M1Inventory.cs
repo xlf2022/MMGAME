@@ -41,6 +41,11 @@ public class M1Inventory : MonoBehaviour
             newitem.M1slotimage.sprite = item.itemImage;
             newitem.M1slotsinfo = item.itemInfo;
             newitem.M1slotNomber = item.itemNomuber;
+
+            newitem.M1slotitemName = item.itemName;
+            newitem.M1slotitemNameC = item.itemNameC;
+            newitem.M1slotsinfoC = item.itemInfoC;
+
             newitem.gameObject.GetComponent<itemNO>().itemNomber = i;
 
     }

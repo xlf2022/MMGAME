@@ -13,6 +13,13 @@ public class M1Slotdisplay : MonoBehaviour
 
     public string M1slotsinfo;//强转介绍信息
 
+    public string M1slotsinfoC;//中文强转介绍信息
+
+    //新增
+    public string M1slotitemName;//道具名称
+    public string M1slotitemNameC;//中文名称
+  
+
 
     // Start is called before the first frame update
     void Start()

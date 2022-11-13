@@ -11,8 +11,8 @@ public class SlotDisplay : MonoBehaviour
     public Text slotname;//道具名字
     public Text slotinformation;//道具介绍
 
-    public string slotstringname;//强转道具名字
-    public string slotsinfo;//强转信息
+    public string slotstringname;//强转道具名字:英文
+    public string slotsinfo;//强转信息：英文
 
     //下面是选择按钮，选择以后关闭菜单，和把道具加入到玩家背包数据库
     public GameObject Sybag;//选择道具菜单
@@ -27,6 +27,9 @@ public class SlotDisplay : MonoBehaviour
 
     public Getitem getitem;//鼠标点击获得道具的时候，得到item数据用于改变女主动画
 
+    public string slotstringnameC;//强转道具名字:中文
+    public string slotsinfoC;//强转信息：中文
+
     public void Start()
     {
         Sybag = GameObject.Find("Bag");
@@ -38,8 +41,16 @@ public class SlotDisplay : MonoBehaviour
     }
     public void Update()
     {
-        slotname.text = slotstringname;
-        slotinformation.text = slotsinfo;
+        if (Nowlanguage.key == 2)
+        {
+            slotname.text = slotstringname;
+            slotinformation.text = slotsinfo;
+        }
+        if (Nowlanguage.key == 1)
+        {
+            slotname.text = slotstringnameC;
+            slotinformation.text = slotsinfoC;
+        }
     }
 
     public void onclickbutton()//点击以后把该单元格的数据传输到1级背包库，并关闭选择道具菜单

@@ -146,8 +146,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4d53aabe5abd82d4880ab4cb3f265cb4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  writename: "\u6B66\u5668\u5927\u5E08"
-  itemInfo: "\u6B66\u5668\u6700\u9AD8\u7EA7\u5C45\u7136\u662F\u4E09\u7EA7\uFF0C\u6BCF\u6B21\u5408\u6210\u5347\u7EA7\u4EE5\u540E\u5A01\u529B\u90FD\u4F1A\u63D0\u5347\uFF0C\u4E09\u7EA7\u7684\u5A01\u529B\u5C45\u7136\u662F\u4E00\u7EA7\u7684\u4E8C\u5341\u591A\u500D\u3002"
+  Nowlanguage: {fileID: 0}
+  writename: Stele Carver
+  writenameC: "\u77F3\u7891\u96D5\u523B\u8005"
+  itemInfo: The quantity of each prop is twelve
+  itemInfoC: "\u6BCF\u79CD\u9053\u5177\u6570\u91CF\u4E3A\u5341\u4E8C"
 --- !u!61 &3820829619424420795
 BoxCollider2D:
   m_ObjectHideFlags: 0
